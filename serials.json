@@ -154,8 +154,9 @@
     "price": "119.99",
     "createdAt": "2025-08-16T07:11:28.757Z",
     "expiresAt": "2026-02-12T08:11:28.757Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-quzkrwmq5",
+    "used": true,
+    "usedDate": "2025-08-16T07:11:32.344Z",
+    "activationDate": "2025-08-16T07:11:32.344Z"
   }
 ]

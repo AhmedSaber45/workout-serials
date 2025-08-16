@@ -174,18 +174,5 @@
     "deviceId": null,
     "used": true,
     "usedDate": "2025-08-16T07:16:13.662Z"
-  },
-  {
-    "serial": "PE5-PHI-K5W-9CE-NRF-UCK-T9",
-    "programId": "1",
-    "programName": "Push Pull Leg HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-08-16T07:34:11.298Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
   }
 ]

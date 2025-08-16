@@ -99,9 +99,10 @@
     "price": "9.99",
     "createdAt": "2025-08-16T06:57:35.350Z",
     "expiresAt": "2025-08-23T06:57:35.350Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-quzkrwmq5",
+    "used": true,
+    "usedDate": "2025-08-16T07:10:38.066Z",
+    "activationDate": "2025-08-16T07:10:38.066Z"
   },
   {
     "serial": "N7P-XCU-SPX-93L-KSF-RVT-Q9",

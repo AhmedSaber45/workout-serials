@@ -172,5 +172,18 @@
     "used": true,
     "usedDate": "2025-08-16T07:11:48.264Z",
     "activationDate": "2025-08-16T07:11:48.264Z"
+  },
+  {
+    "serial": "T5F-CUS-WXX-9UU-YF5-2LZ-P9",
+    "programId": "11",
+    "programName": "Custom Workout - Permanent",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "299.99",
+    "createdAt": "2025-08-16T07:12:01.640Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

@@ -1,44 +1,5 @@
 [
   {
-    "serial": "MJE-NV6-APH-9I6-3SC-HSF-X9",
-    "programId": "1",
-    "programName": "Push Pull Leg HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-08-16T03:44:27.514Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "Y3S-CV2-EH9-0FS-CUS-W8C-32",
-    "programId": "11",
-    "programName": "Custom Workout - 1 Month",
-    "duration": 30,
-    "durationCode": "02",
-    "price": "29.99",
-    "createdAt": "2025-08-16T05:37:11.555Z",
-    "expiresAt": "2025-09-15T05:37:11.555Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "B54-WMZ-BPH-9IA-C58-MXW-Z9",
-    "programId": "1",
-    "programName": "Push Pull Leg HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-08-16T05:45:40.936Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "Q7Z-B2P-HIE-98N-NMP-MLN-J9",
     "programId": "1",
     "programName": "Push Pull Leg HILV",

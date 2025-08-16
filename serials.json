@@ -174,19 +174,5 @@
     "deviceId": null,
     "used": true,
     "usedDate": "2025-08-16T07:16:13.662Z"
-  },
-  {
-    "serial": "6FJ-XKT-CUS-0U9-AC9-CT5-U1",
-    "programId": "11",
-    "programName": "Custom Workout - 1 Week",
-    "duration": 7,
-    "durationCode": "01",
-    "price": "9.99",
-    "createdAt": "2025-08-16T07:36:56.149Z",
-    "expiresAt": "2025-08-23T07:36:56.149Z",
-    "deviceId": "device-t7yuax0wi",
-    "used": true,
-    "usedDate": "2025-08-16T07:37:00.687Z",
-    "activationDate": "2025-08-16T07:37:00.688Z"
   }
 ]

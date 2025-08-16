@@ -144,5 +144,18 @@
     "used": true,
     "usedDate": "2025-08-16T07:11:17.246Z",
     "activationDate": "2025-08-16T07:11:17.246Z"
+  },
+  {
+    "serial": "TVK-T7J-CUS-0AX-W38-4H8-S4",
+    "programId": "11",
+    "programName": "Custom Workout - 6 Months",
+    "duration": 180,
+    "durationCode": "04",
+    "price": "119.99",
+    "createdAt": "2025-08-16T07:11:28.757Z",
+    "expiresAt": "2026-02-12T08:11:28.757Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

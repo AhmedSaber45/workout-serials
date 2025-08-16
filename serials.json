@@ -174,5 +174,18 @@
     "deviceId": null,
     "used": true,
     "usedDate": "2025-08-16T07:16:13.662Z"
+  },
+  {
+    "serial": "7EL-68C-USJ-0CD-LFT-UD4-G1",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Week",
+    "duration": 7,
+    "durationCode": "01",
+    "price": "9.99",
+    "createdAt": "2025-08-16T07:41:31.735Z",
+    "expiresAt": "2025-08-23T07:41:31.735Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

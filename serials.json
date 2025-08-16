@@ -24,5 +24,18 @@
     "deviceId": "device-6upvzjgoj-medus827",
     "used": true,
     "usedDate": "2025-08-16T06:05:28.399Z"
+  },
+  {
+    "serial": "EQ8-53F-UCU-0SX-LWN-9YJ-B1",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Week",
+    "duration": 7,
+    "durationCode": "01",
+    "price": "9.99",
+    "createdAt": "2025-08-16T06:38:17.549Z",
+    "expiresAt": "2025-08-23T06:38:17.549Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

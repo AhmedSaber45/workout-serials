@@ -89,5 +89,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "CRU-JPC-USQ-08T-6QC-LZB-41",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Week",
+    "duration": 7,
+    "durationCode": "01",
+    "price": "9.99",
+    "createdAt": "2025-08-16T06:57:35.350Z",
+    "expiresAt": "2025-08-23T06:57:35.350Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

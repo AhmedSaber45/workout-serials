@@ -200,5 +200,18 @@
     "used": true,
     "usedDate": "2025-08-16T07:15:59.359Z",
     "activationDate": "2025-08-16T07:15:59.359Z"
+  },
+  {
+    "serial": "UKH-KXZ-49Z-9KM-9X6-CUS-79",
+    "programId": "11",
+    "programName": "Custom Workout - Permanent",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "299.99",
+    "createdAt": "2025-08-16T07:16:09.390Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

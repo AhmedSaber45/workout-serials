@@ -202,32 +202,6 @@
     "usedDate": "2025-08-16T17:36:58.594Z"
   },
   {
-    "serial": "NWB-HIY-GBN-9T5-VRE-WH2-P9",
-    "programId": "2",
-    "programName": "Bro Split HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-08-16T17:37:23.733Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "QUY-TUP-6BB-94H-HAH-IXN-59",
-    "programId": "3",
-    "programName": "Arnold HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-08-16T17:41:06.862Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "58A-4RB-JCU-0S3-XAW-EET-S1",
     "programId": "11",
     "programName": "Custom Workout - 1 Week",

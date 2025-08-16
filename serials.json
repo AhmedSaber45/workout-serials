@@ -37,5 +37,18 @@
     "deviceId": null,
     "used": true,
     "usedDate": "2025-08-16T06:40:34.758Z"
+  },
+  {
+    "serial": "ZYR-XRR-959-0HR-CUS-TSY-R1",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Week",
+    "duration": 7,
+    "durationCode": "01",
+    "price": "9.99",
+    "createdAt": "2025-08-16T06:41:01.498Z",
+    "expiresAt": "2025-08-23T06:41:01.498Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

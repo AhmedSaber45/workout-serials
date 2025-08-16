@@ -211,7 +211,7 @@
     "createdAt": "2025-08-16T07:16:09.390Z",
     "expiresAt": null,
     "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "used": true,
+    "usedDate": "2025-08-16T07:16:13.662Z"
   }
 ]

@@ -1194,5 +1194,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "NJT-U4W-ZTN-0SC-USM-4T6-Q1",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Week",
+    "duration": 7,
+    "durationCode": "01",
+    "price": "9.99",
+    "createdAt": "2025-08-16T03:20:17.482Z",
+    "expiresAt": "2025-08-23T03:20:17.482Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

@@ -63,5 +63,18 @@
     "deviceId": null,
     "used": true,
     "usedDate": "2025-08-16T06:41:29.952Z"
+  },
+  {
+    "serial": "HHV-CUS-MAQ-02B-88M-DZ7-R1",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Week",
+    "duration": 7,
+    "durationCode": "01",
+    "price": "9.99",
+    "createdAt": "2025-08-16T06:54:35.243Z",
+    "expiresAt": "2025-08-23T06:54:35.243Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

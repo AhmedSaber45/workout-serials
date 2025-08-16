@@ -1350,5 +1350,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "XZE-JY5-UUC-078-PCU-SJB-42",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "29.99",
+    "createdAt": "2025-08-16T03:32:07.298Z",
+    "expiresAt": "2025-09-15T03:32:07.298Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

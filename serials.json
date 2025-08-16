@@ -21,8 +21,8 @@
     "price": "0.00",
     "createdAt": "2025-08-16T06:05:24.237Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-6upvzjgoj-medus827",
+    "used": true,
+    "usedDate": "2025-08-16T06:05:28.399Z"
   }
 ]

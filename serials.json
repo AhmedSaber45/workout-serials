@@ -158,5 +158,18 @@
     "used": true,
     "usedDate": "2025-08-16T07:11:32.344Z",
     "activationDate": "2025-08-16T07:11:32.344Z"
+  },
+  {
+    "serial": "CUS-QBD-JH4-0DV-FNY-HQP-P5",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Year",
+    "duration": 365,
+    "durationCode": "05",
+    "price": "199.99",
+    "createdAt": "2025-08-16T07:11:41.970Z",
+    "expiresAt": "2026-08-16T07:11:41.970Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

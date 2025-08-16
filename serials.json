@@ -174,5 +174,18 @@
     "deviceId": null,
     "used": true,
     "usedDate": "2025-08-16T07:16:13.662Z"
+  },
+  {
+    "serial": "FCU-S5K-29R-0UR-K6J-E62-L1",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Week",
+    "duration": 7,
+    "durationCode": "01",
+    "price": "9.99",
+    "createdAt": "2025-08-16T15:50:45.972Z",
+    "expiresAt": "2025-08-23T15:50:45.972Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

@@ -65,32 +65,6 @@
     "usedDate": "2025-08-16T06:41:29.952Z"
   },
   {
-    "serial": "HHV-CUS-MAQ-02B-88M-DZ7-R1",
-    "programId": "11",
-    "programName": "Custom Workout - 1 Week",
-    "duration": 7,
-    "durationCode": "01",
-    "price": "9.99",
-    "createdAt": "2025-08-16T06:54:35.243Z",
-    "expiresAt": "2025-08-23T06:54:35.243Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "74G-MU7-4MU-02Z-2ZC-USM-G2",
-    "programId": "11",
-    "programName": "Custom Workout - 1 Month",
-    "duration": 30,
-    "durationCode": "02",
-    "price": "29.99",
-    "createdAt": "2025-08-16T06:57:14.471Z",
-    "expiresAt": "2025-09-15T06:57:14.471Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "CRU-JPC-USQ-08T-6QC-LZB-41",
     "programId": "11",
     "programName": "Custom Workout - 1 Week",
@@ -103,19 +77,6 @@
     "used": true,
     "usedDate": "2025-08-16T07:10:38.066Z",
     "activationDate": "2025-08-16T07:10:38.066Z"
-  },
-  {
-    "serial": "N7P-XCU-SPX-93L-KSF-RVT-Q9",
-    "programId": "11",
-    "programName": "Custom Workout - Permanent",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "299.99",
-    "createdAt": "2025-08-16T07:09:18.931Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
   },
   {
     "serial": "P4C-62K-WHV-0R8-EH8-CUS-22",

@@ -252,5 +252,18 @@
     "deviceId": "device-6upvzjgoj-medus827",
     "used": true,
     "usedDate": "2025-08-19T02:23:13.438Z"
+  },
+  {
+    "serial": "KDX-NN9-VUX-9PA-HIF-3P3-V9",
+    "programId": "3",
+    "programName": "Arnold HILV",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "0.00",
+    "createdAt": "2025-08-19T02:58:27.569Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

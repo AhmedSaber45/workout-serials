@@ -275,8 +275,8 @@
     "price": "0.00",
     "createdAt": "2025-08-19T06:55:28.905Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-laktmwnev-mei4ruks",
+    "used": true,
+    "usedDate": "2025-08-19T05:56:11.768Z"
   }
 ]

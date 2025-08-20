@@ -202,19 +202,6 @@
     "usedDate": "2025-08-16T17:36:58.594Z"
   },
   {
-    "serial": "58A-4RB-JCU-0S3-XAW-EET-S1",
-    "programId": "11",
-    "programName": "Custom Workout - 1 Week",
-    "duration": 7,
-    "durationCode": "01",
-    "price": "9.99",
-    "createdAt": "2025-08-16T17:44:17.953Z",
-    "expiresAt": "2025-08-23T17:44:17.953Z",
-    "deviceId": null,
-    "used": true,
-    "usedDate": "2025-08-16T17:44:48.503Z"
-  },
-  {
     "serial": "DVZ-CPH-IR2-9M2-QAN-RUA-E9",
     "programId": "1",
     "programName": "Push Pull Leg HILV",

@@ -1,0 +1,2768 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serial Generator</title>
+    <link rel="icon" type="image/x-icon" href="../icons/Serial number.ico">
+    <link rel="icon" type="image/ico" sizes="32x32" href="../icons/serial number resized-icon-32x32.ico">
+    <link rel="icon" type="image/ico" sizes="16x16" href="../icons/serial number resized-icon-16x16.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.sheetjs.com/xlsx-0.19.3/package/dist/xlsx.full.min.js"></script>
+    <style>
+        :root {
+            --primary: #0f172a;
+            --secondary: #1e293b;
+            --accent: #3b82f6;
+            --phosphor-blue: #00f0ff;
+            --phosphor-green: #00ff9d;
+            --phosphor-pink: #ff00aa;
+            --phosphor-purple: #b700ff;
+            --phosphor-yellow: #ffee00;
+            --light: #f1f5f9;
+            --dark: #020617;
+            --error: #ff4444;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--primary);
+            color: var(--light);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--phosphor-blue);
+            margin-bottom: 0.5rem;
+            text-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            color: #94a3b8;
+            margin-bottom: 1.5rem;
+        }
+
+        .program-selection {
+            margin-bottom: 2rem;
+        }
+
+        .program-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .program-btn {
+            background-color: var(--secondary);
+            border: 2px solid var(--phosphor-blue);
+            color: var(--phosphor-blue);
+            padding: 1rem;
+            border-radius: 8px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .program-btn:hover {
+            background-color: var(--phosphor-blue);
+            color: var(--dark);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 240, 255, 0.3);
+        }
+
+        .program-btn.active {
+            background-color: var(--phosphor-blue);
+            color: var(--dark);
+            border-color: var(--phosphor-blue);
+        }
+
+        .program-btn::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transform: translateX(-100%);
+            transition: transform 0.6s ease;
+        }
+
+        .program-btn:hover::after {
+            transform: translateX(100%);
+        }
+
+        .generate-section {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .generate-btn {
+            background: linear-gradient(to right, var(--phosphor-blue), var(--accent));
+            color: var(--dark);
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1.1rem;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 240, 255, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .generate-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0, 240, 255, 0.4);
+        }
+
+        .generate-btn:active {
+            transform: translateY(1px);
+        }
+
+        .generate-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+            transform: translateX(-100%);
+            transition: transform 0.6s ease;
+            pointer-events: none;
+        }
+
+        .generate-btn:hover::before {
+            transform: translateX(100%);
+        }
+
+        .serial-display-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .serial-display {
+            background-color: var(--secondary);
+            padding: 1.5rem;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+            border: 2px solid var(--phosphor-blue);
+            color: var(--phosphor-green);
+            transition: all 0.3s ease;
+            position: relative;
+            box-shadow: 0 0 15px rgba(0, 255, 157, 0.1);
+            flex-grow: 1;
+        }
+
+        .serial-display::before {
+            content: 'SERIAL NUMBER';
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: var(--primary);
+            padding: 0 10px;
+            font-size: 0.8rem;
+            color: var(--phosphor-blue);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .copy-btn {
+            background-color: var(--phosphor-blue);
+            color: var(--dark);
+            border: none;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .copy-btn:hover {
+            background-color: var(--phosphor-green);
+            transform: translateY(-2px);
+        }
+
+        .copy-btn:active {
+            transform: translateY(1px);
+        }
+
+        .license-info {
+            background-color: var(--secondary);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+            animation: fadeIn 0.5s ease-out;
+            border: 1px solid rgba(59, 130, 246, 0.2);
+        }
+
+        .license-info h3 {
+            color: var(--phosphor-blue);
+            margin-bottom: 1rem;
+            border-bottom: 2px solid var(--phosphor-blue);
+            padding-bottom: 0.5rem;
+            display: inline-block;
+        }
+
+        .license-info p {
+            color: #94a3b8;
+            margin-bottom: 0.5rem;
+        }
+
+        .price {
+            font-weight: 600;
+            color: var(--phosphor-green);
+        }
+
+        .license-info a {
+            color: var(--phosphor-yellow);
+        }
+
+        .duration-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .duration-modal.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .duration-content {
+            background-color: var(--secondary);
+            border-radius: 15px;
+            padding: 2rem;
+            width: 90%;
+            max-width: 500px;
+            transform: translateY(20px);
+            transition: transform 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border: 1px solid var(--phosphor-blue);
+        }
+
+        .duration-modal.active .duration-content {
+            transform: translateY(0);
+        }
+
+        .duration-header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            color: var(--phosphor-blue);
+        }
+
+        .duration-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .duration-option {
+            background-color: var(--secondary);
+            border: 2px solid var(--phosphor-blue);
+            color: var(--phosphor-blue);
+            padding: 1rem 0.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .duration-option:hover {
+            background-color: var(--phosphor-blue);
+            color: var(--dark);
+            transform: translateY(-3px);
+        }
+
+        .duration-option.active {
+            background-color: var(--phosphor-blue);
+            color: var(--dark);
+            border-color: var(--phosphor-blue);
+        }
+
+        .duration-option .price {
+            display: block;
+            margin-top: 0.5rem;
+            font-weight: 600;
+        }
+
+        .modal-actions {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .modal-btn {
+            padding: 0.8rem 1.5rem;
+            border-radius: 50px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+        }
+
+        .confirm-btn {
+            background-color: var(--phosphor-blue);
+            color: var(--dark);
+        }
+
+        .confirm-btn:hover {
+            background-color: #00d9e6;
+            transform: translateY(-2px);
+        }
+
+        .cancel-btn {
+            background-color: transparent;
+            color: var(--light);
+            border: 2px solid var(--phosphor-pink);
+        }
+
+        .cancel-btn:hover {
+            background-color: rgba(255, 0, 170, 0.1);
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            border-radius: 50px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            margin-left: 0.5rem;
+            background-color: var(--phosphor-pink);
+            color: white;
+        }
+
+        /* Counters Section */
+        .counters-section {
+            background-color: var(--secondary);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+            border: 1px solid rgba(59, 130, 246, 0.2);
+        }
+
+        .counters-section h3 {
+            color: var(--phosphor-blue);
+            margin-bottom: 1rem;
+            border-bottom: 2px solid var(--phosphor-blue);
+            padding-bottom: 0.5rem;
+            display: inline-block;
+        }
+
+        .counters-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .counter-item {
+            background-color: var(--primary);
+            padding: 0.8rem;
+            border-radius: 6px;
+            border-left: 4px solid var(--phosphor-blue);
+        }
+
+        .counter-item .program-name {
+            font-weight: 600;
+            color: var(--phosphor-green);
+            margin-bottom: 0.3rem;
+        }
+
+        .counter-item .count {
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+
+        .total-counter {
+            display: flex;
+            justify-content: space-between;
+            background-color: var(--primary);
+            padding: 1rem;
+            border-radius: 6px;
+            font-weight: 600;
+        }
+
+        .total-counter span {
+            color: var(--phosphor-yellow);
+            font-weight: 700;
+        }
+
+        /* Custom Duration Counters */
+        .custom-duration-counters {
+            margin-top: 1rem;
+            background-color: var(--primary);
+            padding: 1rem;
+            border-radius: 6px;
+            border: 1px solid var(--phosphor-purple);
+            display: none;
+        }
+
+        .custom-duration-counters h4 {
+            color: var(--phosphor-purple);
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .custom-duration-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 0.5rem;
+        }
+
+        .custom-duration-item {
+            font-size: 0.8rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .custom-duration-item .duration-name {
+            color: #94a3b8;
+        }
+
+        .custom-duration-item .duration-count {
+            color: var(--phosphor-green);
+            font-weight: 600;
+        }
+
+        /* Thunder and Fire Effects */
+        .thunder-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .lightning {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: white;
+            opacity: 0;
+            z-index: 1;
+        }
+
+        .fire-effect {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 150px;
+            background: linear-gradient(to top,
+                    rgba(255, 80, 0, 0.8) 0%,
+                    rgba(255, 200, 0, 0.4) 50%,
+                    transparent 100%);
+            z-index: -1;
+            pointer-events: none;
+            animation: flicker 3s infinite alternate;
+        }
+
+        .fire-particle {
+            position: absolute;
+            bottom: 0;
+            background: radial-gradient(circle,
+                    rgba(255, 200, 0, 0.8) 0%,
+                    rgba(255, 80, 0, 0.6) 50%,
+                    transparent 100%);
+            border-radius: 50%;
+            filter: blur(5px);
+            animation: rise linear infinite;
+            pointer-events: none;
+        }
+
+        /* Admin Section */
+        .admin-section {
+            background-color: var(--secondary);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+            border: 1px solid var(--phosphor-purple);
+        }
+
+        .admin-section h3 {
+            color: var(--phosphor-purple);
+            margin-bottom: 1rem;
+            border-bottom: 2px solid var(--phosphor-purple);
+            padding-bottom: 0.5rem;
+            display: inline-block;
+        }
+
+        .admin-actions {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .admin-btn {
+            background-color: var(--phosphor-purple);
+            color: var(--dark);
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .admin-btn:hover {
+            background-color: var(--phosphor-pink);
+            transform: translateY(-2px);
+        }
+
+        .admin-btn:active {
+            transform: translateY(1px);
+        }
+
+        /* Expired Message */
+        .expired-message {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+            flex-direction: column;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .expired-message h2 {
+            color: var(--error);
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 0 0 10px rgba(255, 68, 68, 0.5);
+        }
+
+        .expired-message p {
+            color: var(--light);
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin-bottom: 2rem;
+        }
+
+        /* Toast Notification */
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: var(--phosphor-green);
+            color: var(--dark);
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transform: translateY(100px);
+            opacity: 0;
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .toast.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        /* Error Toast */
+        .toast.error {
+            background-color: var(--error);
+            color: white;
+        }
+
+        /* Info Toast */
+        .toast.info {
+            background-color: var(--phosphor-blue);
+            color: var(--dark);
+        }
+
+        /* Warning Toast */
+        .toast.warning {
+            background-color: var(--phosphor-yellow);
+            color: var(--dark);
+        }
+
+        /* Check Serial Modal */
+        .check-serial-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .check-serial-modal.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .check-serial-content {
+            background-color: var(--secondary);
+            border-radius: 15px;
+            padding: 2rem;
+            width: 90%;
+            max-width: 500px;
+            transform: translateY(20px);
+            transition: transform 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border: 1px solid var(--phosphor-blue);
+        }
+
+        .check-serial-modal.active .check-serial-content {
+            transform: translateY(0);
+        }
+
+        .check-serial-header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .check-serial-header h2 {
+            color: var(--phosphor-blue);
+            margin-bottom: 0.5rem;
+        }
+
+        .serial-input {
+            width: 100%;
+            padding: 1rem;
+            margin: 1rem 0;
+            background-color: var(--primary);
+            border: 2px solid var(--phosphor-blue);
+            border-radius: 8px;
+            color: var(--light);
+            font-family: 'Courier New', monospace;
+            font-size: 1rem;
+        }
+
+        .serial-result {
+            margin-top: 1.5rem;
+            padding: 1rem;
+            background-color: var(--primary);
+            border-radius: 8px;
+            border-left: 4px solid var(--phosphor-blue);
+            display: none;
+        }
+
+        .serial-result h4 {
+            color: var(--phosphor-blue);
+            margin-bottom: 0.5rem;
+        }
+
+        .serial-result p {
+            margin-bottom: 0.5rem;
+        }
+
+        .serial-result .valid {
+            color: var(--phosphor-green);
+            font-weight: 600;
+        }
+
+        .serial-result .invalid {
+            color: var(--error);
+            font-weight: 600;
+        }
+
+        .serial-result .expired {
+            color: var(--phosphor-yellow);
+            font-weight: 600;
+        }
+
+        /* Delete Serial Modal */
+        .delete-serial-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .delete-serial-modal.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .delete-serial-content {
+            background-color: var(--secondary);
+            border-radius: 15px;
+            padding: 2rem;
+            width: 90%;
+            max-width: 500px;
+            transform: translateY(20px);
+            transition: transform 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border: 1px solid var(--phosphor-blue);
+        }
+
+        .delete-serial-modal.active .delete-serial-content {
+            transform: translateY(0);
+        }
+
+        .delete-serial-header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .delete-serial-header h2 {
+            color: var(--phosphor-blue);
+            margin-bottom: 0.5rem;
+        }
+
+        .delete-serial-result {
+            margin-top: 1.5rem;
+            padding: 1rem;
+            background-color: var(--primary);
+            border-radius: 8px;
+            border-left: 4px solid var(--error);
+            display: none;
+        }
+
+        /* Loading Spinner */
+        .spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255, 255, 255, .3);
+            border-radius: 50%;
+            border-top-color: var(--phosphor-blue);
+            animation: spin 1s ease-in-out infinite;
+            margin-left: 10px;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes thunder {
+            0% {
+                opacity: 0;
+            }
+
+            10% {
+                opacity: 0.8;
+            }
+
+            20% {
+                opacity: 0.3;
+            }
+
+            21% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes flicker {
+
+            0%,
+            100% {
+                opacity: 0.8;
+                height: 150px;
+            }
+
+            50% {
+                opacity: 1;
+                height: 180px;
+            }
+        }
+
+        @keyframes rise {
+            to {
+                transform: translateY(-100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        .glow {
+            animation: thunder-glow 2s infinite alternate;
+        }
+
+        @keyframes thunder-glow {
+            from {
+                text-shadow: 0 0 5px var(--phosphor-blue),
+                    0 0 2px white;
+            }
+
+            to {
+                text-shadow: 0 0 15px var(--phosphor-blue),
+                    0 0 10px white,
+                    0 0 20px var(--phosphor-yellow);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes modalFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .program-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .duration-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .counters-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .serial-display-container {
+                flex-direction: column;
+            }
+
+            .copy-btn {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .admin-actions {
+                flex-direction: column;
+            }
+
+            .admin-btn {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .total-counter {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+        }
+
+        #view-json-btn {
+            background-color: var(--phosphor-yellow);
+            color: var(--dark);
+        }
+
+        #view-json-btn:hover {
+            background-color: #ffcc00;
+        }
+
+        #delete-all-btn {
+            background-color: var(--error);
+            color: white;
+            margin-top: 10px;
+        }
+
+        #delete-all-btn:hover {
+            background-color: #ff3333;
+            transform: translateY(-2px);
+        }
+
+        #delete-serial-btn {
+            background-color: var(--phosphor-pink);
+            color: var(--dark);
+        }
+
+        #delete-serial-btn:hover {
+            background-color: #ff0090;
+        }
+
+        /* Password Modal Styles */
+        .password-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .password-modal.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .password-content {
+            background-color: var(--secondary);
+            padding: 2rem;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 400px;
+            border: 2px solid var(--error);
+        }
+
+        .password-content h3 {
+            color: var(--error);
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .password-input {
+            width: 100%;
+            padding: 1rem;
+            margin: 1rem 0;
+            background-color: var(--primary);
+            border: 2px solid var(--error);
+            border-radius: 8px;
+            color: var(--light);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .viewFeedbacksBtn {
+            background-color: var(--phosphor-blue);
+            color: var(--dark);
+            border: none;
+            border-radius: 8px;
+            padding: 1rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            box-shadow: 0 0 15px rgba(0, 240, 255, 0.5);
+            transition: all 0.3s ease;
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            z-index: 999;
+        }
+
+        .viewFeedbacksBtn:hover {
+            background-color: var(--phosphor-green);
+            transform: translateY(-3px);
+            box-shadow: 0 0 20px rgba(0, 255, 157, 0.6);
+        }
+
+        .viewFeedbacksBtn:active {
+            transform: translateY(0);
+        }
+
+        /* Update Modal Styles */
+        .update-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .update-modal.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .update-content {
+            background-color: var(--secondary);
+            border-radius: 15px;
+            padding: 2rem;
+            width: 90%;
+            max-width: 500px;
+            transform: translateY(20px);
+            transition: transform 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border: 1px solid var(--phosphor-blue);
+        }
+
+        .update-modal.active .update-content {
+            transform: translateY(0);
+        }
+
+        .update-header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .update-header h2 {
+            color: var(--phosphor-blue);
+            margin-bottom: 0.5rem;
+        }
+
+        .update-form {
+            margin: 1.5rem 0;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--phosphor-blue);
+            font-weight: 600;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 0.8rem;
+            background-color: var(--primary);
+            border: 2px solid var(--phosphor-blue);
+            border-radius: 8px;
+            color: var(--light);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .update-options {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .update-option {
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .update-yes {
+            background-color: var(--phosphor-green);
+            color: var(--dark);
+        }
+
+        .update-yes:hover {
+            background-color: #00cc80;
+            transform: translateY(-3px);
+        }
+
+        .update-no {
+            background-color: var(--error);
+            color: white;
+        }
+
+        .update-no:hover {
+            background-color: #cc3333;
+            transform: translateY(-3px);
+        }
+
+        /* Status Counters */
+        .status-counters {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .status-counter {
+            background-color: var(--primary);
+            padding: 1rem;
+            border-radius: 6px;
+            text-align: center;
+        }
+
+        .status-counter.used {
+            border-left: 4px solid var(--phosphor-green);
+        }
+
+        .status-counter.unused {
+            border-left: 4px solid var(--phosphor-blue);
+        }
+
+        .status-counter h4 {
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            color: #94a3b8;
+        }
+
+        .status-counter .count {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .status-counter.used .count {
+            color: var(--phosphor-green);
+        }
+
+        .status-counter.unused .count {
+            color: var(--phosphor-blue);
+        }
+
+        /* New style for link input */
+        .form-group.link-group {
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="thunder-container"></div>
+    <div class="fire-effect"></div>
+
+    <!-- Expired Message (hidden by default) -->
+    <div class="expired-message" id="expired-message" style="display: none;">
+        <h2>License Expired</h2>
+        <p>Your serial number has expired. Please contact support to renew your license.</p>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+    <div class="container">
+        <header>
+            <h1 class="glow">Serial Generator</h1>
+            <p class="subtitle">Generate unique activation codes for your fitness programs</p>
+        </header>
+
+        <div class="program-selection">
+            <div class="program-grid" id="program-grid">
+                <!-- Program buttons will be added by JavaScript -->
+            </div>
+        </div>
+
+        <div class="generate-section">
+            <button class="generate-btn" id="generate-btn">
+                Generate Serial Number
+            </button>
+        </div>
+
+        <div class="serial-display-container">
+            <div class="serial-display" id="serial-display">
+                Serial will appear here...
+            </div>
+            <button class="copy-btn" id="copy-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path
+                        d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                    <path
+                        d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                </svg>
+                Copy
+            </button>
+        </div>
+
+        <div class="license-info" id="license-info">
+            <!-- License information will be displayed here -->
+        </div>
+
+        <!-- Counters Section -->
+        <div class="counters-section">
+            <h3>Generation Statistics</h3>
+            
+            <!-- Status Counters (Used/Unused) -->
+            <div class="status-counters">
+                <div class="status-counter used">
+                    <h4>Used Serials</h4>
+                    <div class="count" id="used-count">0</div>
+                </div>
+                <div class="status-counter unused">
+                    <h4>Unused Serials</h4>
+                    <div class="count" id="unused-count">0</div>
+                </div>
+            </div>
+            
+            <div class="counters-grid" id="counters-grid">
+                <!-- Counters will be added by JavaScript -->
+            </div>
+            <div class="total-counter">
+                <p>Total Generated: <span id="total-count">0</span></p>
+                <p>Total Value: $<span id="total-price">0.00</span></p>
+            </div>
+            <div class="custom-duration-counters" id="custom-duration-counters">
+                <!-- Custom duration counters will be added here -->
+            </div>
+        </div>
+
+        <!-- Admin Section -->
+        <div class="admin-section">
+            <h3>Admin Tools</h3>
+            <div class="admin-actions">
+                <button class="admin-btn" id="export-btn">Export All Serials to Excel</button>
+                <button class="admin-btn" id="clear-btn">Clear All Data</button>
+                <button class="admin-btn" id="check-serial-btn">Check Serial Status</button>
+                <button class="admin-btn" id="view-serials-btn">View All Serials</button>
+                <button class="admin-btn" id="view-json-btn">View Serials File</button>
+                <button class="admin-btn" id="update-btn">Update</button>
+                <button class="admin-btn" id="viewFeedbacksBtn">
+                    View Feedbacks
+                </button>
+
+                <button class="admin-btn" id="delete-serial-btn">Delete Specific Serial</button>
+                <button class="admin-btn" id="delete-all-btn">Delete All Serials</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Duration Selection Modal -->
+    <div class="duration-modal" id="duration-modal">
+        <div class="duration-content">
+            <div class="duration-header">
+                <h2>Select License Duration</h2>
+                <p>Choose how long the custom workout program will be active</p>
+            </div>
+
+            <div class="duration-grid" id="duration-grid">
+                <div class="duration-option" data-duration="7" data-price="1" data-code="01">
+                    <div>1 Week</div>
+                    <span class="price">$1</span>
+                </div>
+                <div class="duration-option" data-duration="30" data-price="2" data-code="02">
+                    <div>1 Month</div>
+                    <span class="price">$2</span>
+                </div>
+                <div class="duration-option" data-duration="90" data-price="4" data-code="03">
+                    <div>3 Months</div>
+                    <span class="price">$4</span>
+                </div>
+                <div class="duration-option" data-duration="180" data-price="6" data-code="04">
+                    <div>6 Months</div>
+                    <span class="price">$6</span>
+                </div>
+                <div class="duration-option" data-duration="365" data-price="10" data-code="05">
+                    <div>1 Year</div>
+                    <span class="price">$10</span>
+                </div>
+                <div class="duration-option" data-duration="0" data-price="15" data-code="99">
+                    <div>Permanent</div>
+                    <span class="price">$15</span>
+                </div>
+            </div>
+
+            <div class="modal-actions">
+                <button class="modal-btn cancel-btn" id="cancel-duration">Cancel</button>
+                <button class="modal-btn confirm-btn" id="confirm-duration">Confirm</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Check Serial Modal -->
+    <div class="check-serial-modal" id="check-serial-modal">
+        <div class="check-serial-content">
+            <div class="check-serial-header">
+                <h2>Check Serial Status</h2>
+                <p>Enter a serial number to check its validity and status</p>
+            </div>
+
+            <input type="text" class="serial-input" id="serial-input"
+                placeholder="Enter serial number (xxx-xxx-xxx-xxx-xxx-xxx-xx)">
+
+            <div class="modal-actions">
+                <button class="modal-btn cancel-btn" id="cancel-check-serial">Cancel</button>
+                <button class="modal-btn confirm-btn" id="check-serial">Check</button>
+            </div>
+
+            <div class="serial-result" id="serial-result">
+                <!-- Results will be displayed here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Delete Serial Modal -->
+    <div class="delete-serial-modal" id="delete-serial-modal">
+        <div class="delete-serial-content">
+            <div class="delete-serial-header">
+                <h2>Delete Serial Number</h2>
+                <p>Enter a serial number to delete it from the database</p>
+            </div>
+
+            <input type="text" class="serial-input" id="delete-serial-input"
+                placeholder="Enter serial number (xxx-xxx-xxx-xxx-xxx-xxx-xx)">
+
+            <div class="modal-actions">
+                <button class="modal-btn cancel-btn" id="cancel-delete-serial">Cancel</button>
+                <button class="modal-btn confirm-btn" id="confirm-delete-serial">Delete</button>
+            </div>
+
+            <div class="delete-serial-result" id="delete-serial-result">
+                <!-- Results will be displayed here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Password Modal -->
+    <div class="password-modal" id="password-modal">
+        <div class="password-content">
+            <h3>Confirm Deletion</h3>
+            <p>Enter admin password to delete all serials:</p>
+            <input type="password" class="password-input" id="admin-password" placeholder="Enter password">
+            <div class="modal-actions">
+                <button class="modal-btn cancel-btn" id="cancel-delete">Cancel</button>
+                <button class="modal-btn confirm-btn" id="confirm-delete" style="background-color: var(--error);">Delete
+                    All</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Update Modal -->
+    <div class="update-modal" id="update-modal">
+        <div class="update-content">
+            <div class="update-header">
+                <h2>System Update</h2>
+                <p>Enter update details and select if this update is required</p>
+            </div>
+
+            <div class="update-form">
+                <div class="form-group">
+                    <label for="version-input">Version Number:</label>
+                    <input type="text" class="form-input" id="version-input" placeholder="Enter version (e.g., 1.2.0)">
+                </div>
+                <div class="form-group link-group">
+                    <label for="link-input">Application Link:</label>
+                    <input type="url" class="form-input" id="link-input" placeholder="Enter download link">
+                </div>
+            </div>
+
+            <div class="update-options">
+                <div class="update-option update-yes" id="update-yes">Required (Yes)</div>
+                <div class="update-option update-no" id="update-no">Not Required (No)</div>
+            </div>
+
+            <div class="modal-actions">
+                <button class="modal-btn cancel-btn" id="cancel-update">Cancel</button>
+                <button class="modal-btn confirm-btn" id="confirm-update">Save Update</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Store used serials to ensure uniqueness
+        const usedSerials = new Set();
+        let selectedProgram = '1';
+        let selectedDuration = 0;
+        let selectedPrice = "0.00";
+        let selectedDurationCode = "99"; // Default to permanent
+
+        // Counters data
+        const counters = {};
+        let totalCount = 0;
+        let totalPrice = 0;
+        let usedCount = 0;
+        let unusedCount = 0;
+
+        // Custom duration counters
+        const customDurationCounters = {
+            '7': { name: '1 Week', count: 0, price: 1 },
+            '30': { name: '1 Month', count: 0, price: 2 },
+            '90': { name: '3 Months', count: 0, price: 4 },
+            '180': { name: '6 Months', count: 0, price: 6 },
+            '365': { name: '1 Year', count: 0, price: 10 },
+            '0': { name: 'Permanent', count: 0, price: 15 }
+        };
+
+        // Program data with specific patterns
+        const programs = {
+            '1': { name: 'Push Pull Leg HILV', permanent: true, price: '10', pattern: 'PHI', durationCode: '99', page: 'push-pull-leg-hilv.html' },
+            '2': { name: 'Bro Split HILV', permanent: true, price: '10', pattern: 'BHI', durationCode: '99', page: 'bro-split-hilv.html' },
+            '3': { name: 'Arnold HILV', permanent: true, price: '10', pattern: 'AHI', durationCode: '99', page: 'arnold-hilv.html' },
+            '4': { name: 'Upper Lower HILV', permanent: true, price: '10', pattern: 'UHI', durationCode: '99', page: 'upper-lower-hilv.html' },
+            '5': { name: 'Full Body HILV', permanent: true, price: '10', pattern: 'FHI', durationCode: '99', page: 'full-body-hilv.html' },
+            '6': { name: 'Push Pull Leg HVLI', permanent: true, price: '10', pattern: 'PHV', durationCode: '99', page: 'push-pull-leg-hvli.html' },
+            '7': { name: 'Bro Split HVLI', permanent: true, price: '10', pattern: 'BHV', durationCode: '99', page: 'bro-split-hvli.html' },
+            '8': { name: 'Arnold HVLI', permanent: true, price: '10', pattern: 'AHV', durationCode: '99', page: 'arnold-hvli.html' },
+            '9': { name: 'Upper Lower HVLI', permanent: true, price: '10', pattern: 'UHV', durationCode: '99', page: 'upper-lower-hvli.html' },
+            '10': { name: 'Full Body HVLI', permanent: true, price: '10', pattern: 'FHV', durationCode: '99', page: 'full-body-hvli.html' },
+            '11': { name: 'Custom Workout', permanent: false, price: '10', pattern: 'CUS', durationCode: '01', page: 'custom-workout.html' }
+        };
+
+        // Duration mapping for custom programs
+        const durationMapping = {
+            '01': { name: '1 Week', page: 'custom-1-week.html' },
+            '02': { name: '1 Month', page: 'custom-1-month.html' },
+            '03': { name: '3 Months', page: 'custom-3-months.html' },
+            '04': { name: '6 Months', page: 'custom-6-months.html' },
+            '05': { name: '1 Year', page: 'custom-1-year.html' },
+            '99': { name: 'Permanent', page: 'custom-permanent.html' }
+        };
+
+        // DOM elements
+        const programGrid = document.getElementById('program-grid');
+        const generateBtn = document.getElementById('generate-btn');
+        const serialDisplay = document.getElementById('serial-display');
+        const copyBtn = document.getElementById('copy-btn');
+        const licenseInfo = document.getElementById('license-info');
+        const durationModal = document.getElementById('duration-modal');
+        const durationGrid = document.getElementById('duration-grid');
+        const confirmDurationBtn = document.getElementById('confirm-duration');
+        const cancelDurationBtn = document.getElementById('cancel-duration');
+        const durationOptions = document.querySelectorAll('.duration-option');
+        const countersGrid = document.getElementById('counters-grid');
+        const totalCountElement = document.getElementById('total-count');
+        const totalPriceElement = document.getElementById('total-price');
+        const usedCountElement = document.getElementById('used-count');
+        const unusedCountElement = document.getElementById('unused-count');
+        const customDurationContainer = document.getElementById('custom-duration-counters');
+        const exportBtn = document.getElementById('export-btn');
+        const clearBtn = document.getElementById('clear-btn');
+        const checkSerialBtn = document.getElementById('check-serial-btn');
+        const viewSerialsBtn = document.getElementById('view-serials-btn');
+        const updateBtn = document.getElementById('update-btn');
+        const checkSerialModal = document.getElementById('check-serial-modal');
+        const serialInput = document.getElementById('serial-input');
+        const checkSerialButton = document.getElementById('check-serial');
+        const cancelCheckSerialBtn = document.getElementById('cancel-check-serial');
+        const serialResult = document.getElementById('serial-result');
+        const expiredMessage = document.getElementById('expired-message');
+        const toast = document.getElementById('toast');
+        const deleteSerialBtn = document.getElementById('delete-serial-btn');
+        const deleteSerialModal = document.getElementById('delete-serial-modal');
+        const deleteSerialInput = document.getElementById('delete-serial-input');
+        const confirmDeleteSerialBtn = document.getElementById('confirm-delete-serial');
+        const cancelDeleteSerialBtn = document.getElementById('cancel-delete-serial');
+        const deleteSerialResult = document.getElementById('delete-serial-result');
+        const updateModal = document.getElementById('update-modal');
+        const versionInput = document.getElementById('version-input');
+        const linkInput = document.getElementById('link-input');
+        const updateYesBtn = document.getElementById('update-yes');
+        const updateNoBtn = document.getElementById('update-no');
+        const cancelUpdateBtn = document.getElementById('cancel-update');
+        const confirmUpdateBtn = document.getElementById('confirm-update');
+
+        // GitHub configuration
+        const GITHUB_CONFIG = {
+            REPO_OWNER: 'AhmedSaber45',
+            REPO_NAME: 'workout-serials',
+            BRANCH: 'main',
+            SERIALS_FILE: 'serials.json',
+            UPDATES_FILE: 'updates.json',
+            TOKEN: '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' // In production, don't hardcode this
+        };
+
+        // Local storage keys
+        const STORAGE_KEYS = {
+            SERIALS: 'workout_serials',
+            COUNTERS: 'workout_counters',
+            TOTAL_COUNT: 'workout_total_count',
+            TOTAL_PRICE: 'workout_total_price',
+            CUSTOM_DURATIONS: 'workout_custom_durations',
+            USED_SERIALS: 'workout_used_serials',
+            DEVICE_ID: 'workout_device_id',
+            ACTIVE_SERIAL: 'workout_active_serial'
+        };
+
+        // Admin password (in a real app, don't hardcode this)
+        const ADMIN_PASSWORD = "2072004";
+
+        // Initialize the page
+        initializeProgramButtons();
+        initializeCounters();
+        loadData();
+        updateLicenseInfo('1');
+
+        // Check for expired serial on page load
+        window.addEventListener('load', checkActiveSerial);
+
+        // Initialize program buttons
+        function initializeProgramButtons() {
+            programGrid.innerHTML = '';
+
+            for (const [id, program] of Object.entries(programs)) {
+                const programBtn = document.createElement('div');
+                programBtn.className = `program-btn ${id === '1' ? 'active' : ''}`;
+                programBtn.innerHTML = `
+                    ${program.name}
+                    ${program.permanent ? '<span class="badge">PERMANENT</span>' : ''}
+                `;
+                programBtn.dataset.programId = id;
+                programBtn.addEventListener('click', selectProgram);
+                programGrid.appendChild(programBtn);
+            }
+        }
+
+        // Initialize counters display
+        function initializeCounters() {
+            countersGrid.innerHTML = '';
+
+            for (const [id, program] of Object.entries(programs)) {
+                if (!counters[id]) {
+                    counters[id] = {
+                        count: 0,
+                        price: 0
+                    };
+                }
+
+                const counterItem = document.createElement('div');
+                counterItem.className = 'counter-item';
+                counterItem.innerHTML = `
+                    <div class="program-name">${program.name}</div>
+                    <div class="count">${counters[id].count}</div>
+                `;
+                counterItem.dataset.programId = id;
+                countersGrid.appendChild(counterItem);
+            }
+        }
+
+        // Load data from GitHub with local storage fallback
+        async function loadData() {
+            try {
+                const serials = await fetchFromGitHub();
+
+                // Initialize counters if empty
+                if (Object.keys(counters).length === 0) {
+                    for (const id in programs) {
+                        counters[id] = { count: 0, price: 0 };
+                    }
+                }
+
+                // Reset counters before recalculating
+                for (const id in counters) {
+                    counters[id] = { count: 0, price: 0 };
+                }
+                totalCount = 0;
+                totalPrice = 0;
+                usedCount = 0;
+                unusedCount = 0;
+                for (const duration in customDurationCounters) {
+                    customDurationCounters[duration].count = 0;
+                }
+
+                // Recalculate all counters from the loaded serials
+                serials.forEach(serial => {
+                    if (counters[serial.programId]) {
+                        counters[serial.programId].count++;
+                        counters[serial.programId].price += parseFloat(serial.price);
+                        totalCount++;
+                        totalPrice += parseFloat(serial.price);
+
+                        if (serial.used) {
+                            usedCount++;
+                        } else {
+                            unusedCount++;
+                        }
+
+                        if (serial.programId === '11') {
+                            customDurationCounters[serial.duration].count++;
+                        }
+                    }
+                });
+
+                // Update UI
+                updateCounters();
+                updateCustomDurationCounters();
+                updateStatusCounters();
+                totalCountElement.textContent = totalCount;
+                totalPriceElement.textContent = totalPrice.toFixed(2);
+
+                // Check for active serial
+                checkActiveSerial();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                showToast('Failed to load data', 3000, 'error');
+            }
+        }
+
+        // Update status counters (used/unused)
+        function updateStatusCounters() {
+            usedCountElement.textContent = usedCount;
+            unusedCountElement.textContent = unusedCount;
+        }
+
+        // Fetch serials from GitHub with local storage fallback
+        async function fetchFromGitHub(file = GITHUB_CONFIG.SERIALS_FILE) {
+            try {
+                const url = `https://api.github.com/repos/${GITHUB_CONFIG.REPO_OWNER}/${GITHUB_CONFIG.REPO_NAME}/contents/${file}`;
+                const response = await fetch(url, {
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.TOKEN}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+
+                if (!response.ok) {
+                    if (response.status === 404) {
+                        // File doesn't exist yet, return empty array
+                        return [];
+                    }
+                    throw new Error(`GitHub API error: ${response.status}`);
+                }
+
+                const data = await response.json();
+                const content = atob(data.content); // Decode base64 content
+                return JSON.parse(content);
+            } catch (error) {
+                console.error(`Error fetching ${file} from GitHub:`, error);
+                // Fallback to local storage
+                const localData = localStorage.getItem(file === GITHUB_CONFIG.SERIALS_FILE ? STORAGE_KEYS.SERIALS : file);
+                return localData ? JSON.parse(localData) : [];
+            }
+        }
+
+        // Save data to GitHub with local storage fallback
+        async function saveToGitHub(data, file = GITHUB_CONFIG.SERIALS_FILE) {
+            try {
+                // First get the current file SHA (needed for update)
+                let sha = null;
+                try {
+                    const getUrl = `https://api.github.com/repos/${GITHUB_CONFIG.REPO_OWNER}/${GITHUB_CONFIG.REPO_NAME}/contents/${file}`;
+                    const getResponse = await fetch(getUrl, {
+                        headers: {
+                            'Authorization': `token ${GITHUB_CONFIG.TOKEN}`,
+                            'Accept': 'application/vnd.github.v3+json'
+                        }
+                    });
+
+                    if (getResponse.ok) {
+                        const fileData = await getResponse.json();
+                        sha = fileData.sha;
+                    }
+                } catch (e) {
+                    // File may not exist yet
+                }
+
+                const content = JSON.stringify(data, null, 2);
+                const encodedContent = btoa(unescape(encodeURIComponent(content)));
+
+                const url = `https://api.github.com/repos/${GITHUB_CONFIG.REPO_OWNER}/${GITHUB_CONFIG.REPO_NAME}/contents/${file}`;
+                const response = await fetch(url, {
+                    method: 'PUT',
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.TOKEN}`,
+                        'Accept': 'application/vnd.github.v3+json',
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        message: `Update ${file}`,
+                        content: encodedContent,
+                        sha: sha,
+                        branch: GITHUB_CONFIG.BRANCH
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`GitHub API error: ${response.status}`);
+                }
+
+                // Also save to local storage if it's the serials file
+                if (file === GITHUB_CONFIG.SERIALS_FILE) {
+                    localStorage.setItem(STORAGE_KEYS.SERIALS, content);
+                }
+                return true;
+            } catch (error) {
+                console.error(`Error saving to GitHub (${file}):`, error);
+                // Fallback to local storage for serials file only
+                if (file === GITHUB_CONFIG.SERIALS_FILE) {
+                    localStorage.setItem(STORAGE_KEYS.SERIALS, JSON.stringify(data));
+                }
+                return false;
+            }
+        }
+
+        // Update counters display
+        function updateCounters() {
+            for (const [id, counter] of Object.entries(counters)) {
+                const counterElement = document.querySelector(`.counter-item[data-program-id="${id}"] .count`);
+                if (counterElement) {
+                    counterElement.textContent = counter.count;
+                }
+            }
+
+            totalCountElement.textContent = totalCount;
+            totalPriceElement.textContent = totalPrice.toFixed(2);
+        }
+
+        // Update custom duration counters display
+        function updateCustomDurationCounters() {
+            customDurationContainer.innerHTML = '<h4>Custom Workout Durations:</h4><div class="custom-duration-grid"></div>';
+            const grid = customDurationContainer.querySelector('.custom-duration-grid');
+
+            for (const [duration, data] of Object.entries(customDurationCounters)) {
+                if (data.count > 0) {
+                    const item = document.createElement('div');
+                    item.className = 'custom-duration-item';
+                    item.innerHTML = `
+                        <span class="duration-name">${data.name}:</span>
+                        <span class="duration-count">${data.count}</span>
+                    `;
+                    grid.appendChild(item);
+                }
+            }
+
+            // Hide section if no custom durations have been generated
+            if (grid.children.length === 0) {
+                customDurationContainer.style.display = 'none';
+            } else {
+                customDurationContainer.style.display = 'block';
+            }
+        }
+
+        // Select program
+        function selectProgram(e) {
+            const programId = e.currentTarget.dataset.programId;
+            selectedProgram = programId;
+
+            // Update active state
+            document.querySelectorAll('.program-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            e.currentTarget.classList.add('active');
+
+            // Update license info
+            updateLicenseInfo(programId);
+
+            // For custom program, show duration modal immediately
+            if (programId === '11') {
+                showDurationModal();
+            }
+        }
+
+        // Generate a unique serial number
+        async function generateSerial() {
+            const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; // Avoid ambiguous characters
+            let serial = '';
+            let attempts = 0;
+            const maxAttempts = 1000;
+
+            const program = programs[selectedProgram];
+            const pattern = program.pattern;
+            const durationCode = selectedDurationCode;
+
+            // Load existing serials
+            const existingSerials = await fetchFromGitHub();
+
+            // Generate a unique serial
+            do {
+                // Generate random characters
+                let raw = '';
+
+                // Generate 18 random characters (we'll insert the pattern randomly)
+                for (let i = 0; i < 18; i++) {
+                    raw += chars.charAt(Math.floor(Math.random() * chars.length));
+                }
+
+                // Select a random position to insert the pattern (3 characters)
+                const patternPosition = Math.floor(Math.random() * (18 - 3));
+
+                // Insert the pattern at the random position
+                raw = raw.substring(0, patternPosition) + pattern + raw.substring(patternPosition + 3);
+
+                // Split duration code into two parts
+                const firstDigit = durationCode.charAt(0);
+                const secondDigit = durationCode.charAt(1);
+
+                // Format as xxx-xxx-xxx-xxx-xxx-xxx-xx
+                // Insert first digit after 3rd group (position 11) and second digit at the end
+                serial = `${raw.substring(0, 3)}-${raw.substring(3, 6)}-${raw.substring(6, 9)}-${firstDigit}${raw.substring(9, 11)}-${raw.substring(11, 14)}-${raw.substring(14, 17)}-${raw.substring(17, 18)}${secondDigit}`;
+
+                attempts++;
+
+                if (attempts >= maxAttempts) {
+                    throw new Error("Could not generate unique serial after multiple attempts");
+                }
+            } while (existingSerials.some(s => s.serial === serial));
+
+            // Create serial record
+            const now = new Date();
+            let expiresAt = null;
+
+            if (selectedDuration > 0) {
+                expiresAt = new Date(now);
+                expiresAt.setDate(expiresAt.getDate() + selectedDuration);
+            }
+
+            let programName = programs[selectedProgram].name;
+            if (selectedProgram === '11') {
+                programName = `Custom Workout - ${durationMapping[selectedDurationCode].name}`;
+            }
+
+            const serialRecord = {
+                serial: serial,
+                programId: selectedProgram,
+                programName: programName,
+                duration: selectedDuration,
+                durationCode: selectedDurationCode,
+                price: selectedPrice,
+                createdAt: now.toISOString(),
+                expiresAt: expiresAt ? expiresAt.toISOString() : null,
+                deviceId: null, // Will be set when activated by user
+                used: false,
+                usedDate: null
+            };
+
+            // Add to existing serials and save
+            existingSerials.push(serialRecord);
+            await saveToGitHub(existingSerials);
+
+            // Update counters
+            if (program) {
+                counters[selectedProgram].count++;
+                totalCount++;
+                unusedCount++;
+
+                const price = parseFloat(selectedPrice);
+                counters[selectedProgram].price += price;
+                totalPrice += price;
+
+                // Update custom duration counters if this is a custom program
+                if (selectedProgram === '11') {
+                    customDurationCounters[selectedDuration].count++;
+                }
+
+                // Save counters to local storage
+                localStorage.setItem(STORAGE_KEYS.COUNTERS, JSON.stringify(counters));
+                localStorage.setItem(STORAGE_KEYS.TOTAL_COUNT, totalCount.toString());
+                localStorage.setItem(STORAGE_KEYS.TOTAL_PRICE, totalPrice.toString());
+                localStorage.setItem(STORAGE_KEYS.CUSTOM_DURATIONS, JSON.stringify(customDurationCounters));
+
+                updateCounters();
+                updateCustomDurationCounters();
+                updateStatusCounters();
+            }
+
+            return serialRecord;
+        }
+
+        // Update license info display
+        function updateLicenseInfo(programId, duration = 0) {
+            const program = programs[programId];
+
+            if (program.permanent) {
+                licenseInfo.innerHTML = `
+                    <h3>${program.name} License</h3>
+                    <p><strong>Type:</strong> Permanent activation</p>
+                    <p><strong>Device Limit:</strong> 1 device only</p>
+                    <p><strong>Price:</strong> <span class="price">$${program.price}</span></p>
+                    <p><strong>Note:</strong> This serial can only be used once on a single device.</p>
+                    
+                `;
+            } else {
+                let durationText = '';
+                if (selectedDurationCode === '01') {
+                    durationText = '1 Week';
+                } else if (selectedDurationCode === '02') {
+                    durationText = '1 Month';
+                } else if (selectedDurationCode === '03') {
+                    durationText = '3 Months';
+                } else if (selectedDurationCode === '04') {
+                    durationText = '6 Months';
+                } else if (selectedDurationCode === '05') {
+                    durationText = '1 Year';
+                } else if (selectedDurationCode === '99') {
+                    durationText = 'Permanent';
+                }
+
+                licenseInfo.innerHTML = `
+                    <h3>${program.name} License</h3>
+                    <p><strong>Duration:</strong> ${durationText}</p>
+                    <p><strong>Device Limit:</strong> 1 device only</p>
+                    <p><strong>Price:</strong> <span class="price">$${selectedPrice}</span></p>
+                    <p><strong>Note:</strong> This serial can only be used once on a single device.</p>
+                   
+                `;
+            }
+        }
+
+        // Show duration modal
+        function showDurationModal() {
+            durationModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+
+            // Reset selection
+            selectedDuration = 0;
+            selectedPrice = "0.00";
+            selectedDurationCode = "99";
+            document.querySelectorAll('.duration-option').forEach(opt => {
+                opt.classList.remove('active');
+            });
+        }
+
+        // Hide duration modal
+        function hideDurationModal() {
+            durationModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Show check serial modal
+        function showCheckSerialModal() {
+            checkSerialModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            serialInput.value = '';
+            serialResult.style.display = 'none';
+        }
+
+        // Hide check serial modal
+        function hideCheckSerialModal() {
+            checkSerialModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Show delete serial modal
+        function showDeleteSerialModal() {
+            deleteSerialModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            deleteSerialInput.value = '';
+            deleteSerialResult.style.display = 'none';
+        }
+
+        // Hide delete serial modal
+        function hideDeleteSerialModal() {
+            deleteSerialModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Show update modal
+        function showUpdateModal() {
+            updateModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            
+            // Reset form
+            versionInput.value = '';
+            linkInput.value = '';
+            document.querySelectorAll('.update-option').forEach(opt => {
+                opt.classList.remove('active');
+            });
+        }
+
+        // Hide update modal
+        function hideUpdateModal() {
+            updateModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Select duration option
+        function selectDurationOption(e) {
+            const option = e.currentTarget;
+
+            // Remove active class from all options
+            durationOptions.forEach(opt => {
+                opt.classList.remove('active');
+            });
+
+            // Add active class to selected option
+            option.classList.add('active');
+
+            // Store selected duration, price and code
+            selectedDuration = parseInt(option.dataset.duration);
+            selectedPrice = option.dataset.price;
+            selectedDurationCode = option.dataset.code;
+        }
+
+        // Check if a serial number exists and get its details
+        async function checkSerialNumber(serial) {
+            try {
+                const serials = await fetchFromGitHub();
+                return serials.find(s => s.serial === serial);
+            } catch (error) {
+                console.error('Error checking serial:', error);
+                return null;
+            }
+        }
+
+        // Delete a specific serial number and deactivate it if it's in use
+        async function deleteSerialNumber(serial) {
+            try {
+                const serials = await fetchFromGitHub();
+                const serialIndex = serials.findIndex(s => s.serial === serial);
+
+                if (serialIndex === -1) {
+                    return { success: false, message: 'Serial not found' };
+                }
+
+                const serialToDelete = serials[serialIndex];
+
+                // Check if this serial is currently active on any device
+                const activeSerialJson = localStorage.getItem(STORAGE_KEYS.ACTIVE_SERIAL);
+                let isActiveSerial = false;
+
+                if (activeSerialJson) {
+                    const activeSerial = JSON.parse(activeSerialJson);
+                    isActiveSerial = activeSerial.serial === serial;
+                }
+
+                // If serial is used or active, show confirmation
+                if (serialToDelete.used || isActiveSerial) {
+                    const confirmed = confirm('This serial is already used/active. Deleting it will revoke access for any device using it. Continue?');
+                    if (!confirmed) {
+                        return { success: false, message: 'Deletion canceled' };
+                    }
+
+                    // If this is the active serial, clear it from local storage
+                    if (isActiveSerial) {
+                        localStorage.removeItem(STORAGE_KEYS.ACTIVE_SERIAL);
+                        showExpiredMessage();
+                    }
+                }
+
+                // Remove the serial from the array
+                serials.splice(serialIndex, 1);
+
+                // Save the updated serials
+                await saveToGitHub(serials);
+
+                // Update counters
+                if (counters[serialToDelete.programId]) {
+                    counters[serialToDelete.programId].count--;
+                    totalCount--;
+
+                    if (serialToDelete.used) {
+                        usedCount--;
+                    } else {
+                        unusedCount--;
+                    }
+
+                    const price = parseFloat(serialToDelete.price);
+                    counters[serialToDelete.programId].price -= price;
+                    totalPrice -= price;
+
+                    if (serialToDelete.programId === '11') {
+                        customDurationCounters[serialToDelete.duration].count--;
+                    }
+
+                    // Save counters to local storage
+                    localStorage.setItem(STORAGE_KEYS.COUNTERS, JSON.stringify(counters));
+                    localStorage.setItem(STORAGE_KEYS.TOTAL_COUNT, totalCount.toString());
+                    localStorage.setItem(STORAGE_KEYS.TOTAL_PRICE, totalPrice.toString());
+                    localStorage.setItem(STORAGE_KEYS.CUSTOM_DURATIONS, JSON.stringify(customDurationCounters));
+
+                    updateCounters();
+                    updateCustomDurationCounters();
+                    updateStatusCounters();
+                }
+
+                return { success: true, serial: serialToDelete };
+            } catch (error) {
+                console.error('Error deleting serial:', error);
+                return { success: false, message: error.message };
+            }
+        }
+
+        // Save update choice to GitHub
+        async function saveUpdateChoice(version, link, required) {
+            try {
+                const updates = await fetchFromGitHub(GITHUB_CONFIG.UPDATES_FILE);
+                const now = new Date();
+                
+                const updateRecord = {
+                    version: version,
+                    link: link,
+                    required: required,
+                    date: now.toLocaleDateString(),
+                    time: now.toLocaleTimeString(),
+                    timestamp: now.toISOString()
+                };
+                
+                updates.push(updateRecord);
+                await saveToGitHub(updates, GITHUB_CONFIG.UPDATES_FILE);
+                
+                showToast(`Update information saved successfully`, 3000, 'info');
+                return true;
+            } catch (error) {
+                console.error('Error saving update information:', error);
+                showToast('Failed to save update information', 3000, 'error');
+                return false;
+            }
+        }
+
+        // Export all serials to Excel
+        async function exportToExcel() {
+            try {
+                const serials = await fetchFromGitHub();
+
+                if (serials.length === 0) {
+                    showToast('No serials to export', 2000, 'warning');
+                    return;
+                }
+
+                // Prepare data for Excel
+                const data = [
+                    ['Serial Number', 'Program', 'Duration', 'Price', 'Created At', 'Expires At', 'Device ID', 'Used', 'Used Date']
+                ];
+
+                serials.forEach(serial => {
+                    let duration = '';
+                    if (serial.duration === 0) {
+                        duration = 'Permanent';
+                    } else if (serial.duration === 7) {
+                        duration = '1 Week';
+                    } else if (serial.duration === 30) {
+                        duration = '1 Month';
+                    } else if (serial.duration === 90) {
+                        duration = '3 Months';
+                    } else if (serial.duration === 180) {
+                        duration = '6 Months';
+                    }else if (serial.duration === 365) {
+                        duration = '1 Year';
+                    }
+
+                    data.push([
+                        serial.serial,
+                        serial.programName,
+                        duration,
+                        `$${serial.price}`,
+                        new Date(serial.createdAt).toLocaleString(),
+                        serial.expiresAt ? new Date(serial.expiresAt).toLocaleString() : 'Never',
+                        serial.deviceId || 'Not activated',
+                        serial.used ? 'Yes' : 'No',
+                        serial.usedDate ? new Date(serial.usedDate).toLocaleString() : ''
+                    ]);
+                });
+
+                // Create workbook
+                const wb = XLSX.utils.book_new();
+                const ws = XLSX.utils.aoa_to_sheet(data);
+                XLSX.utils.book_append_sheet(wb, ws, 'Workout Serials');
+
+                // Generate file and download
+                const date = new Date().toISOString().split('T')[0];
+                XLSX.writeFile(wb, `workout_serials_${date}.xlsx`);
+
+                showToast('Serials exported to Excel', 2000, 'info');
+            } catch (error) {
+                console.error('Error exporting to Excel:', error);
+                showToast('Failed to export serials', 3000, 'error');
+            }
+        }
+
+        // Clear all data
+        function clearAllData() {
+            if (confirm('Are you sure you want to clear ALL data? This cannot be undone.')) {
+                localStorage.removeItem(STORAGE_KEYS.SERIALS);
+                localStorage.removeItem(STORAGE_KEYS.COUNTERS);
+                localStorage.removeItem(STORAGE_KEYS.TOTAL_COUNT);
+                localStorage.removeItem(STORAGE_KEYS.TOTAL_PRICE);
+                localStorage.removeItem(STORAGE_KEYS.CUSTOM_DURATIONS);
+                localStorage.removeItem(STORAGE_KEYS.USED_SERIALS);
+                localStorage.removeItem(STORAGE_KEYS.ACTIVE_SERIAL);
+
+                // Reset counters
+                for (const id in counters) {
+                    counters[id] = {
+                        count: 0,
+                        price: 0
+                    };
+                }
+
+                totalCount = 0;
+                totalPrice = 0;
+                usedCount = 0;
+                unusedCount = 0;
+
+                // Reset custom duration counters
+                for (const duration in customDurationCounters) {
+                    customDurationCounters[duration].count = 0;
+                }
+
+                // Update UI
+                updateCounters();
+                updateCustomDurationCounters();
+                updateStatusCounters();
+
+                // Clear used serials set
+                usedSerials.clear();
+
+                showToast('All data has been cleared', 2000, 'info');
+            }
+        }
+
+        // View all serials
+        async function viewAllSerials() {
+            try {
+                const serials = await fetchFromGitHub();
+
+                if (serials.length === 0) {
+                    showToast('No serials generated yet', 2000, 'warning');
+                    return;
+                }
+
+                // Group serials by program
+                const groupedSerials = {};
+
+                serials.forEach(serial => {
+                    let key = serial.programId;
+                    if (serial.programId === '11') {
+                        key = `11-${serial.durationCode}`;
+                    }
+
+                    if (!groupedSerials[key]) {
+                        groupedSerials[key] = [];
+                    }
+                    groupedSerials[key].push(serial);
+                });
+
+                // Create HTML for each program
+                let html = '<h3>All Generated Serials</h3>';
+
+                for (const [key, programSerials] of Object.entries(groupedSerials)) {
+                    let programName = programSerials[0].programName;
+                    let pageLink = '';
+
+                    if (key.startsWith('11-')) {
+                        const durationCode = key.split('-')[1];
+                        pageLink = durationMapping[durationCode].page;
+                    } else {
+                        pageLink = programs[key].page;
+                    }
+
+                    html += `
+                        <div class="program-serial-group">
+                            <h4>${programName} (${programSerials.length}) <a href="${pageLink}" target="_blank">View All</a></h4>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Serial</th>
+                                        <th>Created</th>
+                                        <th>Expires</th>
+                                        <th>Used</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    ${programSerials.slice(0, 5).map(serial => `
+                                        <tr>
+                                            <td>${serial.serial}</td>
+                                            <td>${new Date(serial.createdAt).toLocaleDateString()}</td>
+                                            <td>${serial.expiresAt ? new Date(serial.expiresAt).toLocaleDateString() : 'Never'}</td>
+                                            <td>${serial.used ? 'Yes' : 'No'}</td>
+                                        </tr>
+                                    `).join('')}
+                                </tbody>
+                            </table>
+                            ${programSerials.length > 5 ? `<p>...and ${programSerials.length - 5} more</p>` : ''}
+                        </div>
+                    `;
+                }
+
+                // Show in a modal or new window
+                const serialsWindow = window.open('', '_blank');
+                serialsWindow.document.write(`
+                    <!DOCTYPE html>
+                    <html>
+                    <head>
+                        <title>All Generated Serials</title>
+                        <style>
+                            body { font-family: Arial, sans-serif; padding: 20px; }
+                            table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+                            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                            th { background-color: #f2f2f2; }
+                            .program-serial-group { margin-bottom: 30px; }
+                        </style>
+                    </head>
+                    <body>
+                        ${html}
+                    </body>
+                    </html>
+                `);
+                serialsWindow.document.close();
+            } catch (error) {
+                console.error('Error viewing serials:', error);
+                showToast('Failed to load serials', 3000, 'error');
+            }
+        }
+
+        // Check if there's an active serial and validate it
+        function checkActiveSerial() {
+            const activeSerialJson = localStorage.getItem(STORAGE_KEYS.ACTIVE_SERIAL);
+            if (activeSerialJson) {
+                const activeSerial = JSON.parse(activeSerialJson);
+
+                // First check if the serial still exists in our database
+                fetchFromGitHub().then(serials => {
+                    const serialExists = serials.some(s => s.serial === activeSerial.serial);
+
+                    if (!serialExists) {
+                        // Serial was deleted, revoke access
+                        localStorage.removeItem(STORAGE_KEYS.ACTIVE_SERIAL);
+                        showExpiredMessage();
+                        return false;
+                    }
+                }).catch(error => {
+                    console.error('Error checking serial existence:', error);
+                });
+
+                // Then check expiration and usage as before
+                if (activeSerial.expiresAt && new Date(activeSerial.expiresAt) < new Date()) {
+                    showExpiredMessage();
+                    return false;
+                }
+
+                if (activeSerial.used) {
+                    showExpiredMessage();
+                    return false;
+                }
+
+                return true;
+            }
+
+            return false;
+        }
+
+        // Show expired message
+        function showExpiredMessage() {
+            expiredMessage.style.display = 'flex';
+            document.querySelector('.container').style.display = 'none';
+        }
+
+        // Show toast notification
+        function showToast(message, duration = 3000, type = 'info') {
+            toast.textContent = message;
+            toast.className = 'toast';
+            toast.classList.add(type);
+            toast.classList.add('show');
+
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, duration);
+        }
+
+        // Event listeners
+        generateBtn.addEventListener('click', async function () {
+            try {
+                const serialRecord = await generateSerial();
+                serialDisplay.textContent = serialRecord.serial;
+                serialDisplay.style.animation = 'none';
+                void serialDisplay.offsetWidth; // Trigger reflow
+                serialDisplay.style.animation = 'fadeIn 0.5s ease-out';
+                updateLicenseInfo(selectedProgram);
+
+                showToast('Serial generated successfully', 2000, 'info');
+            } catch (error) {
+                showToast(error.message, 3000, 'error');
+            }
+        });
+
+        copyBtn.addEventListener('click', function () {
+            const serial = serialDisplay.textContent;
+            if (!serial || serial === 'Serial will appear here...') {
+                showToast('No serial to copy', 2000, 'warning');
+                return;
+            }
+
+            navigator.clipboard.writeText(serial).then(() => {
+                showToast('Serial copied to clipboard', 2000, 'info');
+            }).catch(err => {
+                showToast('Failed to copy serial', 2000, 'error');
+                console.error('Failed to copy serial: ', err);
+            });
+        });
+
+        // Duration modal events
+        durationOptions.forEach(option => {
+            option.addEventListener('click', selectDurationOption);
+        });
+
+        confirmDurationBtn.addEventListener('click', async function () {
+            if (selectedDuration === 0 && !confirm('Are you sure you want to generate a permanent license?')) {
+                return;
+            }
+
+            hideDurationModal();
+        });
+
+        cancelDurationBtn.addEventListener('click', hideDurationModal);
+
+        // Check serial modal events
+        checkSerialBtn.addEventListener('click', showCheckSerialModal);
+        cancelCheckSerialBtn.addEventListener('click', hideCheckSerialModal);
+
+        checkSerialButton.addEventListener('click', async function () {
+            const serial = serialInput.value.trim();
+            if (!serial) {
+                showToast('Please enter a serial number', 2000, 'warning');
+                return;
+            }
+
+            const serialRecord = await checkSerialNumber(serial);
+            serialResult.style.display = 'block';
+
+            if (serialRecord) {
+                const now = new Date();
+                let expiresAt = serialRecord.expiresAt ? new Date(serialRecord.expiresAt) : null;
+                let isExpired = expiresAt && expiresAt < now;
+
+                let status = '';
+                if (serialRecord.used) {
+                    status = '<p class="invalid">Status: USED</p>';
+                } else if (isExpired) {
+                    status = '<p class="expired">Status: EXPIRED</p>';
+                } else if (expiresAt) {
+                    status = `<p class="valid">Status: ACTIVE (Expires: ${expiresAt.toLocaleDateString()})</p>`;
+                } else {
+                    status = '<p class="valid">Status: PERMANENT</p>';
+                }
+
+                let durationText = '';
+                if (serialRecord.duration === 7) {
+                    durationText = '1 Week';
+                } else if (serialRecord.duration === 30) {
+                    durationText = '1 Month';
+                } else if (serialRecord.duration === 90) {
+                    durationText = '3 Months';
+                } else if (serialRecord.duration === 180) {
+                    durationText = '6 Months';
+                } else if (serialRecord.duration === 365) {
+                    durationText = '1 Year';
+                } else if (serialRecord.duration === 0) {
+                    durationText = 'Permanent';
+                }
+
+                serialResult.innerHTML = `
+                    <h4>Serial Number Details</h4>
+                    <p><strong>Serial:</strong> ${serialRecord.serial}</p>
+                    <p><strong>Program:</strong> ${serialRecord.programName}</p>
+                    <p><strong>Duration:</strong> ${durationText}</p>
+                    <p><strong>Price:</strong> $${serialRecord.price}</p>
+                    <p><strong>Created:</strong> ${new Date(serialRecord.createdAt).toLocaleString()}</p>
+                    <p><strong>Expires:</strong> ${expiresAt ? expiresAt.toLocaleDateString() : 'Never'}</p>
+                    ${status}
+                    <p><strong>Device ID:</strong> ${serialRecord.deviceId || 'Not activated'}</p>
+                    <p><strong>Used:</strong> ${serialRecord.used ? 'Yes' : 'No'}</p>
+                    ${serialRecord.usedDate ? `<p><strong>Used Date:</strong> ${new Date(serialRecord.usedDate).toLocaleString()}</p>` : ''}
+                `;
+            } else {
+                serialResult.innerHTML = `
+                    <h4>Serial Number Details</h4>
+                    <p class="invalid">Serial not found in database</p>
+                `;
+            }
+        });
+
+        // Delete serial modal events
+        deleteSerialBtn.addEventListener('click', showDeleteSerialModal);
+        cancelDeleteSerialBtn.addEventListener('click', hideDeleteSerialModal);
+
+        confirmDeleteSerialBtn.addEventListener('click', async function () {
+            const serial = deleteSerialInput.value.trim();
+            if (!serial) {
+                showToast('Please enter a serial number', 2000, 'warning');
+                return;
+            }
+
+            const result = await deleteSerialNumber(serial);
+            deleteSerialResult.style.display = 'block';
+
+            if (result.success) {
+                deleteSerialResult.innerHTML = `
+                    <h4>Serial Deleted Successfully</h4>
+                    <p><strong>Serial:</strong> ${result.serial.serial}</p>
+                    <p><strong>Program:</strong> ${result.serial.programName}</p>
+                    <p><strong>Price:</strong> $${result.serial.price}</p>
+                    <p class="valid">Serial has been permanently deleted from the database</p>
+                `;
+                showToast('Serial deleted successfully', 2000, 'info');
+            } else {
+                deleteSerialResult.innerHTML = `
+                    <h4>Deletion Failed</h4>
+                    <p class="invalid">${result.message}</p>
+                `;
+                showToast(result.message, 3000, 'error');
+            }
+        });
+
+        // Update modal events
+        updateBtn.addEventListener('click', showUpdateModal);
+        cancelUpdateBtn.addEventListener('click', hideUpdateModal);
+
+        updateYesBtn.addEventListener('click', function() {
+            updateYesBtn.classList.add('active');
+            updateNoBtn.classList.remove('active');
+        });
+
+        updateNoBtn.addEventListener('click', function() {
+            updateNoBtn.classList.add('active');
+            updateYesBtn.classList.remove('active');
+        });
+
+        confirmUpdateBtn.addEventListener('click', async function () {
+            const version = versionInput.value.trim();
+            const link = linkInput.value.trim();
+            
+            if (!version) {
+                showToast('Please enter a version number', 2000, 'warning');
+                return;
+            }
+            
+            if (!link) {
+                showToast('Please enter an application link', 2000, 'warning');
+                return;
+            }
+
+            if (!updateYesBtn.classList.contains('active') && !updateNoBtn.classList.contains('active')) {
+                showToast('Please select if this update is required', 2000, 'warning');
+                return;
+            }
+
+            const required = updateYesBtn.classList.contains('active') ? 'yes' : 'no';
+            const success = await saveUpdateChoice(version, link, required);
+            if (success) {
+                hideUpdateModal();
+            }
+        });
+
+        // Admin buttons
+        exportBtn.addEventListener('click', exportToExcel);
+        clearBtn.addEventListener('click', clearAllData);
+        viewSerialsBtn.addEventListener('click', viewAllSerials);
+
+        // View JSON button
+        document.getElementById('view-json-btn').addEventListener('click', async function () {
+            try {
+                const serials = await fetchFromGitHub();
+                const jsonWindow = window.open('', '_blank');
+                jsonWindow.document.write(`
+                    <!DOCTYPE html>
+                    <html>
+                    <head>
+                        <title>Serials JSON</title>
+                        <style>
+                            body { font-family: Arial, sans-serif; padding: 20px; }
+                            pre { background: #f5f5f5; padding: 15px; border-radius: 5px; }
+                        </style>
+                    </head>
+                    <body>
+                        <h1>Serials JSON Data</h1>
+                        <pre>${JSON.stringify(serials, null, 2)}</pre>
+                    </body>
+                    </html>
+                `);
+                jsonWindow.document.close();
+            } catch (error) {
+                showToast('Failed to load JSON data', 3000, 'error');
+            }
+        });
+
+        // Delete all button
+        document.getElementById('delete-all-btn').addEventListener('click', function () {
+            document.getElementById('password-modal').classList.add('active');
+        });
+
+        document.getElementById('cancel-delete').addEventListener('click', function () {
+            document.getElementById('password-modal').classList.remove('active');
+        });
+
+        document.getElementById('confirm-delete').addEventListener('click', async function () {
+            const password = document.getElementById('admin-password').value;
+
+            if (password !== ADMIN_PASSWORD) {
+                showToast('Incorrect password', 3000, 'error');
+                return;
+            }
+
+            document.getElementById('password-modal').classList.remove('active');
+
+            try {
+                showToast('Deleting unused serials...', 2000, 'info');
+
+                // 1. Get current serials
+                const serials = await fetchFromGitHub();
+
+                // 2. Filter out used serials
+                const unusedSerials = serials.filter(serial => !serial.used);
+                const usedSerials = serials.filter(serial => serial.used);
+
+                if (unusedSerials.length === 0) {
+                    showToast('No unused serials to delete', 3000, 'warning');
+                    return;
+                }
+
+                // 3. Save only the used serials back to GitHub
+                await saveToGitHub(usedSerials);
+
+                // 4. Recalculate counters
+                // Reset counters
+                for (const id in counters) {
+                    counters[id] = { count: 0, price: 0 };
+                }
+                totalCount = 0;
+                totalPrice = 0;
+                usedCount = usedSerials.length;
+                unusedCount = 0;
+                for (const duration in customDurationCounters) {
+                    customDurationCounters[duration].count = 0;
+                }
+
+                // Recalculate from remaining serials
+                usedSerials.forEach(serial => {
+                    if (counters[serial.programId]) {
+                        counters[serial.programId].count++;
+                        counters[serial.programId].price += parseFloat(serial.price);
+                        totalCount++;
+                        totalPrice += parseFloat(serial.price);
+
+                        if (serial.programId === '11') {
+                            customDurationCounters[serial.duration].count++;
+                        }
+                    }
+                });
+
+                // 5. Update UI
+                updateCounters();
+                updateCustomDurationCounters();
+                updateStatusCounters();
+                serialDisplay.textContent = 'Serial will appear here...';
+
+                showToast(`Deleted ${unusedSerials.length} unused serials (kept ${usedSerials.length} used serials)`, 5000, 'info');
+
+            } catch (error) {
+                console.error('Delete error:', error);
+                showToast('Failed to delete: ' + error.message, 5000, 'error');
+            }
+        });
+
+        // View feedbacks button
+        document.getElementById('viewFeedbacksBtn').addEventListener('click', async function () {
+            try {
+                const url = `https://api.github.com/repos/${GITHUB_CONFIG.REPO_OWNER}/${GITHUB_CONFIG.REPO_NAME}/contents/feedbacks.json`;
+                const response = await fetch(url, {
+                    headers: {
+                        'Authorization': `token ${GITHUB_CONFIG.TOKEN}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+
+                if (!response.ok) {
+                    throw new Error(`GitHub API error: ${response.status}`);
+                }
+
+                const data = await response.json();
+                // Use TextDecoder to properly handle Arabic text
+                const content = new TextDecoder('utf-8').decode(
+                    Uint8Array.from(atob(data.content), c => c.charCodeAt(0))
+                );
+                const feedbacks = JSON.parse(content);
+
+                // Show in a modal or new window with RTL support for Arabic
+                const feedbacksWindow = window.open('', '_blank');
+                feedbacksWindow.document.write(`
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <title>Workout Program Feedbacks</title>
+                <meta charset="UTF-8">
+                <style>
+                    body { font-family: Arial, sans-serif; padding: 20px; }
+                    pre { 
+                        background: #f5f5f5; 
+                        padding: 15px; 
+                        border-radius: 5px;
+                        white-space: pre-wrap;
+                        word-wrap: break-word;
+                    }
+                    h1 { color: #3b82f6; }
+                    .arabic {
+                        direction: rtl;
+                        text-align: left;
+                        font-family: 'Arial', 'Segoe UI', Tahoma, sans-serif;
+                    }
+                </style>
+            </head>
+            <body>
+                <h1>Workout Program Feedbacks</h1>
+                <div class="arabic">
+                    <pre>${JSON.stringify(feedbacks, null, 2)}</pre>
+                </div>
+            </body>
+            </html>
+        `);
+                feedbacksWindow.document.close();
+            } catch (error) {
+                console.error('Error loading feedbacks:', error);
+                showToast('Failed to load feedbacks', 3000, 'error');
+            }
+        });
+    </script>
+</body>
+
+</html>

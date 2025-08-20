@@ -304,44 +304,5 @@
     "deviceId": "device-m1e13kosp-mekbmvgv",
     "used": true,
     "usedDate": "2025-08-20T18:43:49.315Z"
-  },
-  {
-    "serial": "BBN-DAM-XHM-0CU-SKW-W56-31",
-    "programId": "11",
-    "programName": "Custom Workout - 1 Week",
-    "duration": 7,
-    "durationCode": "01",
-    "price": "1",
-    "createdAt": "2025-08-20T22:05:31.941Z",
-    "expiresAt": "2025-08-27T22:05:31.941Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "CUS-BN6-PFC-97H-ZBG-AWB-C9",
-    "programId": "11",
-    "programName": "Custom Workout - Permanent",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "15",
-    "createdAt": "2025-08-20T22:05:38.722Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "2AG-PDC-USS-0BD-7V8-7RR-K3",
-    "programId": "11",
-    "programName": "Custom Workout - 3 Months",
-    "duration": 90,
-    "durationCode": "03",
-    "price": "4",
-    "createdAt": "2025-08-20T22:09:20.473Z",
-    "expiresAt": "2025-11-18T23:09:20.473Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
   }
 ]

@@ -304,5 +304,18 @@
     "deviceId": "device-m1e13kosp-mekbmvgv",
     "used": true,
     "usedDate": "2025-08-20T18:43:49.315Z"
+  },
+  {
+    "serial": "BBN-DAM-XHM-0CU-SKW-W56-31",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Week",
+    "duration": 7,
+    "durationCode": "01",
+    "price": "1",
+    "createdAt": "2025-08-20T22:05:31.941Z",
+    "expiresAt": "2025-08-27T22:05:31.941Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

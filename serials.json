@@ -1,18 +1,5 @@
 [
   {
-    "serial": "STF-PHV-ZM6-9CK-54E-RX4-V9",
-    "programId": "6",
-    "programName": "Push Pull Leg HVLI",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-08-16T06:05:24.237Z",
-    "expiresAt": null,
-    "deviceId": "device-6upvzjgoj-medus827",
-    "used": true,
-    "usedDate": "2025-08-16T06:05:28.399Z"
-  },
-  {
     "serial": "EQ8-53F-UCU-0SX-LWN-9YJ-B1",
     "programId": "11",
     "programName": "Custom Workout - 1 Week",

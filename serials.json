@@ -202,19 +202,6 @@
     "usedDate": "2025-08-16T17:36:58.594Z"
   },
   {
-    "serial": "DVZ-CPH-IR2-9M2-QAN-RUA-E9",
-    "programId": "1",
-    "programName": "Push Pull Leg HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-08-16T18:16:18.397Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "YBC-4L2-UUH-9IZ-F97-JKH-N9",
     "programId": "4",
     "programName": "Upper Lower HILV",
@@ -304,18 +291,5 @@
     "deviceId": null,
     "used": true,
     "usedDate": "2025-08-20T05:50:10.612Z"
-  },
-  {
-    "serial": "CUS-N26-WPF-0V6-BN5-JYP-Z2",
-    "programId": "11",
-    "programName": "Custom Workout - 1 Month",
-    "duration": 30,
-    "durationCode": "02",
-    "price": "29.99",
-    "createdAt": "2025-08-20T06:34:25.519Z",
-    "expiresAt": "2025-09-19T06:34:25.519Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
   }
 ]

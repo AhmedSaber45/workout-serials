@@ -1,18 +1,5 @@
 [
   {
-    "serial": "Q7Z-B2P-HIE-98N-NMP-MLN-J9",
-    "programId": "1",
-    "programName": "Push Pull Leg HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-08-16T05:46:43.327Z",
-    "expiresAt": null,
-    "deviceId": "device-x0baqe68g-medu9xxu",
-    "used": true,
-    "usedDate": "2025-08-16T05:51:15.473Z"
-  },
-  {
     "serial": "STF-PHV-ZM6-9CK-54E-RX4-V9",
     "programId": "6",
     "programName": "Push Pull Leg HVLI",

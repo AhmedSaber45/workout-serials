@@ -489,5 +489,18 @@
     "deviceId": null,
     "used": true,
     "usedDate": "2025-08-21T20:25:05.552Z"
+  },
+  {
+    "serial": "HTB-49C-USR-9T5-9ZB-Y2D-V9",
+    "programId": "11",
+    "programName": "Custom Workout - Permanent",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "15",
+    "createdAt": "2025-08-21T20:25:13.126Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

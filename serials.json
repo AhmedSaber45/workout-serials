@@ -1,44 +1,5 @@
 [
   {
-    "serial": "UHV-2YQ-JWY-9S7-63C-SKE-F9",
-    "programId": "9",
-    "programName": "Upper Lower HVLI",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-08-21T00:14:22.379Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "VB5-FHI-HUB-9LR-GB4-6PN-U9",
-    "programId": "5",
-    "programName": "Full Body HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-08-21T00:19:02.384Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "BSP-QS5-K9E-9SW-FHI-DG9-S9",
-    "programId": "5",
-    "programName": "Full Body HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-08-21T00:26:11.210Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "QB9-FVC-CUS-9GP-X9C-TJN-79",
     "programId": "11",
     "programName": "Custom Workout - Permanent",
@@ -51,32 +12,6 @@
     "used": true,
     "usedDate": "2025-08-21T00:44:26.356Z",
     "activationDate": "2025-08-21T00:44:26.365Z"
-  },
-  {
-    "serial": "FV5-WCU-SAW-99S-8F7-SK7-P9",
-    "programId": "11",
-    "programName": "Custom Workout - Permanent",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "15",
-    "createdAt": "2025-08-21T00:45:01.756Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "6FH-IKC-XU9-9Y9-UY9-9WU-B9",
-    "programId": "5",
-    "programName": "Full Body HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "15",
-    "createdAt": "2025-08-21T00:45:27.679Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
   },
   {
     "serial": "YXF-CLC-US9-942-C6N-LUU-S9",
@@ -105,32 +40,6 @@
     "usedDate": "2025-08-21T00:48:22.364Z"
   },
   {
-    "serial": "VR3-XA8-Q8Z-9AH-ISG-L5L-59",
-    "programId": "3",
-    "programName": "Arnold HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-08-21T00:48:37.471Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "DVN-A2Y-DYL-9U2-AHI-7MK-U9",
-    "programId": "3",
-    "programName": "Arnold HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-08-21T00:49:05.770Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "8VU-JQ2-LQ9-9V5-AHI-UP3-P9",
     "programId": "3",
     "programName": "Arnold HILV",
@@ -142,19 +51,6 @@
     "deviceId": "device-m1e13kosp-mekbmvgv",
     "used": true,
     "usedDate": "2025-08-21T00:49:36.306Z"
-  },
-  {
-    "serial": "HVK-QER-C8S-99R-4FV-UHI-F9",
-    "programId": "4",
-    "programName": "Upper Lower HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-08-21T00:49:45.203Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
   },
   {
     "serial": "SKK-SWT-MC7-9ZS-UHI-2MH-F9",
@@ -170,19 +66,6 @@
     "usedDate": "2025-08-21T00:50:52.346Z"
   },
   {
-    "serial": "54R-249-TFH-9IS-P5Y-BSC-79",
-    "programId": "5",
-    "programName": "Full Body HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-08-21T00:50:58.467Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "5HD-PX7-MS5-9FH-IN6-5NZ-B9",
     "programId": "5",
     "programName": "Full Body HILV",
@@ -194,19 +77,6 @@
     "deviceId": "device-m1e13kosp-mekbmvgv",
     "used": true,
     "usedDate": "2025-08-21T00:52:20.181Z"
-  },
-  {
-    "serial": "CUS-3UF-P8U-9LU-6G6-Y9F-J9",
-    "programId": "11",
-    "programName": "Custom Workout - Permanent",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "15",
-    "createdAt": "2025-08-21T01:30:03.623Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
   },
   {
     "serial": "L5A-XP3-7EJ-9Y9-GPH-IUF-V9",
@@ -291,19 +161,6 @@
     "activationDate": "2025-08-21T14:21:43.738Z"
   },
   {
-    "serial": "H3H-PJD-UX9-9J9-FMR-UHV-N9",
-    "programId": "9",
-    "programName": "Upper Lower HVLI",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-08-21T16:27:09.324Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "6M5-CHM-CW2-9ZJ-UHV-PZA-G9",
     "programId": "9",
     "programName": "Upper Lower HVLI",
@@ -358,32 +215,6 @@
     "activationDate": "2025-08-21T18:23:01.771Z"
   },
   {
-    "serial": "2FC-HRA-UCU-9S2-E24-5ZV-99",
-    "programId": "11",
-    "programName": "Custom Workout - Permanent",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "15",
-    "createdAt": "2025-08-21T19:22:48.292Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "YWP-D3Q-ZCU-9SB-TC3-ZRA-T9",
-    "programId": "11",
-    "programName": "Custom Workout - Permanent",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "15",
-    "createdAt": "2025-08-21T19:23:16.608Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "2MF-9TC-USH-9VF-HHU-H9E-Q9",
     "programId": "11",
     "programName": "Custom Workout - Permanent",
@@ -396,19 +227,6 @@
     "used": true,
     "usedDate": "2025-08-21T18:24:05.694Z",
     "activationDate": "2025-08-21T18:24:05.694Z"
-  },
-  {
-    "serial": "KMA-HVK-NGD-99K-7HS-BES-C9",
-    "programId": "8",
-    "programName": "Arnold HVLI",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "15",
-    "createdAt": "2025-08-21T19:24:55.833Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
   },
   {
     "serial": "6QB-HIY-QH4-96F-76X-CV9-C9",

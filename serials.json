@@ -356,5 +356,18 @@
     "used": true,
     "usedDate": "2025-08-21T18:23:01.718Z",
     "activationDate": "2025-08-21T18:23:01.771Z"
+  },
+  {
+    "serial": "2FC-HRA-UCU-9S2-E24-5ZV-99",
+    "programId": "11",
+    "programName": "Custom Workout - Permanent",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "15",
+    "createdAt": "2025-08-21T19:22:48.292Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

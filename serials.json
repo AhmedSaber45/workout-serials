@@ -432,8 +432,9 @@
     "price": "15",
     "createdAt": "2025-08-21T20:15:31.171Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-tywewby8h",
+    "used": true,
+    "usedDate": "2025-08-21T20:15:36.668Z",
+    "activationDate": "2025-08-21T20:15:36.668Z"
   }
 ]

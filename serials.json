@@ -139,8 +139,8 @@
     "price": "0.00",
     "createdAt": "2025-08-21T00:49:28.491Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-m1e13kosp-mekbmvgv",
+    "used": true,
+    "usedDate": "2025-08-21T00:49:36.306Z"
   }
 ]

@@ -194,5 +194,18 @@
     "deviceId": "device-m1e13kosp-mekbmvgv",
     "used": true,
     "usedDate": "2025-08-21T00:52:20.181Z"
+  },
+  {
+    "serial": "CUS-3UF-P8U-9LU-6G6-Y9F-J9",
+    "programId": "11",
+    "programName": "Custom Workout - Permanent",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "15",
+    "createdAt": "2025-08-21T01:30:03.623Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

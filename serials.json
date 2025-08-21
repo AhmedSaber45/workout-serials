@@ -382,5 +382,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "2MF-9TC-USH-9VF-HHU-H9E-Q9",
+    "programId": "11",
+    "programName": "Custom Workout - Permanent",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "15",
+    "createdAt": "2025-08-21T19:23:19.877Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

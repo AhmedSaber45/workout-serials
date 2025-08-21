@@ -234,5 +234,18 @@
     "used": true,
     "usedDate": "2025-08-21T06:10:15.877Z",
     "activationDate": "2025-08-21T06:10:15.878Z"
+  },
+  {
+    "serial": "RSS-CUS-SEV-9TP-6VQ-7FV-E9",
+    "programId": "11",
+    "programName": "Custom Workout - Permanent",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "15",
+    "createdAt": "2025-08-21T06:14:49.610Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

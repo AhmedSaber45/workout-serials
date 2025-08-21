@@ -315,5 +315,18 @@
     "deviceId": "device-6upvzjgoj-medus827",
     "used": true,
     "usedDate": "2025-08-21T16:27:48.833Z"
+  },
+  {
+    "serial": "MFD-4CU-S65-924-E3H-XM7-H9",
+    "programId": "11",
+    "programName": "Custom Workout - Permanent",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "15",
+    "createdAt": "2025-08-21T19:17:23.759Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

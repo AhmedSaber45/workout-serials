@@ -248,5 +248,18 @@
     "used": true,
     "usedDate": "2025-08-21T06:14:54.055Z",
     "activationDate": "2025-08-21T06:14:54.055Z"
+  },
+  {
+    "serial": "D3T-HMC-LB5-9YU-2CU-SNX-H9",
+    "programId": "11",
+    "programName": "Custom Workout - Permanent",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "15",
+    "createdAt": "2025-08-21T06:34:40.658Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

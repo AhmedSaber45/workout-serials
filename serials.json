@@ -343,9 +343,9 @@
     "price": "0.00",
     "createdAt": "2025-08-21T22:00:55.967Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-cbbfvtw0l-melw83hy",
+    "used": true,
+    "usedDate": "2025-08-21T21:07:57.980Z"
   },
   {
     "serial": "DKE-NLF-QHX-0T5-CUS-ZG5-P1",

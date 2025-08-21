@@ -346,5 +346,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "DKE-NLF-QHX-0T5-CUS-ZG5-P1",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Week",
+    "duration": 7,
+    "durationCode": "01",
+    "price": "1",
+    "createdAt": "2025-08-21T22:01:21.046Z",
+    "expiresAt": "2025-08-28T22:01:21.046Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

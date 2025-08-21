@@ -275,5 +275,18 @@
     "deviceId": null,
     "used": true,
     "usedDate": "2025-08-21T06:35:19.303Z"
+  },
+  {
+    "serial": "AWY-JAQ-LJ6-92G-3GB-CUS-H9",
+    "programId": "11",
+    "programName": "Custom Workout - Permanent",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "15",
+    "createdAt": "2025-08-21T14:21:30.246Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

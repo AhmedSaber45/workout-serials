@@ -51,5 +51,18 @@
     "used": true,
     "usedDate": "2025-08-21T00:44:26.356Z",
     "activationDate": "2025-08-21T00:44:26.365Z"
+  },
+  {
+    "serial": "FV5-WCU-SAW-99S-8F7-SK7-P9",
+    "programId": "11",
+    "programName": "Custom Workout - Permanent",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "15",
+    "createdAt": "2025-08-21T00:45:01.756Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

@@ -476,5 +476,18 @@
     "used": true,
     "usedDate": "2025-08-21T20:23:02.368Z",
     "activationDate": "2025-08-21T20:23:02.368Z"
+  },
+  {
+    "serial": "4GY-CUS-XVW-028-KG7-NBU-94",
+    "programId": "11",
+    "programName": "Custom Workout - 6 Months",
+    "duration": 180,
+    "durationCode": "04",
+    "price": "6",
+    "createdAt": "2025-08-21T20:25:00.755Z",
+    "expiresAt": "2026-02-17T21:25:00.755Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

@@ -47,8 +47,9 @@
     "price": "15",
     "createdAt": "2025-08-21T00:44:13.604Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-qg8rf4zft",
+    "used": true,
+    "usedDate": "2025-08-21T00:44:26.356Z",
+    "activationDate": "2025-08-21T00:44:26.365Z"
   }
 ]

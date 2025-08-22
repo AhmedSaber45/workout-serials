@@ -386,5 +386,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "SP3-8CU-SU4-0FV-VTX-DGL-N1",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Week",
+    "duration": 7,
+    "durationCode": "01",
+    "price": "1",
+    "createdAt": "2025-08-23T00:21:36.901Z",
+    "expiresAt": "2025-08-30T00:21:36.901Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

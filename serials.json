@@ -503,5 +503,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "HNA-6FH-IZ9-9RG-KZV-6UK-M9",
+    "programId": "5",
+    "programName": "Full Body HILV",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "0.00",
+    "createdAt": "2025-08-24T05:03:48.551Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

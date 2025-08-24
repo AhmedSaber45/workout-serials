@@ -529,5 +529,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "7JP-R7H-GQ5-09S-GH7-CUS-E2",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "2",
+    "createdAt": "2025-08-24T05:15:39.341Z",
+    "expiresAt": "2025-09-23T05:15:39.341Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

@@ -687,5 +687,18 @@
     "deviceId": null,
     "used": true,
     "usedDate": "2025-08-27T21:32:28.386Z"
+  },
+  {
+    "serial": "PJK-QLR-449-0UT-KCU-SU8-C2",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "2",
+    "createdAt": "2025-08-27T22:13:59.301Z",
+    "expiresAt": "2025-09-26T22:13:59.301Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

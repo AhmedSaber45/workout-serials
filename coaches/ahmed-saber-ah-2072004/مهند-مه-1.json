@@ -12,13 +12,19 @@
           "name": "push",
           "exercises": [
             {
-              "name": "grterh",
-              "sets": 1,
+              "name": "yjktyk",
+              "sets": 3,
+              "singleArm": false,
+              "image": null
+            },
+            {
+              "name": "jykytk",
+              "sets": 3,
               "singleArm": true,
               "image": null
             },
             {
-              "name": "chest press",
+              "name": "kuykuy",
               "sets": 1,
               "singleArm": false,
               "image": null
@@ -26,7 +32,7 @@
           ]
         }
       ],
-      "createdAt": "2025-08-28T00:53:33.685Z"
+      "createdAt": "2025-08-28T00:54:11.149Z"
     }
   ]
 }

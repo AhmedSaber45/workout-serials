@@ -1,13 +1,13 @@
 [
   {
-    "serial": "FCH-8UY-7JA-0HV-PGL-NUZ-T2",
-    "programId": "8",
-    "programName": "Arnold HVLI",
+    "serial": "NPM-FVA-YBR-02U-E5P-PHV-J2",
+    "programId": "6",
+    "programName": "Push Pull Leg HVLI",
     "duration": 30,
     "durationCode": "02",
     "price": "2",
-    "createdAt": "2025-08-28T00:44:50.469Z",
-    "expiresAt": "2025-09-27T00:44:50.469Z",
+    "createdAt": "2025-08-28T00:45:13.164Z",
+    "expiresAt": "2025-09-27T00:45:13.164Z",
     "deviceId": null,
     "used": false,
     "usedDate": null

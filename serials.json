@@ -1,13 +1,13 @@
 [
   {
-    "serial": "5QA-ONC-7KB-0MZ-7S2-8AP-82",
-    "programId": "12",
-    "programName": "Online Coach - 1 Month",
+    "serial": "FCH-8UY-7JA-0HV-PGL-NUZ-T2",
+    "programId": "8",
+    "programName": "Arnold HVLI",
     "duration": 30,
     "durationCode": "02",
     "price": "2",
-    "createdAt": "2025-08-28T00:44:35.203Z",
-    "expiresAt": "2025-09-27T00:44:35.203Z",
+    "createdAt": "2025-08-28T00:44:50.469Z",
+    "expiresAt": "2025-09-27T00:44:50.469Z",
     "deviceId": null,
     "used": false,
     "usedDate": null

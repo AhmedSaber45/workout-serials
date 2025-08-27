@@ -3,5 +3,30 @@
   "code": "مه-1",
   "coachCode": "ah-2072004",
   "createdAt": "2025-08-28T00:52:53.716Z",
-  "workouts": []
+  "workouts": [
+    {
+      "name": "ppl",
+      "duration": 3,
+      "days": [
+        {
+          "name": "push",
+          "exercises": [
+            {
+              "name": "grterh",
+              "sets": 1,
+              "singleArm": true,
+              "image": null
+            },
+            {
+              "name": "chest press",
+              "sets": 1,
+              "singleArm": false,
+              "image": null
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-08-28T00:53:33.685Z"
+    }
+  ]
 }

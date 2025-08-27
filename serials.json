@@ -1,26 +1,13 @@
 [
   {
-    "serial": "NPM-FVA-YBR-02U-E5P-PHV-J2",
-    "programId": "6",
-    "programName": "Push Pull Leg HVLI",
+    "serial": "CR7-FAC-2BB-0H4-2RQ-ONC-92",
+    "programId": "12",
+    "programName": "Online Coach - 1 Month",
     "duration": 30,
     "durationCode": "02",
     "price": "2",
-    "createdAt": "2025-08-28T00:45:13.164Z",
-    "expiresAt": "2025-09-27T00:45:13.164Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "VQL-QM9-PT7-0MC-USS-8J3-Q2",
-    "programId": "11",
-    "programName": "Custom Workout - 1 Month",
-    "duration": 30,
-    "durationCode": "02",
-    "price": "2",
-    "createdAt": "2025-08-28T00:45:47.943Z",
-    "expiresAt": "2025-09-27T00:45:47.943Z",
+    "createdAt": "2025-08-28T00:52:14.138Z",
+    "expiresAt": "2025-09-27T00:52:14.138Z",
     "deviceId": null,
     "used": false,
     "usedDate": null

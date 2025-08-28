@@ -155,5 +155,18 @@
     "deviceId": "device-671sbk6h0nblg8ec1yu1he",
     "used": true,
     "usedDate": "2025-08-28T13:50:32.572Z"
+  },
+  {
+    "serial": "RXE-R2Y-MSC-0US-P6H-245-F2",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "2",
+    "createdAt": "2025-08-28T13:53:31.636Z",
+    "expiresAt": "2025-09-27T13:53:31.636Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

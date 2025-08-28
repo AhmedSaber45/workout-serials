@@ -90,5 +90,18 @@
     "deviceId": "device-671sbk6h0nblg8ec1yu1he",
     "used": true,
     "usedDate": "2025-08-28T08:55:45.411Z"
+  },
+  {
+    "serial": "6YT-KXK-BY5-0KP-CUS-EVD-W2",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "2",
+    "createdAt": "2025-08-28T09:11:55.635Z",
+    "expiresAt": "2025-09-27T09:11:55.635Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

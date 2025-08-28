@@ -3,5 +3,54 @@
   "code": "te-1",
   "coachCode": "ah-2072004",
   "createdAt": "2025-08-28T03:21:27.999Z",
-  "workouts": []
+  "workouts": [
+    {
+      "name": "bro",
+      "duration": 3,
+      "days": [
+        {
+          "name": "chest",
+          "exercises": [
+            {
+              "name": "grhtr",
+              "sets": 2,
+              "singleArm": true
+            },
+            {
+              "name": "rhtr",
+              "sets": 1,
+              "singleArm": false
+            },
+            {
+              "name": "kuykiu",
+              "sets": 1,
+              "singleArm": false
+            }
+          ]
+        },
+        {
+          "name": "uyi8ik",
+          "exercises": [
+            {
+              "name": "iuliol",
+              "sets": 1,
+              "singleArm": false
+            }
+          ]
+        },
+        {
+          "name": "iliuol",
+          "exercises": [
+            {
+              "name": "ukuyk",
+              "sets": 1,
+              "singleArm": false,
+              "image": null
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-08-28T03:23:03.280Z"
+    }
+  ]
 }

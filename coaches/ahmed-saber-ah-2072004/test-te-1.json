@@ -52,5 +52,53 @@
       ],
       "createdAt": "2025-08-28T03:23:03.280Z"
     }
+  ],
+  "records": [
+    {
+      "date": "2025-08-28T08:38:05.474Z",
+      "workout": "bro",
+      "day": 1,
+      "exerciseName": "grhtr",
+      "set": 1,
+      "weight": "5",
+      "rightReps": "5",
+      "rightTank": "5",
+      "leftReps": "5",
+      "leftTank": "5",
+      "notes": "itikuy"
+    },
+    {
+      "date": "2025-08-28T08:38:05.474Z",
+      "workout": "bro",
+      "day": 1,
+      "exerciseName": "grhtr",
+      "set": 2,
+      "weight": "5",
+      "rightReps": "5",
+      "rightTank": "5",
+      "leftReps": "5",
+      "leftTank": "5",
+      "notes": "itikuy"
+    },
+    {
+      "date": "2025-08-28T08:38:05.474Z",
+      "workout": "bro",
+      "day": 1,
+      "exerciseName": "rhtr",
+      "set": 1,
+      "weight": null,
+      "reps": null,
+      "tank": null
+    },
+    {
+      "date": "2025-08-28T08:38:05.474Z",
+      "workout": "bro",
+      "day": 1,
+      "exerciseName": "kuykiu",
+      "set": 1,
+      "weight": null,
+      "reps": null,
+      "tank": null
+    }
   ]
 }

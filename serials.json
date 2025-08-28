@@ -63,5 +63,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "XCC-USC-3ZC-0YY-BUV-M93-X1",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Week",
+    "duration": 7,
+    "durationCode": "01",
+    "price": "1",
+    "createdAt": "2025-08-28T03:27:04.998Z",
+    "expiresAt": "2025-09-04T03:27:04.998Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

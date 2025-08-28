@@ -27,5 +27,30 @@
       "createdAt": "2025-08-28T09:51:56.876Z"
     }
   ],
-  "records": []
+  "records": [
+    {
+      "date": "2025-08-28T10:31:08.161Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "ykukuy",
+      "set": 1,
+      "notes": "teest",
+      "weight": "5",
+      "reps": "5",
+      "tank": "5"
+    },
+    {
+      "date": "2025-08-28T10:31:08.161Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "test2",
+      "set": 1,
+      "notes": null,
+      "weight": null,
+      "rightReps": null,
+      "rightTank": null,
+      "leftReps": null,
+      "leftTank": null
+    }
+  ]
 }

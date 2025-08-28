@@ -113,8 +113,21 @@
     "price": "2",
     "createdAt": "2025-08-28T09:51:00.894Z",
     "expiresAt": "2025-09-27T09:51:00.894Z",
-    "deviceId": "device-kqx4tnka1tewe50rhd7le",
-    "used": true,
-    "usedDate": "2025-08-28T09:51:06.542Z"
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
+  },
+  {
+    "serial": "2SU-4MR-ZCC-0US-WL2-KR5-52",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "2",
+    "createdAt": "2025-08-28T11:21:03.499Z",
+    "expiresAt": "2025-09-27T11:21:03.499Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

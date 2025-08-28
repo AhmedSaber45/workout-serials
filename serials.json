@@ -103,5 +103,18 @@
     "deviceId": "device-671sbk6h0nblg8ec1yu1he",
     "used": true,
     "usedDate": "2025-08-28T09:11:59.498Z"
+  },
+  {
+    "serial": "LYU-B2D-BEF-05Z-CUS-8V4-82",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "2",
+    "createdAt": "2025-08-28T09:51:00.894Z",
+    "expiresAt": "2025-09-27T09:51:00.894Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

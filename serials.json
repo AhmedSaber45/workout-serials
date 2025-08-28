@@ -1,18 +1,5 @@
 [
   {
-    "serial": "4CU-SEJ-72S-0FV-CYF-SLV-F2",
-    "programId": "11",
-    "programName": "Custom Workout - 1 Month",
-    "duration": 30,
-    "durationCode": "02",
-    "price": "2",
-    "createdAt": "2025-08-28T02:57:11.206Z",
-    "expiresAt": "2025-09-27T02:57:11.206Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "PCJ-H9M-JXP-0G2-CUS-B3T-32",
     "programId": "11",
     "programName": "Custom Workout - 1 Month",
@@ -26,58 +13,6 @@
     "usedDate": "2025-08-28T03:11:43.995Z"
   },
   {
-    "serial": "CUS-MZH-XGJ-0KV-35V-S48-E2",
-    "programId": "11",
-    "programName": "Custom Workout - 1 Month",
-    "duration": 30,
-    "durationCode": "02",
-    "price": "2",
-    "createdAt": "2025-08-28T03:26:28.309Z",
-    "expiresAt": "2025-09-27T03:26:28.309Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "CUS-PB5-Q8K-0Q7-EHE-HGF-P2",
-    "programId": "11",
-    "programName": "Custom Workout - 1 Month",
-    "duration": 30,
-    "durationCode": "02",
-    "price": "2",
-    "createdAt": "2025-08-28T03:26:43.239Z",
-    "expiresAt": "2025-09-27T03:26:43.239Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "Q72-YHY-HJC-0US-YXZ-28K-J3",
-    "programId": "11",
-    "programName": "Custom Workout - 3 Months",
-    "duration": 90,
-    "durationCode": "03",
-    "price": "4",
-    "createdAt": "2025-08-28T03:26:55.986Z",
-    "expiresAt": "2025-11-26T04:26:55.986Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "XCC-USC-3ZC-0YY-BUV-M93-X1",
-    "programId": "11",
-    "programName": "Custom Workout - 1 Week",
-    "duration": 7,
-    "durationCode": "01",
-    "price": "1",
-    "createdAt": "2025-08-28T03:27:04.998Z",
-    "expiresAt": "2025-09-04T03:27:04.998Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "7FP-99X-3SC-0US-Q5H-RZ8-D2",
     "programId": "11",
     "programName": "Custom Workout - 1 Month",
@@ -89,19 +24,6 @@
     "deviceId": "device-7ew7q1p5ncu51l6wzd6crc",
     "used": true,
     "usedDate": "2025-08-28T06:27:29.919Z"
-  },
-  {
-    "serial": "FLH-Z2X-GTW-0UA-KSF-HIA-22",
-    "programId": "5",
-    "programName": "Full Body HILV",
-    "duration": 30,
-    "durationCode": "02",
-    "price": "2",
-    "createdAt": "2025-08-28T06:49:47.334Z",
-    "expiresAt": "2025-09-27T06:49:47.334Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
   },
   {
     "serial": "K8G-92H-5LA-0CU-SDB-P5A-51",

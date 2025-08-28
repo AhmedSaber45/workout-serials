@@ -123,6 +123,30 @@
       "rightTank": null,
       "leftReps": null,
       "leftTank": null
+    },
+    {
+      "date": "2025-08-28T15:31:47.559Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "ykukuy",
+      "set": 1,
+      "notes": "Gdhdhd",
+      "weight": "6",
+      "reps": "4",
+      "tank": "5"
+    },
+    {
+      "date": "2025-08-28T15:31:47.565Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "test2",
+      "set": 1,
+      "notes": null,
+      "weight": null,
+      "rightReps": null,
+      "rightTank": null,
+      "leftReps": null,
+      "leftTank": null
     }
   ]
 }

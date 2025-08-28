@@ -50,18 +50,5 @@
     "deviceId": "device-671sbk6h0nblg8ec1yu1he",
     "used": true,
     "usedDate": "2025-08-28T00:52:25.117Z"
-  },
-  {
-    "serial": "CR7-FAC-2BB-0H4-2RQ-ONC-92",
-    "programId": "12",
-    "programName": "Online Coach - 1 Month",
-    "duration": 30,
-    "durationCode": "02",
-    "price": "2",
-    "createdAt": "2025-08-28T00:52:14.138Z",
-    "expiresAt": "2025-09-27T00:52:14.138Z",
-    "deviceId": "device-671sbk6h0nblg8ec1yu1he",
-    "used": true,
-    "usedDate": "2025-08-28T00:52:25.117Z"
   }
 ]

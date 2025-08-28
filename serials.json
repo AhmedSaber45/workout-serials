@@ -142,5 +142,18 @@
     "deviceId": "device-ul1luxwx97pu3xuolsd",
     "used": true,
     "usedDate": "2025-08-28T11:21:30.240Z"
+  },
+  {
+    "serial": "LCU-SEN-8BJ-0XQ-RMT-FBZ-F2",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "2",
+    "createdAt": "2025-08-28T13:50:27.733Z",
+    "expiresAt": "2025-09-27T13:50:27.733Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

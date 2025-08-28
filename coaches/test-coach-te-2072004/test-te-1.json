@@ -3,6 +3,29 @@
   "code": "te-1",
   "coachCode": "te-2072004",
   "createdAt": "2025-08-28T09:12:30.855Z",
-  "workouts": [],
+  "workouts": [
+    {
+      "name": "ppl",
+      "duration": 1,
+      "days": [
+        {
+          "name": "push",
+          "exercises": [
+            {
+              "name": "test1",
+              "sets": 1,
+              "singleArm": true
+            },
+            {
+              "name": "test2",
+              "sets": 1,
+              "singleArm": false
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-08-28T09:12:52.967Z"
+    }
+  ],
   "records": []
 }

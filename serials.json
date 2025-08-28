@@ -37,5 +37,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "CUS-PB5-Q8K-0Q7-EHE-HGF-P2",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "2",
+    "createdAt": "2025-08-28T03:26:43.239Z",
+    "expiresAt": "2025-09-27T03:26:43.239Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

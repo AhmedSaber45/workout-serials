@@ -155,5 +155,18 @@
     "deviceId": "device-1cu5j83olkma66uxc5wjx",
     "used": true,
     "usedDate": "2025-08-28T08:39:04.523Z"
+  },
+  {
+    "serial": "W2J-FWC-USZ-0RY-SPW-4RU-X2",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "2",
+    "createdAt": "2025-08-28T08:55:41.024Z",
+    "expiresAt": "2025-09-27T08:55:41.024Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

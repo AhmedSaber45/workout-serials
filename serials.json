@@ -13,32 +13,6 @@
     "usedDate": "2025-08-28T00:52:25.117Z"
   },
   {
-    "serial": "JW4-FHI-GX3-02C-UJX-W4K-B2",
-    "programId": "5",
-    "programName": "Full Body HILV",
-    "duration": 30,
-    "durationCode": "02",
-    "price": "2",
-    "createdAt": "2025-08-28T01:19:23.209Z",
-    "expiresAt": "2025-09-27T01:19:23.209Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "HLK-W9Q-49U-0GA-HIG-QAZ-X2",
-    "programId": "3",
-    "programName": "Arnold HILV",
-    "duration": 30,
-    "durationCode": "02",
-    "price": "2",
-    "createdAt": "2025-08-28T01:19:35.171Z",
-    "expiresAt": "2025-09-27T01:19:35.171Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "CR7-FAC-2BB-0H4-2RQ-ONC-92",
     "programId": "12",
     "programName": "Online Coach - 1 Month",
@@ -50,19 +24,6 @@
     "deviceId": "device-671sbk6h0nblg8ec1yu1he",
     "used": true,
     "usedDate": "2025-08-28T00:52:25.117Z"
-  },
-  {
-    "serial": "WKO-NC2-HFM-0KN-CBV-B9R-M2",
-    "programId": "12",
-    "programName": "Online Coach - 1 Month",
-    "duration": 30,
-    "durationCode": "02",
-    "price": "2",
-    "createdAt": "2025-08-28T01:20:21.529Z",
-    "expiresAt": "2025-09-27T01:20:21.529Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
   },
   {
     "serial": "CR7-FAC-2BB-0H4-2RQ-ONC-92",

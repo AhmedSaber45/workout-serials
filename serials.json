@@ -89,5 +89,18 @@
     "deviceId": "device-7ew7q1p5ncu51l6wzd6crc",
     "used": true,
     "usedDate": "2025-08-28T06:27:29.919Z"
+  },
+  {
+    "serial": "FLH-Z2X-GTW-0UA-KSF-HIA-22",
+    "programId": "5",
+    "programName": "Full Body HILV",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "2",
+    "createdAt": "2025-08-28T06:49:47.334Z",
+    "expiresAt": "2025-09-27T06:49:47.334Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

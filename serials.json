@@ -129,5 +129,18 @@
     "deviceId": "device-mem44z6jn4m6tpyo156l03",
     "used": true,
     "usedDate": "2025-08-28T08:32:36.329Z"
+  },
+  {
+    "serial": "AHF-CV2-8ZE-0XH-XCU-SDP-D2",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "2",
+    "createdAt": "2025-08-28T08:33:16.532Z",
+    "expiresAt": "2025-09-27T08:33:16.532Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

@@ -115,5 +115,18 @@
     "deviceId": "device-671sbk6h0nblg8ec1yu1he",
     "used": true,
     "usedDate": "2025-08-28T00:52:25.117Z"
+  },
+  {
+    "serial": "DDD-ZVN-45Y-9DA-HVX-P4S-99",
+    "programId": "8",
+    "programName": "Arnold HVLI",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "0.00",
+    "createdAt": "2025-08-28T01:22:48.941Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

@@ -72,6 +72,30 @@
       "weight": "10",
       "reps": "10",
       "tank": "10"
+    },
+    {
+      "date": "2025-08-29T09:58:24.223Z",
+      "workout": "test",
+      "day": 1,
+      "exerciseName": "test",
+      "set": 1,
+      "notes": "notes notes",
+      "weight": "13",
+      "rightReps": "12",
+      "rightTank": "12",
+      "leftReps": "12",
+      "leftTank": "12"
+    },
+    {
+      "date": "2025-08-29T09:58:24.223Z",
+      "workout": "test",
+      "day": 1,
+      "exerciseName": "test",
+      "set": 1,
+      "notes": null,
+      "weight": null,
+      "reps": null,
+      "tank": null
     }
   ]
 }

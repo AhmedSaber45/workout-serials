@@ -22,5 +22,17 @@
       "createdAt": "2025-08-29T09:51:11.166Z"
     }
   ],
-  "records": []
+  "records": [
+    {
+      "date": "2025-08-29T10:18:19.687Z",
+      "workout": "test",
+      "day": 1,
+      "exerciseName": "test",
+      "set": 1,
+      "notes": "test",
+      "weight": "5",
+      "reps": "5",
+      "tank": "5"
+    }
+  ]
 }

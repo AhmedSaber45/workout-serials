@@ -53,20 +53,20 @@
       "tank": null
     },
     {
-      "date": "2025-08-29T08:26:54.966Z",
+      "date": "2025-08-29T08:31:50.438Z",
       "workout": "ppl",
       "day": 1,
       "exerciseName": "test1",
       "set": 1,
-      "notes": "gfjytjytjt",
-      "weight": "4",
-      "rightReps": "4",
-      "rightTank": "4",
-      "leftReps": "4",
-      "leftTank": "3"
+      "notes": "test",
+      "weight": "3",
+      "rightReps": "3",
+      "rightTank": "1",
+      "leftReps": "1",
+      "leftTank": "1"
     },
     {
-      "date": "2025-08-29T08:26:54.966Z",
+      "date": "2025-08-29T08:31:50.438Z",
       "workout": "ppl",
       "day": 1,
       "exerciseName": "test2",
@@ -75,30 +75,6 @@
       "weight": null,
       "reps": null,
       "tank": null
-    },
-    {
-      "date": "2025-08-29T08:27:14.446Z",
-      "workout": "ppl",
-      "day": 1,
-      "exerciseName": "test1",
-      "set": 1,
-      "notes": null,
-      "weight": null,
-      "rightReps": null,
-      "rightTank": null,
-      "leftReps": null,
-      "leftTank": null
-    },
-    {
-      "date": "2025-08-29T08:27:14.446Z",
-      "workout": "ppl",
-      "day": 1,
-      "exerciseName": "test2",
-      "set": 1,
-      "notes": null,
-      "weight": "5",
-      "reps": "5",
-      "tank": "5"
     }
   ]
 }

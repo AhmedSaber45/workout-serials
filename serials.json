@@ -324,5 +324,18 @@
     "deviceId": "device-zxpb4bx2wwq0aog53ndfc6",
     "used": true,
     "usedDate": "2025-08-29T08:40:04.963Z"
+  },
+  {
+    "serial": "AK7-3TP-ECU-0SP-XZY-MXM-32",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "2",
+    "createdAt": "2025-08-29T08:45:07.847Z",
+    "expiresAt": "2025-09-28T08:45:07.847Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

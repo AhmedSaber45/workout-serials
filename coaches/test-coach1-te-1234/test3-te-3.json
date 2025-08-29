@@ -109,5 +109,17 @@
       "createdAt": "2025-08-29T10:20:48.103Z"
     }
   ],
-  "records": []
+  "records": [
+    {
+      "date": "2025-08-29T10:27:57.159Z",
+      "workout": "bro split",
+      "day": 1,
+      "exerciseName": "chest press",
+      "set": 1,
+      "notes": "test",
+      "weight": "5",
+      "reps": "5",
+      "tank": "5"
+    }
+  ]
 }

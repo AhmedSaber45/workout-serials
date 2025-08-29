@@ -33,6 +33,17 @@
       "weight": "5",
       "reps": "5",
       "tank": "5"
+    },
+    {
+      "date": "2025-08-29T10:18:28.991Z",
+      "workout": "test",
+      "day": 1,
+      "exerciseName": "test",
+      "set": 1,
+      "notes": "test2",
+      "weight": "10",
+      "reps": "10",
+      "tank": "10"
     }
   ]
 }

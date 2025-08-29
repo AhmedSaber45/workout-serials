@@ -376,5 +376,18 @@
     "deviceId": "device-pgmp0xy7j3lm76be3bx35",
     "used": true,
     "usedDate": "2025-08-29T09:04:00.496Z"
+  },
+  {
+    "serial": "F4W-ZCU-SCH-0K5-B2B-B6F-J2",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "2",
+    "createdAt": "2025-08-29T09:10:49.576Z",
+    "expiresAt": "2025-09-28T09:10:49.576Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

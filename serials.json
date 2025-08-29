@@ -402,5 +402,18 @@
     "deviceId": "device-nkngpmj36ni1cggecdko2o",
     "used": true,
     "usedDate": "2025-08-29T09:20:48.952Z"
+  },
+  {
+    "serial": "7LU-CUS-JJ4-0BT-3JW-APD-J2",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "2",
+    "createdAt": "2025-08-29T09:32:50.389Z",
+    "expiresAt": "2025-09-28T09:32:50.389Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

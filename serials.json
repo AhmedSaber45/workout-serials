@@ -207,5 +207,18 @@
     "deviceId": "device-6upvzjgoj-medus827",
     "used": true,
     "usedDate": "2025-08-29T01:46:55.151Z"
+  },
+  {
+    "serial": "AXC-8KU-J9P-9KF-HVP-7QY-V9",
+    "programId": "10",
+    "programName": "Full Body HVLI",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "0.00",
+    "createdAt": "2025-08-29T01:47:15.870Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

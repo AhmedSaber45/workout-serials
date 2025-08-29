@@ -75,6 +75,30 @@
       "weight": null,
       "reps": null,
       "tank": null
+    },
+    {
+      "date": "2025-08-29T08:44:49.750Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "test1",
+      "set": 1,
+      "notes": "test notes ",
+      "weight": "10",
+      "rightReps": "10",
+      "rightTank": "10",
+      "leftReps": "10",
+      "leftTank": "10"
+    },
+    {
+      "date": "2025-08-29T08:44:49.750Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "test2",
+      "set": 1,
+      "notes": null,
+      "weight": null,
+      "reps": null,
+      "tank": null
     }
   ]
 }

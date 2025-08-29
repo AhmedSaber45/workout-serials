@@ -311,5 +311,18 @@
     "deviceId": "device-uh55dd1k3tm0iraj9qpspb",
     "used": true,
     "usedDate": "2025-08-29T08:23:10.597Z"
+  },
+  {
+    "serial": "SNZ-2NC-USK-0G3-ZST-WNR-T2",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "2",
+    "createdAt": "2025-08-29T08:40:00.404Z",
+    "expiresAt": "2025-09-28T08:40:00.404Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

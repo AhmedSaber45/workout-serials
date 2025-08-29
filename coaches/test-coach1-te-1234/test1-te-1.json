@@ -109,6 +109,19 @@
       "rightTank": "25",
       "leftReps": "25",
       "leftTank": "25"
+    },
+    {
+      "date": "2025-08-29T10:15:23.423Z",
+      "workout": "test",
+      "day": 1,
+      "exerciseName": "test",
+      "set": 1,
+      "notes": null,
+      "weight": "12",
+      "rightReps": "12",
+      "rightTank": "12",
+      "leftReps": "12",
+      "leftTank": "12"
     }
   ]
 }

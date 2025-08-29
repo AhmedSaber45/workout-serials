@@ -120,6 +120,17 @@
       "weight": "5",
       "reps": "5",
       "tank": "5"
+    },
+    {
+      "date": "2025-08-29T10:28:20.687Z",
+      "workout": "bro split",
+      "day": 6,
+      "exerciseName": "squat",
+      "set": 1,
+      "notes": "notes",
+      "weight": "12",
+      "reps": "12",
+      "tank": "2"
     }
   ]
 }

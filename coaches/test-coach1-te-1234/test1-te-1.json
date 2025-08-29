@@ -96,6 +96,19 @@
       "weight": null,
       "reps": null,
       "tank": null
+    },
+    {
+      "date": "2025-08-29T10:14:03.919Z",
+      "workout": "test",
+      "day": 1,
+      "exerciseName": "test",
+      "set": 1,
+      "notes": "test last notes",
+      "weight": "25",
+      "rightReps": "25",
+      "rightTank": "25",
+      "leftReps": "25",
+      "leftTank": "25"
     }
   ]
 }

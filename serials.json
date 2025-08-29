@@ -298,5 +298,18 @@
     "deviceId": "device-671sbk6h0nblg8ec1yu1he",
     "used": true,
     "usedDate": "2025-08-29T08:12:42.117Z"
+  },
+  {
+    "serial": "CUS-JPT-CTE-0WP-SFU-6VH-72",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "2",
+    "createdAt": "2025-08-29T08:23:03.433Z",
+    "expiresAt": "2025-09-28T08:23:03.433Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

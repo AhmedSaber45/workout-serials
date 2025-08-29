@@ -37,5 +37,30 @@
       "createdAt": "2025-08-29T09:50:47.838Z"
     }
   ],
-  "records": []
+  "records": [
+    {
+      "date": "2025-08-29T09:55:43.191Z",
+      "workout": "test",
+      "day": 1,
+      "exerciseName": "test",
+      "set": 1,
+      "notes": "test",
+      "weight": "5",
+      "rightReps": "5",
+      "rightTank": "5",
+      "leftReps": "5",
+      "leftTank": "5"
+    },
+    {
+      "date": "2025-08-29T09:55:43.191Z",
+      "workout": "test",
+      "day": 1,
+      "exerciseName": "test",
+      "set": 1,
+      "notes": null,
+      "weight": null,
+      "reps": null,
+      "tank": null
+    }
+  ]
 }

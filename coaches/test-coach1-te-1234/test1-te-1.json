@@ -157,6 +157,19 @@
       "weight": null,
       "reps": null,
       "tank": null
+    },
+    {
+      "date": "2025-08-29T10:37:28.031Z",
+      "workout": "test",
+      "day": 1,
+      "exerciseName": "test",
+      "set": 1,
+      "notes": "yjyuy",
+      "weight": "15",
+      "rightReps": "15",
+      "rightTank": "15",
+      "leftReps": "15",
+      "leftTank": "15"
     }
   ]
 }

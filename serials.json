@@ -363,5 +363,18 @@
     "deviceId": "device-p14ir8opworzhnz07orpd",
     "used": true,
     "usedDate": "2025-08-29T09:00:41.466Z"
+  },
+  {
+    "serial": "GJA-TYD-X37-0J2-D4C-USU-D2",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "2",
+    "createdAt": "2025-08-29T09:03:56.532Z",
+    "expiresAt": "2025-09-28T09:03:56.532Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

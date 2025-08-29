@@ -285,5 +285,18 @@
     "deviceId": "device-quzkrwmq5",
     "used": true,
     "usedDate": "2025-08-29T08:06:45.426Z"
+  },
+  {
+    "serial": "NG7-BNF-ESM-0BV-CUS-B6S-Z2",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "2",
+    "createdAt": "2025-08-29T08:12:36.671Z",
+    "expiresAt": "2025-09-28T08:12:36.671Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

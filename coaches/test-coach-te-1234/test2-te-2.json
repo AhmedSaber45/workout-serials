@@ -3,24 +3,6 @@
   "code": "te-2",
   "coachCode": "te-1234",
   "createdAt": "2025-08-29T09:11:58.542Z",
-  "workouts": [
-    {
-      "name": "test",
-      "duration": 1,
-      "days": [
-        {
-          "name": "test",
-          "exercises": [
-            {
-              "name": "test",
-              "sets": 1,
-              "singleArm": false
-            }
-          ]
-        }
-      ],
-      "createdAt": "2025-08-29T09:13:06.878Z"
-    }
-  ],
+  "workouts": [],
   "records": []
 }

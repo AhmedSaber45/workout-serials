@@ -412,8 +412,8 @@
     "price": "2",
     "createdAt": "2025-08-29T09:32:50.389Z",
     "expiresAt": "2025-09-28T09:32:50.389Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-wyes5y79wvncuy377crp",
+    "used": true,
+    "usedDate": "2025-08-29T09:32:54.685Z"
   }
 ]

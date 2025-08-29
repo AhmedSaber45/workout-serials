@@ -122,6 +122,17 @@
       "rightTank": "12",
       "leftReps": "12",
       "leftTank": "12"
+    },
+    {
+      "date": "2025-08-29T10:16:54.031Z",
+      "workout": "test",
+      "day": 1,
+      "exerciseName": "test",
+      "set": 1,
+      "notes": null,
+      "weight": "12",
+      "reps": "12",
+      "tank": "12"
     }
   ]
 }

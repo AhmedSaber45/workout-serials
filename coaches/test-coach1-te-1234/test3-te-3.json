@@ -30,6 +30,83 @@
         }
       ],
       "createdAt": "2025-08-29T09:52:07.854Z"
+    },
+    {
+      "name": "bro split",
+      "duration": 7,
+      "days": [
+        {
+          "name": "chest",
+          "exercises": [
+            {
+              "name": "chest press",
+              "sets": 1,
+              "singleArm": false
+            }
+          ]
+        },
+        {
+          "name": "back",
+          "exercises": [
+            {
+              "name": "lat pull down",
+              "sets": 1,
+              "singleArm": false
+            }
+          ]
+        },
+        {
+          "name": "shoulder",
+          "exercises": [
+            {
+              "name": "lateral raise",
+              "sets": 1,
+              "singleArm": false
+            }
+          ]
+        },
+        {
+          "name": "bi",
+          "exercises": [
+            {
+              "name": "no cheated curl",
+              "sets": 1,
+              "singleArm": false
+            }
+          ]
+        },
+        {
+          "name": "tri",
+          "exercises": [
+            {
+              "name": "rope push down",
+              "sets": 1,
+              "singleArm": false
+            }
+          ]
+        },
+        {
+          "name": "leg",
+          "exercises": [
+            {
+              "name": "squat",
+              "sets": 1,
+              "singleArm": false
+            }
+          ]
+        },
+        {
+          "name": "chest",
+          "exercises": [
+            {
+              "name": "fly",
+              "sets": 1,
+              "singleArm": true
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-08-29T10:20:48.103Z"
     }
   ],
   "records": []

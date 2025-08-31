@@ -428,5 +428,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "UED-24H-3DZ-0CU-SJ9-V25-V2",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "2",
+    "createdAt": "2025-08-31T00:07:03.793Z",
+    "expiresAt": "2025-09-30T00:07:03.793Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

@@ -57,5 +57,30 @@
       "createdAt": "2025-08-31T07:33:26.945Z"
     }
   ],
-  "records": []
+  "records": [
+    {
+      "date": "2025-08-31T07:38:45.441Z",
+      "workout": "PPL",
+      "day": 1,
+      "exerciseName": "chest",
+      "set": 1,
+      "notes": "test",
+      "weight": "5",
+      "reps": "5",
+      "tank": "5"
+    },
+    {
+      "date": "2025-08-31T07:38:45.441Z",
+      "workout": "PPL",
+      "day": 1,
+      "exerciseName": "tri",
+      "set": 1,
+      "notes": "test",
+      "weight": "10",
+      "rightReps": "10",
+      "rightTank": "21",
+      "leftReps": "12",
+      "leftTank": "12"
+    }
+  ]
 }

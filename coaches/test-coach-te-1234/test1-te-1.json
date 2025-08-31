@@ -3,6 +3,59 @@
   "code": "te-1",
   "coachCode": "te-1234",
   "createdAt": "2025-08-31T07:32:04.544Z",
-  "workouts": [],
+  "workouts": [
+    {
+      "name": "PPL",
+      "duration": 3,
+      "days": [
+        {
+          "name": "push",
+          "exercises": [
+            {
+              "name": "chest",
+              "sets": 1,
+              "singleArm": false
+            },
+            {
+              "name": "tri",
+              "sets": 1,
+              "singleArm": true
+            }
+          ]
+        },
+        {
+          "name": "pull",
+          "exercises": [
+            {
+              "name": "back",
+              "sets": 1,
+              "singleArm": false
+            },
+            {
+              "name": "bi",
+              "sets": 1,
+              "singleArm": true
+            }
+          ]
+        },
+        {
+          "name": "leg",
+          "exercises": [
+            {
+              "name": "leg extension",
+              "sets": 1,
+              "singleArm": true
+            },
+            {
+              "name": "calves",
+              "sets": 1,
+              "singleArm": false
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-08-31T07:33:26.945Z"
+    }
+  ],
   "records": []
 }

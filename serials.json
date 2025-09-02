@@ -454,5 +454,18 @@
     "deviceId": "device-t7yuax0wi",
     "used": true,
     "usedDate": "2025-08-31T07:13:49.709Z"
+  },
+  {
+    "serial": "ACU-SMH-3L7-9V2-URN-SMA-79",
+    "programId": "11",
+    "programName": "Custom Workout - Permanent",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "15",
+    "createdAt": "2025-09-02T19:22:01.722Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

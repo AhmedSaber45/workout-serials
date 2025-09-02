@@ -675,5 +675,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "KCU-SSP-CFL-0L6-SWU-ME6-32",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "2",
+    "createdAt": "2025-09-02T21:46:07.294Z",
+    "expiresAt": "2025-10-02T21:46:07.294Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

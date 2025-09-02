@@ -490,9 +490,9 @@
     "price": "15",
     "createdAt": "2025-09-02T20:10:10.494Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-i19plqz9q-meotlxvu",
+    "used": true,
+    "usedDate": "2025-09-02T20:10:45.795Z"
   },
   {
     "serial": "2WE-NFH-IRS-9TB-MCR-EL5-B9",

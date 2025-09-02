@@ -597,5 +597,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "LAU-HV6-BHG-9QE-QGY-PYY-B9",
+    "programId": "9",
+    "programName": "Upper Lower HVLI",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "15",
+    "createdAt": "2025-09-02T20:24:31.771Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

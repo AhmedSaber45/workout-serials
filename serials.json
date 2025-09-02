@@ -607,8 +607,8 @@
     "price": "15",
     "createdAt": "2025-09-02T20:24:31.771Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-07tekmnkz-mf2zn70u",
+    "used": true,
+    "usedDate": "2025-09-02T20:24:49.802Z"
   }
 ]

@@ -3,6 +3,39 @@
   "code": "te-1",
   "coachCode": "te-1234",
   "createdAt": "2025-09-03T16:32:48.328Z",
-  "workouts": [],
+  "workouts": [
+    {
+      "name": "upper lower",
+      "duration": 2,
+      "days": [
+        {
+          "name": "upper",
+          "exercises": [
+            {
+              "name": "chest",
+              "sets": 1,
+              "singleArm": true
+            },
+            {
+              "name": "back",
+              "sets": 1,
+              "singleArm": false
+            }
+          ]
+        },
+        {
+          "name": "lower",
+          "exercises": [
+            {
+              "name": "leg extension",
+              "sets": 1,
+              "singleArm": false
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-09-03T16:34:15.304Z"
+    }
+  ],
   "records": []
 }

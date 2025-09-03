@@ -37,5 +37,30 @@
       "createdAt": "2025-09-03T16:34:15.304Z"
     }
   ],
-  "records": []
+  "records": [
+    {
+      "date": "2025-09-03T16:47:53.208Z",
+      "workout": "upper lower",
+      "day": 1,
+      "exerciseName": "chest",
+      "set": 1,
+      "notes": "test",
+      "weight": "25",
+      "rightReps": "8",
+      "rightTank": "0",
+      "leftReps": "8",
+      "leftTank": "0"
+    },
+    {
+      "date": "2025-09-03T16:47:53.208Z",
+      "workout": "upper lower",
+      "day": 1,
+      "exerciseName": "back",
+      "set": 1,
+      "notes": null,
+      "weight": "55",
+      "reps": "8",
+      "tank": "0"
+    }
+  ]
 }

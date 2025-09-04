@@ -805,5 +805,18 @@
     "deviceId": null,
     "used": true,
     "usedDate": "2025-09-03T17:23:32.834Z"
+  },
+  {
+    "serial": "PGR-NH8-V8A-0DK-753-CUS-T2",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "2",
+    "createdAt": "2025-09-04T20:55:14.248Z",
+    "expiresAt": "2025-10-04T20:55:14.248Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

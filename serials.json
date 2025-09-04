@@ -857,5 +857,18 @@
     "deviceId": "device-u5qiy50x45s7soe1l4l8b",
     "used": true,
     "usedDate": "2025-09-04T23:44:22.138Z"
+  },
+  {
+    "serial": "CUS-DYU-V29-9FF-FP8-7DD-69",
+    "programId": "11",
+    "programName": "Custom Workout - Permanent",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "15",
+    "createdAt": "2025-09-04T23:04:28.480Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

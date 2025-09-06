@@ -870,5 +870,18 @@
     "deviceId": null,
     "used": true,
     "usedDate": "2025-09-04T23:04:40.356Z"
+  },
+  {
+    "serial": "BCU-S3M-CP3-0CS-5L9-WEL-R1",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Week",
+    "duration": 7,
+    "durationCode": "01",
+    "price": "1",
+    "createdAt": "2025-09-06T19:21:37.072Z",
+    "expiresAt": "2025-09-13T19:21:37.072Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

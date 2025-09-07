@@ -935,5 +935,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "ELD-CA8-EBH-9IB-DHV-EE9-49",
+    "programId": "2",
+    "programName": "Bro Split HILV",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "0.00",
+    "createdAt": "2025-09-07T14:03:10.888Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

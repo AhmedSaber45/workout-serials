@@ -893,8 +893,8 @@
     "price": "0.00",
     "createdAt": "2025-09-07T14:02:07.531Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-nga92tc30-mf9pdtku",
+    "used": true,
+    "usedDate": "2025-09-07T13:02:55.998Z"
   }
 ]

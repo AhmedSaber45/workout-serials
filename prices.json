@@ -21,7 +21,8 @@
     "onc_3month": 4,
     "onc_6month": 6,
     "onc_1year": 10,
-    "onc_permanent": 15
+    "onc_permanent": 15,
+    "currency": "$"
   },
   "original": {
     "hilv_ppl": 10,
@@ -45,7 +46,8 @@
     "onc_3month": 4,
     "onc_6month": 6,
     "onc_1year": 10,
-    "onc_permanent": 15
+    "onc_permanent": 15,
+    "currency": "$"
   },
   "expiration": null
 }

@@ -1039,5 +1039,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "CUS-PRK-SGB-9RV-8J2-HHJ-79",
+    "programId": "11",
+    "programName": "Custom Workout - Permanent",
+    "duration": 0,
+    "durationCode": "99",
+    "price": 15,
+    "createdAt": "2025-09-10T03:01:59.655Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

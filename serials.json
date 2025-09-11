@@ -105,32 +105,6 @@
     "usedDate": "2025-08-28T09:11:59.498Z"
   },
   {
-    "serial": "LYU-B2D-BEF-05Z-CUS-8V4-82",
-    "programId": "11",
-    "programName": "Custom Workout - 1 Month",
-    "duration": 30,
-    "durationCode": "02",
-    "price": "2",
-    "createdAt": "2025-08-28T09:51:00.894Z",
-    "expiresAt": "2025-09-27T09:51:00.894Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "2SU-4MR-ZCC-0US-WL2-KR5-52",
-    "programId": "11",
-    "programName": "Custom Workout - 1 Month",
-    "duration": 30,
-    "durationCode": "02",
-    "price": "2",
-    "createdAt": "2025-08-28T11:21:03.499Z",
-    "expiresAt": "2025-09-27T11:21:03.499Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "2EL-YRC-3WD-0JC-USB-TSH-X2",
     "programId": "11",
     "programName": "Custom Workout - 1 Month",
@@ -246,19 +220,6 @@
     "deviceId": null,
     "used": true,
     "usedDate": "2025-08-29T01:52:36.672Z"
-  },
-  {
-    "serial": "9W2-P35-YZS-9Z3-CUS-KFW-Y9",
-    "programId": "11",
-    "programName": "Custom Workout - Permanent",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "15",
-    "createdAt": "2025-08-29T04:00:27.734Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
   },
   {
     "serial": "PB9-AML-FBA-92P-HI6-RRF-99",
@@ -417,19 +378,6 @@
     "usedDate": "2025-08-29T09:32:54.685Z"
   },
   {
-    "serial": "QY3-794-CUS-0J5-A3F-V4D-55",
-    "programId": "11",
-    "programName": "Custom Workout - 1 Year",
-    "duration": 365,
-    "durationCode": "05",
-    "price": "10",
-    "createdAt": "2025-08-30T03:37:55.986Z",
-    "expiresAt": "2026-08-30T03:37:55.986Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "UED-24H-3DZ-0CU-SJ9-V25-V2",
     "programId": "11",
     "programName": "Custom Workout - 1 Month",
@@ -495,45 +443,6 @@
     "usedDate": "2025-09-02T20:10:45.795Z"
   },
   {
-    "serial": "2WE-NFH-IRS-9TB-MCR-EL5-B9",
-    "programId": "5",
-    "programName": "Full Body HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "15",
-    "createdAt": "2025-09-02T20:10:22.481Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "93A-BD3-XC5-9SU-4FH-ILN-79",
-    "programId": "5",
-    "programName": "Full Body HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "15",
-    "createdAt": "2025-09-02T20:11:15.738Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "NVQ-4H8-YFH-9IU-PT4-SNT-P9",
-    "programId": "5",
-    "programName": "Full Body HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "15",
-    "createdAt": "2025-09-02T20:12:05.017Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "QJX-QFH-IXV-9TA-YZE-REQ-S9",
     "programId": "5",
     "programName": "Full Body HILV",
@@ -586,19 +495,6 @@
     "usedDate": "2025-09-02T20:23:27.655Z"
   },
   {
-    "serial": "Z8T-6VQ-934-9B6-SUH-VJH-R9",
-    "programId": "9",
-    "programName": "Upper Lower HVLI",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "15",
-    "createdAt": "2025-09-02T20:24:02.881Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "LAU-HV6-BHG-9QE-QGY-PYY-B9",
     "programId": "9",
     "programName": "Upper Lower HVLI",
@@ -610,19 +506,6 @@
     "deviceId": "device-07tekmnkz-mf2zn70u",
     "used": true,
     "usedDate": "2025-09-02T20:24:49.802Z"
-  },
-  {
-    "serial": "SV5-D7W-WZ9-9EJ-B9F-HV4-99",
-    "programId": "10",
-    "programName": "Full Body HVLI",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "15",
-    "createdAt": "2025-09-02T20:25:26.997Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
   },
   {
     "serial": "9RS-2FH-VDA-9BQ-RRJ-TNR-T9",
@@ -638,45 +521,6 @@
     "usedDate": "2025-09-02T20:25:58.077Z"
   },
   {
-    "serial": "64M-KV7-QX8-097-3CU-S43-A2",
-    "programId": "11",
-    "programName": "Custom Workout - 1 Month",
-    "duration": 30,
-    "durationCode": "02",
-    "price": "2",
-    "createdAt": "2025-09-02T21:45:38.960Z",
-    "expiresAt": "2025-10-02T21:45:38.960Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "LLG-CUN-LW2-0TU-CUS-4EU-J2",
-    "programId": "11",
-    "programName": "Custom Workout - 1 Month",
-    "duration": 30,
-    "durationCode": "02",
-    "price": "2",
-    "createdAt": "2025-09-02T21:45:43.585Z",
-    "expiresAt": "2025-10-02T21:45:43.585Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "SN3-F2B-WV3-0CU-SCF-UJE-H2",
-    "programId": "11",
-    "programName": "Custom Workout - 1 Month",
-    "duration": 30,
-    "durationCode": "02",
-    "price": "2",
-    "createdAt": "2025-09-02T21:46:03.464Z",
-    "expiresAt": "2025-10-02T21:46:03.464Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "KCU-SSP-CFL-0L6-SWU-ME6-32",
     "programId": "11",
     "programName": "Custom Workout - 1 Month",
@@ -688,19 +532,6 @@
     "deviceId": null,
     "used": true,
     "usedDate": "2025-09-02T21:48:24.923Z"
-  },
-  {
-    "serial": "APU-DK6-MCU-9SS-LJN-SGA-T9",
-    "programId": "11",
-    "programName": "Custom Workout - Permanent",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "15",
-    "createdAt": "2025-09-03T13:24:46.401Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
   },
   {
     "serial": "JJB-TCU-SMA-9Q4-SNH-C92-X9",
@@ -729,32 +560,6 @@
     "usedDate": "2025-09-03T15:08:10.128Z"
   },
   {
-    "serial": "SRO-NCB-BC7-98J-S67-3RV-B9",
-    "programId": "12",
-    "programName": "Online Coaches - Permanent",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "15",
-    "createdAt": "2025-09-03T16:08:58.517Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "YUW-UFB-2GD-0MK-5QO-NCU-52",
-    "programId": "12",
-    "programName": "Online Coaches - 1 Month",
-    "duration": 30,
-    "durationCode": "02",
-    "price": "2",
-    "createdAt": "2025-09-03T16:13:36.356Z",
-    "expiresAt": "2025-10-03T16:13:36.356Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "ZPK-SNZ-8HC-02M-GFO-NCZ-22",
     "programId": "12",
     "programName": "Online Coaches - 1 Month",
@@ -781,19 +586,6 @@
     "usedDate": "2025-09-03T17:03:58.525Z"
   },
   {
-    "serial": "ES4-4B9-26P-0LU-4A3-CUS-W3",
-    "programId": "11",
-    "programName": "Custom Workout - 3 Months",
-    "duration": 90,
-    "durationCode": "03",
-    "price": "4",
-    "createdAt": "2025-09-03T17:04:21.660Z",
-    "expiresAt": "2025-12-02T18:04:21.660Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "TX5-MQT-X99-0WJ-2DC-USM-63",
     "programId": "11",
     "programName": "Custom Workout - 3 Months",
@@ -818,19 +610,6 @@
     "deviceId": null,
     "used": true,
     "usedDate": "2025-09-04T20:55:19.854Z"
-  },
-  {
-    "serial": "N2N-VON-CSM-0ZV-4K5-79C-Z2",
-    "programId": "12",
-    "programName": "Online Coaches - 1 Month",
-    "duration": 30,
-    "durationCode": "02",
-    "price": "2",
-    "createdAt": "2025-09-04T20:55:37.333Z",
-    "expiresAt": "2025-10-04T20:55:37.333Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
   },
   {
     "serial": "6AX-SXX-FGH-0KK-Z3C-USC-R2",
@@ -898,45 +677,6 @@
     "usedDate": "2025-09-07T13:02:55.998Z"
   },
   {
-    "serial": "CNM-YBH-IVD-9WY-J3Q-N4W-P9",
-    "programId": "2",
-    "programName": "Bro Split HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-09-07T14:02:22.472Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "3VN-BHI-TYY-9D5-T94-YRH-79",
-    "programId": "2",
-    "programName": "Bro Split HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-09-07T14:02:40.301Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "HNS-QAT-42U-98J-QBH-IY3-79",
-    "programId": "2",
-    "programName": "Bro Split HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-09-07T14:02:54.849Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "ELD-CA8-EBH-9IB-DHV-EE9-49",
     "programId": "2",
     "programName": "Bro Split HILV",
@@ -948,110 +688,6 @@
     "deviceId": "device-nga92tc30-mf9pdtku",
     "used": true,
     "usedDate": "2025-09-07T13:04:01.968Z"
-  },
-  {
-    "serial": "8EG-32Q-GPH-9IT-MZ8-MAT-W9",
-    "programId": "1",
-    "programName": "Push Pull Leg HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-09-10T01:18:38.003Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "AEB-E55-HUP-9HI-CW4-3MR-E9",
-    "programId": "1",
-    "programName": "Push Pull Leg HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": 10,
-    "createdAt": "2025-09-10T01:44:02.182Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "7JL-HPA-HVL-9N7-GUD-686-L9",
-    "programId": "8",
-    "programName": "Arnold HVLI",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-09-10T02:19:59.125Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "KPH-IKK-TD9-99J-49J-QMK-B9",
-    "programId": "1",
-    "programName": "Push Pull Leg HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": 10,
-    "createdAt": "2025-09-10T02:33:02.290Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "APK-7BF-HIL-9Y5-7GV-99K-E9",
-    "programId": "5",
-    "programName": "Full Body HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-09-10T03:00:13.966Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "R3A-PHV-FZN-9K9-J8U-3KD-69",
-    "programId": "6",
-    "programName": "Push Pull Leg HVLI",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-09-10T03:00:51.093Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "FUA-HVW-KQU-9VL-UJA-8A5-B9",
-    "programId": "8",
-    "programName": "Arnold HVLI",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-09-10T03:01:29.654Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
-    "serial": "CUS-PRK-SGB-9RV-8J2-HHJ-79",
-    "programId": "11",
-    "programName": "Custom Workout - Permanent",
-    "duration": 0,
-    "durationCode": "99",
-    "price": 15,
-    "createdAt": "2025-09-10T03:01:59.655Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
   },
   {
     "serial": "BHI-P88-CPL-97U-4WD-UQ4-F9",

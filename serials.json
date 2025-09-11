@@ -751,5 +751,18 @@
     "deviceId": "device-d9k8jh1b2-mfftny9t",
     "used": true,
     "usedDate": "2025-09-11T19:49:57.160Z"
+  },
+  {
+    "serial": "UHV-AZA-M79-9MU-GLU-UBG-H9",
+    "programId": "9",
+    "programName": "Upper Lower HVLI",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "0.00",
+    "createdAt": "2025-09-11T19:50:05.680Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

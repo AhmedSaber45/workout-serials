@@ -1074,8 +1074,8 @@
     "durationCode": "99",
     "createdAt": "2025-09-11T19:11:49.725Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-wmnyu76q2-mffs2rz0",
+    "used": true,
+    "usedDate": "2025-09-11T19:12:13.980Z"
   }
 ]

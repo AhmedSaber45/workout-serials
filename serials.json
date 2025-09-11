@@ -713,5 +713,17 @@
     "deviceId": "device-wmnyu76q2-mffs2rz0",
     "used": true,
     "usedDate": "2025-09-11T19:12:13.980Z"
+  },
+  {
+    "serial": "DZ4-CUS-AFK-08M-CXE-ZLH-R2",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "createdAt": "2025-09-11T19:21:13.860Z",
+    "expiresAt": "2025-10-11T19:21:13.860Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

@@ -1,7 +1,7 @@
 {
   "prices": {
-    "original_hilv_ppl": 10,
-    "discount_hilv_ppl": 20,
+    "original_hilv_ppl": 100,
+    "discount_hilv_ppl": 200,
     "original_hilv_bro_split": 10,
     "discount_hilv_bro_split": 20,
     "original_hilv_arnold": 10,

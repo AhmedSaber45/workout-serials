@@ -764,5 +764,18 @@
     "deviceId": "device-d9k8jh1b2-mfftny9t",
     "used": true,
     "usedDate": "2025-09-11T19:50:51.432Z"
+  },
+  {
+    "serial": "G9K-K59-BHV-9Z6-ZNN-YNW-Z9",
+    "programId": "7",
+    "programName": "Bro Split HVLI",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "0.00",
+    "createdAt": "2025-09-11T20:17:24.789Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

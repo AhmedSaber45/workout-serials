@@ -1062,8 +1062,8 @@
     "price": "0.00",
     "createdAt": "2025-09-11T19:04:40.035Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-wmnyu76q2-mffs2rz0",
+    "used": true,
+    "usedDate": "2025-09-11T19:04:56.604Z"
   }
 ]

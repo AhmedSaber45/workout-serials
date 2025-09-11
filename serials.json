@@ -738,5 +738,18 @@
     "deviceId": "device-d9k8jh1b2-mfftny9t",
     "used": true,
     "usedDate": "2025-09-11T19:49:24.160Z"
+  },
+  {
+    "serial": "KJA-9C3-S45-9AH-VMP-W5H-J9",
+    "programId": "8",
+    "programName": "Arnold HVLI",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "0.00",
+    "createdAt": "2025-09-11T19:49:31.839Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

@@ -1,7 +1,23 @@
 {
   "prices": {
+    "hilv_ppl": 15,
+    "hilv_bro_split": 30,
     "hilv_arnold": 15,
     "hilv_upper_lower": 30,
+    "hilv_full_body": 10,
+    "hvli_ppl": 30,
+    "hvli_bro_split": 10,
+    "hvli_arnold": 30,
+    "hvli_upper_lower": 10,
+    "hvli_full_body": 30,
+    "custom_1week": 10,
+    "custom_1month": 30,
+    "custom_3month": 10,
+    "custom_6month": 30,
+    "custom_1year": 10,
+    "custom_permanent": 30,
+    "onc_1week": 10,
+    "onc_1month": 30,
     "currency": "L.E"
   },
   "original": {

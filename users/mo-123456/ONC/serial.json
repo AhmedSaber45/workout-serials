@@ -1,10 +1,10 @@
 {
-  "mode": "client",
+  "mode": "coach",
   "client": {
     "coachName": "test coach te",
     "code": "te-1"
   },
-  "lastUpdated": "2025-09-14T20:25:00.427Z",
+  "lastUpdated": "2025-09-14T20:25:03.723Z",
   "coach": {
     "serial": "UUQ-EYM-ALC-0RT-TTO-NC5-H2",
     "name": "test coach",

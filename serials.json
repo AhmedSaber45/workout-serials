@@ -918,5 +918,18 @@
     "deviceId": "device-7uyllbm8n-mfl8pns3",
     "used": true,
     "usedDate": "2025-09-15T15:19:21.054Z"
+  },
+  {
+    "serial": "BHV-E29-DJJ-92E-JD4-S2T-X9",
+    "programId": "7",
+    "programName": "Bro Split HVLI",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "0.00",
+    "createdAt": "2025-09-15T15:19:36.100Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

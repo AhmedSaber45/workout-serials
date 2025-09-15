@@ -980,9 +980,9 @@
     "price": "0.00",
     "createdAt": "2025-09-15T21:53:08.655Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-7uyllbm8n-mfl8pns3",
+    "used": true,
+    "usedDate": "2025-09-15T21:54:05.300Z"
   },
   {
     "serial": "UHV-V6L-ZB9-966-E27-8GP-W9",

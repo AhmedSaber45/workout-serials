@@ -931,5 +931,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "3W6-J4B-HV5-9EE-WFX-YQ4-99",
+    "programId": "7",
+    "programName": "Bro Split HVLI",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "0.00",
+    "createdAt": "2025-09-15T15:20:32.089Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

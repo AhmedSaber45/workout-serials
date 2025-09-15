@@ -1005,8 +1005,8 @@
     "durationCode": "99",
     "createdAt": "2025-09-15T21:54:31.157Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-7uyllbm8n-mfl8pns3",
+    "used": true,
+    "usedDate": "2025-09-15T21:55:05.371Z"
   }
 ]

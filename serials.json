@@ -915,8 +915,8 @@
     "price": "0.00",
     "createdAt": "2025-09-15T15:18:34.930Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-7uyllbm8n-mfl8pns3",
+    "used": true,
+    "usedDate": "2025-09-15T15:19:21.054Z"
   }
 ]

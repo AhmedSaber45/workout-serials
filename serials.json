@@ -944,5 +944,18 @@
     "deviceId": "device-7uyllbm8n-mfl8pns3",
     "used": true,
     "usedDate": "2025-09-15T15:21:00.860Z"
+  },
+  {
+    "serial": "QE7-Q5H-CUS-02W-Y2E-5JH-Y2",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": 4,
+    "createdAt": "2025-09-15T16:49:18.647Z",
+    "expiresAt": "2025-10-15T16:49:18.647Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

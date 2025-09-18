@@ -1021,5 +1021,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "S42-QCD-ZY8-9TS-LNB-AHV-59",
+    "programId": "8",
+    "programName": "Arnold HVLI",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "30",
+    "createdAt": "2025-09-18T03:04:43.310Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

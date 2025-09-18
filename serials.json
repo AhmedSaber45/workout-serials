@@ -1044,8 +1044,8 @@
     "price": 25,
     "createdAt": "2025-09-18T03:20:24.759Z",
     "expiresAt": "2025-09-25T03:20:24.759Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-rjmbjn672gn203mhal41ug",
+    "used": true,
+    "usedDate": "2025-09-18T03:20:49.341Z"
   }
 ]

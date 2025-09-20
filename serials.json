@@ -1112,5 +1112,18 @@
     "deviceId": "device-ju1uh7ise-mfs9pv79",
     "used": true,
     "usedDate": "2025-09-20T12:52:01.461Z"
+  },
+  {
+    "serial": "J3Q-8ED-XYE-9FF-FFA-BHV-A9",
+    "programId": "7",
+    "programName": "Bro Split HVLI",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "0.00",
+    "createdAt": "2025-09-20T16:57:55.407Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

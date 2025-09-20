@@ -1122,8 +1122,8 @@
     "price": "0.00",
     "createdAt": "2025-09-20T16:57:55.407Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-n60gpi0lj-mfsiixfx",
+    "used": true,
+    "usedDate": "2025-09-20T16:58:34.317Z"
   }
 ]

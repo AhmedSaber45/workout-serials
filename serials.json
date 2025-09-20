@@ -1148,8 +1148,8 @@
     "price": 20,
     "createdAt": "2025-09-20T17:26:04.330Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-esvin763s-mfsjjh00",
+    "used": true,
+    "usedDate": "2025-09-20T17:26:59.280Z"
   }
 ]

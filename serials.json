@@ -1135,8 +1135,8 @@
     "price": "0.00",
     "createdAt": "2025-09-20T17:09:41.916Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-svmwa5a8d-mfsixtnd",
+    "used": true,
+    "usedDate": "2025-09-20T17:10:09.241Z"
   }
 ]

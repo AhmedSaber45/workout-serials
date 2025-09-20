@@ -1138,5 +1138,18 @@
     "deviceId": "device-svmwa5a8d-mfsixtnd",
     "used": true,
     "usedDate": "2025-09-20T17:10:09.241Z"
+  },
+  {
+    "serial": "9HU-Q45-FHV-9WM-4U3-9H2-H9",
+    "programId": "10",
+    "programName": "Full Body HVLI",
+    "duration": 0,
+    "durationCode": "99",
+    "price": 20,
+    "createdAt": "2025-09-20T17:26:04.330Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

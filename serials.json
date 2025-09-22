@@ -1151,5 +1151,18 @@
     "deviceId": "device-esvin763s-mfsjjh00",
     "used": true,
     "usedDate": "2025-09-20T17:26:59.280Z"
+  },
+  {
+    "serial": "JDG-KUG-JCU-0SV-TZM-NMN-21",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Week",
+    "duration": 7,
+    "durationCode": "01",
+    "price": 2,
+    "createdAt": "2025-09-22T20:33:57.481Z",
+    "expiresAt": "2025-09-29T20:33:57.481Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

@@ -1161,8 +1161,9 @@
     "price": 2,
     "createdAt": "2025-09-22T20:33:57.481Z",
     "expiresAt": "2025-09-29T20:33:57.481Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-ad55ixclq",
+    "used": true,
+    "usedDate": "2025-09-22T20:34:31.112Z",
+    "activationDate": "2025-09-22T20:34:31.138Z"
   }
 ]

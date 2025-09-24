@@ -1178,5 +1178,18 @@
     "deviceId": "device-5f9bofbpg-mfyesplm",
     "used": true,
     "usedDate": "2025-09-24T20:00:49.294Z"
+  },
+  {
+    "serial": "4AP-DBT-NHQ-07C-US6-GZ6-Y1",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Week",
+    "duration": 7,
+    "durationCode": "01",
+    "price": 2,
+    "createdAt": "2025-09-24T23:16:53.888Z",
+    "expiresAt": "2025-10-01T23:16:53.888Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

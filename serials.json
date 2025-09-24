@@ -1165,5 +1165,18 @@
     "used": true,
     "usedDate": "2025-09-22T20:34:31.112Z",
     "activationDate": "2025-09-22T20:34:31.138Z"
+  },
+  {
+    "serial": "GWD-GLE-X3S-9D8-DPH-IQU-Z9",
+    "programId": "1",
+    "programName": "Push Pull Leg HILV",
+    "duration": 0,
+    "durationCode": "99",
+    "price": 20,
+    "createdAt": "2025-09-24T20:00:03.651Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

@@ -1205,5 +1205,18 @@
     "used": true,
     "usedDate": "2025-09-25T11:41:46.858Z",
     "activationDate": "2025-09-25T11:41:46.858Z"
+  },
+  {
+    "serial": "CUS-EK9-GT5-07N-7SE-Z27-D2",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": 4,
+    "createdAt": "2025-09-25T11:54:28.612Z",
+    "expiresAt": "2025-10-25T11:54:28.612Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

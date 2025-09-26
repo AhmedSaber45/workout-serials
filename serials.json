@@ -1284,5 +1284,18 @@
     "deviceId": "device-rh0cs495rzr7gdoswenhp",
     "used": true,
     "usedDate": "2025-09-25T19:19:04.748Z"
+  },
+  {
+    "serial": "H4R-WZ5-D3H-9PN-6EF-CUS-A9",
+    "programId": "11",
+    "programName": "Custom Workout - Permanent",
+    "duration": 0,
+    "durationCode": "99",
+    "price": 30,
+    "createdAt": "2025-09-26T00:06:53.435Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

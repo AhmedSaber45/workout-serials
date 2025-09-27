@@ -1400,8 +1400,8 @@
     "price": 25,
     "createdAt": "2025-09-27T19:32:43.307Z",
     "expiresAt": "2025-10-27T19:32:43.307Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-glp307oufsu3vzjjamybqf",
+    "used": true,
+    "usedDate": "2025-09-27T19:33:20.729Z"
   }
 ]

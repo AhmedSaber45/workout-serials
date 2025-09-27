@@ -1480,8 +1480,8 @@
     "price": "0.00",
     "createdAt": "2025-09-27T20:03:18.449Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-ynhpm93g3-mg2p91yn",
+    "used": true,
+    "usedDate": "2025-09-27T20:04:32.686Z"
   }
 ]

@@ -1320,8 +1320,9 @@
     "price": 20,
     "createdAt": "2025-09-27T07:23:45.912Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-ilgsxsk9j-mg1y36pp",
+    "used": true,
+    "usedDate": "2025-09-27T07:24:09.277Z",
+    "username": "test3"
   }
 ]

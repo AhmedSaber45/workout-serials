@@ -1387,8 +1387,8 @@
     "price": 20,
     "createdAt": "2025-09-27T08:30:22.210Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-09unnxvep-mg20gujv",
+    "used": true,
+    "usedDate": "2025-09-27T08:30:45.931Z"
   }
 ]

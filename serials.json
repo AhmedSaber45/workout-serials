@@ -1377,5 +1377,18 @@
     "used": true,
     "usedDate": "2025-09-27T08:17:19.554Z",
     "username": "test3"
+  },
+  {
+    "serial": "DUX-7GS-P9P-9HI-EJD-VDK-Y9",
+    "programId": "1",
+    "programName": "Push Pull Leg HILV",
+    "duration": 0,
+    "durationCode": "99",
+    "price": 20,
+    "createdAt": "2025-09-27T08:30:22.210Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

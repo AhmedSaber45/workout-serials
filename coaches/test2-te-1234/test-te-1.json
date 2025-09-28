@@ -3,6 +3,53 @@
   "code": "te-1",
   "coachCode": "te-1234",
   "createdAt": "2025-09-28T22:39:33.770Z",
-  "workouts": [],
+  "workouts": [
+    {
+      "name": "bro split",
+      "duration": 3,
+      "days": [
+        {
+          "name": "leg",
+          "exercises": [
+            {
+              "name": "leg extension",
+              "sets": 1,
+              "singleArm": true,
+              "image": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test2-te-1234/images/leg-extension-1759099223818.PNG"
+            },
+            {
+              "name": "calves",
+              "sets": 1,
+              "singleArm": false,
+              "image": null
+            }
+          ]
+        },
+        {
+          "name": "lower",
+          "exercises": [
+            {
+              "name": "hack squat",
+              "sets": 1,
+              "singleArm": false,
+              "image": null
+            }
+          ]
+        },
+        {
+          "name": "upper",
+          "exercises": [
+            {
+              "name": "chest",
+              "sets": 1,
+              "singleArm": false,
+              "image": null
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-09-28T22:40:39.474Z"
+    }
+  ],
   "records": []
 }

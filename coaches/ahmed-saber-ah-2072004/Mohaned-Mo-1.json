@@ -3,6 +3,25 @@
   "code": "Mo-1",
   "coachCode": "ah-2072004",
   "createdAt": "2025-09-29T04:58:21.042Z",
-  "workouts": [],
+  "workouts": [
+    {
+      "name": "Bro",
+      "duration": 1,
+      "days": [
+        {
+          "name": "Chest",
+          "exercises": [
+            {
+              "name": "Bench",
+              "sets": 1,
+              "singleArm": false,
+              "image": null
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-09-29T04:59:12.608Z"
+    }
+  ],
   "records": []
 }

@@ -3,7 +3,27 @@
   "code": "te-123456",
   "coachCode": "te-123456",
   "createdAt": "2025-09-29T05:47:55.982Z",
-  "workouts": [],
+  "workouts": [
+    {
+      "name": "bro",
+      "duration": 1,
+      "days": [
+        {
+          "name": "chest",
+          "exercises": [
+            {
+              "name": "bench",
+              "sets": 1,
+              "singleArm": false,
+              "image": "",
+              "video": null
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-09-29T05:48:23.038Z"
+    }
+  ],
   "diets": [],
   "records": []
 }

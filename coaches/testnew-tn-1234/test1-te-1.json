@@ -7,52 +7,44 @@
   "height": 185,
   "coachCode": "tn-1234",
   "createdAt": "2025-09-30T12:33:13.760Z",
-  "workouts": [
+  "workouts": [],
+  "diets": [
     {
-      "name": "PPL",
-      "duration": 3,
-      "days": [
+      "clientCode": "te-1",
+      "totalCalories": 3000,
+      "totalProtein": 150,
+      "totalCarbs": 300,
+      "totalFats": 90,
+      "numMeals": 3,
+      "meals": [
         {
-          "name": "push",
-          "exercises": [
-            {
-              "name": "chest",
-              "sets": 1,
-              "singleArm": false,
-              "image": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/testnew-tn-1234/media/chest-1759235662543.PNG",
-              "video": null
-            }
-          ]
+          "name": "break fast",
+          "time": "05:30",
+          "calories": 500,
+          "protein": 25,
+          "carbs": 60,
+          "fats": 10
         },
         {
-          "name": "pull",
-          "exercises": [
-            {
-              "name": "back",
-              "sets": 1,
-              "singleArm": false,
-              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTrSctcDAPNa9yLDNL9LFOlWMkZymzMx2Wsw&s",
-              "video": null
-            }
-          ]
+          "name": "launch",
+          "time": "15:30",
+          "calories": 1000,
+          "protein": 50,
+          "carbs": 70,
+          "fats": 30
         },
         {
-          "name": "leg",
-          "exercises": [
-            {
-              "name": "leg extension",
-              "sets": 1,
-              "singleArm": true,
-              "image": "",
-              "video": null
-            }
-          ]
+          "name": "dinner",
+          "time": "17:36",
+          "calories": 500,
+          "protein": 15,
+          "carbs": 20,
+          "fats": 5
         }
       ],
-      "createdAt": "2025-09-30T12:35:02.336Z"
+      "createdAt": "2025-09-30T12:35:43.648Z"
     }
   ],
-  "diets": [],
   "records": [],
   "dietRecords": []
 }

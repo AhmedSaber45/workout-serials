@@ -90,5 +90,21 @@
     }
   ],
   "records": [],
-  "dietRecords": []
+  "dietRecords": [
+    {
+      "date": "2025-09-30T13:11:26.313Z",
+      "dietIndex": 0,
+      "meals": [
+        {
+          "eatenCalories": 400
+        },
+        {
+          "eatenCalories": 900
+        },
+        {
+          "eatenCalories": 600
+        }
+      ]
+    }
+  ]
 }

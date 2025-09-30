@@ -1,0 +1,14 @@
+{
+  "name": "test1",
+  "code": "te-1",
+  "gender": "male",
+  "age": 21,
+  "weight": 67,
+  "height": 185,
+  "coachCode": "tn-1234",
+  "createdAt": "2025-09-30T12:33:13.760Z",
+  "workouts": [],
+  "diets": [],
+  "records": [],
+  "dietRecords": []
+}

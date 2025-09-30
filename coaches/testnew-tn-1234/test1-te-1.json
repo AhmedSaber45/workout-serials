@@ -96,33 +96,18 @@
       "dietIndex": 0,
       "meals": [
         {
-          "eatenCalories": 400
+          "eatenCalories": 1000,
+          "eatenProtein": 15
         },
         {
-          "eatenCalories": 900
+          "eatenCalories": 300,
+          "eatenProtein": 20
         },
         {
-          "eatenCalories": 600
+          "eatenCalories": 2000,
+          "eatenProtein": 67
         }
       ]
-    },
-    {
-      "date": "2025-09-30T16:27:41.458Z",
-      "dietIndex": 0,
-      "mealIndex": 0,
-      "eatenCalories": 450
-    },
-    {
-      "date": "2025-09-30T16:27:54.418Z",
-      "dietIndex": 0,
-      "mealIndex": 1,
-      "eatenCalories": 900
-    },
-    {
-      "date": "2025-09-30T16:28:00.754Z",
-      "dietIndex": 0,
-      "mealIndex": 2,
-      "eatenCalories": 400
     }
   ]
 }

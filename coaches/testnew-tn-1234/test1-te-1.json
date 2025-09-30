@@ -117,6 +117,12 @@
       "dietIndex": 0,
       "mealIndex": 1,
       "eatenCalories": 900
+    },
+    {
+      "date": "2025-09-30T16:28:00.754Z",
+      "dietIndex": 0,
+      "mealIndex": 2,
+      "eatenCalories": 400
     }
   ]
 }

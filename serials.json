@@ -1731,5 +1731,18 @@
     "deviceId": "device-t9ri3hzogjbltl53f8q6d",
     "used": true,
     "usedDate": "2025-10-01T01:48:21.968Z"
+  },
+  {
+    "serial": "54J-8MV-ZV6-0CU-SFT-YTT-Q1",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Week",
+    "duration": 7,
+    "durationCode": "01",
+    "price": 2,
+    "createdAt": "2025-10-01T20:50:07.556Z",
+    "expiresAt": "2025-10-08T20:50:07.556Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

@@ -9,23 +9,15 @@
   "createdAt": "2025-10-01T02:52:57.452Z",
   "workouts": [
     {
-      "name": "test save",
+      "name": "test new save",
       "duration": 1,
       "days": [
         {
           "name": "Day 1",
-          "exercises": [
-            {
-              "name": "rjyjty",
-              "sets": 1,
-              "singleArm": false,
-              "image": "",
-              "video": null
-            }
-          ]
+          "exercises": []
         }
       ],
-      "createdAt": "2025-10-01T02:53:06.580Z"
+      "createdAt": "2025-10-01T02:57:09.468Z"
     }
   ],
   "diets": [],

@@ -168,5 +168,10 @@
     "rating": 4,
     "message": "test app",
     "date": "2025-10-01T07:48:25.881Z"
+  },
+  {
+    "rating": 5,
+    "message": "test pwa",
+    "date": "2025-10-01T07:48:39.105Z"
   }
 ]

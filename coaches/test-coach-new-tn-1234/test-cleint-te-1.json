@@ -52,7 +52,43 @@
       "createdAt": "2025-10-01T01:54:59.035Z"
     }
   ],
-  "diets": [],
+  "diets": [
+    {
+      "clientCode": "te-1",
+      "totalCalories": 2800,
+      "totalProtein": 140,
+      "totalCarbs": 300,
+      "totalFats": 90,
+      "numMeals": 3,
+      "meals": [
+        {
+          "name": "break fast",
+          "time": "05:00",
+          "calories": 500,
+          "protein": 25,
+          "carbs": 40,
+          "fats": 10
+        },
+        {
+          "name": "dinner",
+          "time": "16:00",
+          "calories": 1500,
+          "protein": 60,
+          "carbs": 90,
+          "fats": 25
+        },
+        {
+          "name": "dinner",
+          "time": "17:00",
+          "calories": 800,
+          "protein": 50,
+          "carbs": 90,
+          "fats": 25
+        }
+      ],
+      "createdAt": "2025-10-01T01:58:56.683Z"
+    }
+  ],
   "records": [],
   "dietRecords": []
 }

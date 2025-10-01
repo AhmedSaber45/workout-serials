@@ -7,7 +7,19 @@
   "height": 150,
   "coachCode": "tn-1234",
   "createdAt": "2025-10-01T02:52:57.452Z",
-  "workouts": [],
+  "workouts": [
+    {
+      "name": "test save",
+      "duration": 1,
+      "days": [
+        {
+          "name": "Day 1",
+          "exercises": []
+        }
+      ],
+      "createdAt": "2025-10-01T02:53:06.580Z"
+    }
+  ],
   "diets": [],
   "records": [],
   "dietRecords": []

@@ -1761,5 +1761,18 @@
     "usedDate": "2025-10-01T21:14:27.475Z",
     "activationDate": "2025-10-01T21:14:27.475Z",
     "username": "test2"
+  },
+  {
+    "serial": "TN5-94C-Z5F-98F-HFN-CUS-Q9",
+    "programId": "11",
+    "programName": "Custom Workout - Permanent",
+    "duration": 0,
+    "durationCode": "99",
+    "price": 30,
+    "createdAt": "2025-10-01T20:48:22.921Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

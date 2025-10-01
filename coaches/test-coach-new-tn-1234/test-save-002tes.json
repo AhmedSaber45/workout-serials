@@ -1,0 +1,14 @@
+{
+  "name": "test save",
+  "code": "002tes",
+  "gender": "female",
+  "age": 12,
+  "weight": 60,
+  "height": 150,
+  "coachCode": "tn-1234",
+  "createdAt": "2025-10-01T02:52:57.452Z",
+  "workouts": [],
+  "diets": [],
+  "records": [],
+  "dietRecords": []
+}

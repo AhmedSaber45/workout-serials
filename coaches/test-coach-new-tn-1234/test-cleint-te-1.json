@@ -173,6 +173,17 @@
       "weight": "12",
       "reps": "8",
       "tank": "0"
+    },
+    {
+      "date": "2025-10-01T02:54:09.668Z",
+      "workout": "test2",
+      "day": 1,
+      "exerciseName": "erhh",
+      "set": 1,
+      "notes": null,
+      "weight": "15",
+      "reps": "5",
+      "tank": "0"
     }
   ],
   "dietRecords": [

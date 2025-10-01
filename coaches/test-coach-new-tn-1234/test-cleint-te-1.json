@@ -100,6 +100,17 @@
       "weight": "12",
       "reps": "8",
       "tank": "0"
+    },
+    {
+      "date": "2025-10-01T02:01:43.307Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "chest",
+      "set": 1,
+      "notes": null,
+      "weight": "14",
+      "reps": "8",
+      "tank": "0"
     }
   ],
   "dietRecords": []

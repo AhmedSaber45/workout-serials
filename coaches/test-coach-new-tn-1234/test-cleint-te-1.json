@@ -69,6 +69,49 @@
         }
       ],
       "createdAt": "2025-10-01T02:14:57.857Z"
+    },
+    {
+      "name": "test edit",
+      "duration": 3,
+      "days": [
+        {
+          "name": "Day 1",
+          "exercises": [
+            {
+              "name": "rthr",
+              "sets": 1,
+              "singleArm": false,
+              "image": "",
+              "video": null
+            }
+          ]
+        },
+        {
+          "name": "Day 2",
+          "exercises": [
+            {
+              "name": "jrjr",
+              "sets": 1,
+              "singleArm": false,
+              "image": "",
+              "video": null
+            }
+          ]
+        },
+        {
+          "name": "Day 3",
+          "exercises": [
+            {
+              "name": "luiliu",
+              "sets": 1,
+              "singleArm": false,
+              "image": "",
+              "video": null
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-10-01T02:26:10.399Z"
     }
   ],
   "diets": [

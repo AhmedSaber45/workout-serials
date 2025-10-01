@@ -1746,5 +1746,18 @@
     "usedDate": "2025-10-01T20:50:22.798Z",
     "activationDate": "2025-10-01T20:50:22.798Z",
     "username": "test2"
+  },
+  {
+    "serial": "CUS-L97-ETV-0K8-RGG-UB5-M1",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Week",
+    "duration": 7,
+    "durationCode": "01",
+    "price": 2,
+    "createdAt": "2025-10-01T21:14:13.072Z",
+    "expiresAt": "2025-10-08T21:14:13.072Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

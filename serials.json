@@ -1803,5 +1803,18 @@
     "used": true,
     "usedDate": "2025-10-01T20:50:01.989Z",
     "username": "Ahmed_Saber"
+  },
+  {
+    "serial": "DET-U2R-48C-9US-LN6-UPS-G9",
+    "programId": "11",
+    "programName": "Custom Workout - Permanent",
+    "duration": 0,
+    "durationCode": "99",
+    "price": 30,
+    "createdAt": "2025-10-01T20:50:39.492Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

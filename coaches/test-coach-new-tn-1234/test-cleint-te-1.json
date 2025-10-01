@@ -112,6 +112,25 @@
         }
       ],
       "createdAt": "2025-10-01T02:26:10.399Z"
+    },
+    {
+      "name": "اختبار الحفظ",
+      "duration": 1,
+      "days": [
+        {
+          "name": "Day 1",
+          "exercises": [
+            {
+              "name": "تيست",
+              "sets": 1,
+              "singleArm": false,
+              "image": "",
+              "video": null
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-10-01T02:38:25.614Z"
     }
   ],
   "diets": [

@@ -7,92 +7,52 @@
   "height": 185,
   "coachCode": "tn-1234",
   "createdAt": "2025-10-01T01:49:34.860Z",
-  "workouts": [],
-  "diets": [
+  "workouts": [
     {
-      "clientCode": "te-1",
-      "totalCalories": 2800,
-      "totalProtein": 140,
-      "totalCarbs": 90,
-      "totalFats": 60,
-      "numMeals": 3,
-      "meals": [
+      "name": "ppl",
+      "duration": 3,
+      "days": [
         {
-          "name": "break fast",
-          "time": "06:31",
-          "calories": 500,
-          "protein": 25,
-          "carbs": 30,
-          "fats": 15
+          "name": "push",
+          "exercises": [
+            {
+              "name": "chest",
+              "sets": 1,
+              "singleArm": false,
+              "image": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach-new-tn-1234/media/chest-1759283673570.PNG",
+              "video": null
+            }
+          ]
         },
         {
-          "name": "dinner",
-          "time": "17:00",
-          "calories": 1500,
-          "protein": 60,
-          "carbs": 40,
-          "fats": 20
+          "name": "pull",
+          "exercises": [
+            {
+              "name": "back",
+              "sets": 1,
+              "singleArm": false,
+              "image": "data:image/jpeg;base64,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",
+              "video": null
+            }
+          ]
         },
         {
-          "name": "dinner",
-          "time": "20:00",
-          "calories": 500,
-          "protein": 25,
-          "carbs": 15,
-          "fats": 10
-        },
-        {
-          "name": "break fast",
-          "time": "06:31",
-          "calories": 500,
-          "protein": 25,
-          "carbs": 30,
-          "fats": 15
-        },
-        {
-          "name": "dinner",
-          "time": "17:00",
-          "calories": 1500,
-          "protein": 60,
-          "carbs": 40,
-          "fats": 20
-        },
-        {
-          "name": "dinner",
-          "time": "20:00",
-          "calories": 500,
-          "protein": 25,
-          "carbs": 15,
-          "fats": 10
-        },
-        {
-          "name": "break fast",
-          "time": "06:31",
-          "calories": 500,
-          "protein": 25,
-          "carbs": 30,
-          "fats": 15
-        },
-        {
-          "name": "dinner",
-          "time": "17:00",
-          "calories": 1500,
-          "protein": 60,
-          "carbs": 40,
-          "fats": 20
-        },
-        {
-          "name": "dinner",
-          "time": "20:00",
-          "calories": 800,
-          "protein": 25,
-          "carbs": 15,
-          "fats": 10
+          "name": "leg",
+          "exercises": [
+            {
+              "name": "leg extension",
+              "sets": 1,
+              "singleArm": false,
+              "image": "",
+              "video": null
+            }
+          ]
         }
       ],
-      "createdAt": "2025-10-01T01:51:29.092Z"
+      "createdAt": "2025-10-01T01:54:59.035Z"
     }
   ],
+  "diets": [],
   "records": [],
   "dietRecords": []
 }

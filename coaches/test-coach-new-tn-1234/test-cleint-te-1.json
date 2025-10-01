@@ -113,5 +113,24 @@
       "tank": "0"
     }
   ],
-  "dietRecords": []
+  "dietRecords": [
+    {
+      "date": "2025-10-01T02:02:16.626Z",
+      "dietIndex": 0,
+      "meals": [
+        {
+          "eatenCalories": 450,
+          "eatenProtein": 25
+        },
+        {
+          "eatenCalories": 1500,
+          "eatenProtein": 0
+        },
+        {
+          "eatenCalories": 900,
+          "eatenProtein": 0
+        }
+      ]
+    }
+  ]
 }

@@ -112,25 +112,6 @@
         }
       ],
       "createdAt": "2025-10-01T02:26:10.399Z"
-    },
-    {
-      "name": "test save",
-      "duration": 1,
-      "days": [
-        {
-          "name": "Day 1",
-          "exercises": [
-            {
-              "name": "iluilityr",
-              "sets": 1,
-              "singleArm": false,
-              "image": "",
-              "video": null
-            }
-          ]
-        }
-      ],
-      "createdAt": "2025-10-01T02:51:50.844Z"
     }
   ],
   "diets": [

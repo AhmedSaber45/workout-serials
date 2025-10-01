@@ -69,25 +69,6 @@
         }
       ],
       "createdAt": "2025-10-01T02:14:57.857Z"
-    },
-    {
-      "name": "test5",
-      "duration": 1,
-      "days": [
-        {
-          "name": "Day 1",
-          "exercises": [
-            {
-              "name": "rjyjt",
-              "sets": 1,
-              "singleArm": false,
-              "image": "",
-              "video": null
-            }
-          ]
-        }
-      ],
-      "createdAt": "2025-10-01T02:25:04.032Z"
     }
   ],
   "diets": [

@@ -119,7 +119,15 @@
       "days": [
         {
           "name": "Day 1",
-          "exercises": []
+          "exercises": [
+            {
+              "name": "kiykykuky",
+              "sets": 1,
+              "singleArm": false,
+              "image": "",
+              "video": null
+            }
+          ]
         }
       ],
       "createdAt": "2025-10-01T02:36:39.726Z"

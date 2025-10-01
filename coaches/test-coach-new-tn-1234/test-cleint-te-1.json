@@ -1,0 +1,14 @@
+{
+  "name": "test cleint",
+  "code": "te-1",
+  "gender": "male",
+  "age": 21,
+  "weight": 67,
+  "height": 185,
+  "coachCode": "tn-1234",
+  "createdAt": "2025-10-01T01:49:34.860Z",
+  "workouts": [],
+  "diets": [],
+  "records": [],
+  "dietRecords": []
+}

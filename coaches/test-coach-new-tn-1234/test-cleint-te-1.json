@@ -89,6 +89,18 @@
       "createdAt": "2025-10-01T01:58:56.683Z"
     }
   ],
-  "records": [],
+  "records": [
+    {
+      "date": "2025-10-01T02:01:28.667Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "chest",
+      "set": 1,
+      "notes": "اختبار ",
+      "weight": "12",
+      "reps": "8",
+      "tank": "0"
+    }
+  ],
   "dietRecords": []
 }

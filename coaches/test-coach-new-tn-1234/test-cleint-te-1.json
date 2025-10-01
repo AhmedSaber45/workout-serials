@@ -50,6 +50,51 @@
         }
       ],
       "createdAt": "2025-10-01T01:54:59.035Z"
+    },
+    {
+      "name": "test2",
+      "duration": 2,
+      "days": [
+        {
+          "name": "Day 1",
+          "exercises": [
+            {
+              "name": "erye",
+              "sets": 1,
+              "singleArm": false,
+              "image": "",
+              "video": null
+            },
+            {
+              "name": "dhtrh",
+              "sets": 1,
+              "singleArm": false,
+              "image": "",
+              "video": null
+            },
+            {
+              "name": "herher",
+              "sets": 1,
+              "singleArm": false,
+              "image": "",
+              "video": null
+            }
+          ]
+        },
+        {
+          "name": "Day 2",
+          "exercises": [
+            {
+              "name": "rehre",
+              "sets": 1,
+              "singleArm": false,
+              "image": "",
+              "video": null
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-10-01T02:14:36.593Z"
     }
   ],
   "diets": [
@@ -91,17 +136,6 @@
   ],
   "records": [
     {
-      "date": "2025-10-01T02:01:43.307Z",
-      "workout": "ppl",
-      "day": 1,
-      "exerciseName": "chest",
-      "set": 1,
-      "notes": null,
-      "weight": "14",
-      "reps": "8",
-      "tank": "0"
-    },
-    {
       "date": "2025-10-01T02:01:28.667Z",
       "workout": "ppl",
       "day": 1,
@@ -109,6 +143,17 @@
       "set": 1,
       "notes": "اختبار ",
       "weight": "12",
+      "reps": "8",
+      "tank": "0"
+    },
+    {
+      "date": "2025-10-01T02:01:43.307Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "chest",
+      "set": 1,
+      "notes": null,
+      "weight": "14",
       "reps": "8",
       "tank": "0"
     }

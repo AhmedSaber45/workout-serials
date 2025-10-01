@@ -1816,5 +1816,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "YVC-USM-GJU-0QB-TTR-ZYT-E2",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": 4,
+    "createdAt": "2025-10-01T20:58:33.683Z",
+    "expiresAt": "2025-10-31T21:58:33.683Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

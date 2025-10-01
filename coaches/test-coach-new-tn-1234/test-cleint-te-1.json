@@ -53,39 +53,13 @@
     },
     {
       "name": "test2",
-      "duration": 2,
+      "duration": 1,
       "days": [
         {
           "name": "Day 1",
           "exercises": [
             {
-              "name": "erye",
-              "sets": 1,
-              "singleArm": false,
-              "image": "",
-              "video": null
-            },
-            {
-              "name": "dhtrh",
-              "sets": 1,
-              "singleArm": false,
-              "image": "",
-              "video": null
-            },
-            {
-              "name": "herher",
-              "sets": 1,
-              "singleArm": false,
-              "image": "",
-              "video": null
-            }
-          ]
-        },
-        {
-          "name": "Day 2",
-          "exercises": [
-            {
-              "name": "rehre",
+              "name": "erhh",
               "sets": 1,
               "singleArm": false,
               "image": "",
@@ -94,7 +68,7 @@
           ]
         }
       ],
-      "createdAt": "2025-10-01T02:14:36.593Z"
+      "createdAt": "2025-10-01T02:14:57.857Z"
     }
   ],
   "diets": [

@@ -14,29 +14,10 @@
       "days": [
         {
           "name": "Day 1",
-          "exercises": [
-            {
-              "name": "اختبار تمرينة",
-              "sets": 1,
-              "singleArm": false,
-              "image": "",
-              "video": null
-            }
-          ]
-        }
-      ],
-      "createdAt": "2025-10-08T05:25:27.508Z"
-    },
-    {
-      "name": "ftiug",
-      "duration": 1,
-      "days": [
-        {
-          "name": "Day 1",
           "exercises": []
         }
       ],
-      "createdAt": "2025-10-08T05:28:03.012Z"
+      "createdAt": "2025-10-08T05:29:36.652Z"
     }
   ],
   "diets": [],

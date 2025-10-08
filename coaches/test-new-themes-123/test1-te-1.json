@@ -26,6 +26,17 @@
         }
       ],
       "createdAt": "2025-10-08T05:25:27.508Z"
+    },
+    {
+      "name": "ftiug",
+      "duration": 1,
+      "days": [
+        {
+          "name": "Day 1",
+          "exercises": []
+        }
+      ],
+      "createdAt": "2025-10-08T05:28:03.012Z"
     }
   ],
   "diets": [],

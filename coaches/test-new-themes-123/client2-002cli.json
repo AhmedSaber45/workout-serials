@@ -7,7 +7,19 @@
   "height": 185,
   "coachCode": "123",
   "createdAt": "2025-10-08T06:06:55.226Z",
-  "workouts": [],
+  "workouts": [
+    {
+      "name": "tet",
+      "duration": 1,
+      "days": [
+        {
+          "name": "Day 1",
+          "exercises": []
+        }
+      ],
+      "createdAt": "2025-10-08T06:07:06.210Z"
+    }
+  ],
   "diets": [],
   "records": [],
   "dietRecords": []

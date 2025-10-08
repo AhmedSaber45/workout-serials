@@ -18,6 +18,17 @@
         }
       ],
       "createdAt": "2025-10-08T05:31:22.164Z"
+    },
+    {
+      "name": "upper lower",
+      "duration": 1,
+      "days": [
+        {
+          "name": "Day 1",
+          "exercises": []
+        }
+      ],
+      "createdAt": "2025-10-08T05:33:02.420Z"
     }
   ],
   "diets": [],

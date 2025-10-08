@@ -1987,5 +1987,18 @@
     "deviceId": "device-hxzg8cli8c7z5un9nmkng",
     "used": true,
     "usedDate": "2025-10-08T06:31:00.684Z"
+  },
+  {
+    "serial": "CUS-4YV-MBZ-0TM-VJZ-AJQ-C1",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Week",
+    "duration": 7,
+    "durationCode": "01",
+    "price": 2,
+    "createdAt": "2025-10-08T06:38:57.196Z",
+    "expiresAt": "2025-10-15T06:38:57.196Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

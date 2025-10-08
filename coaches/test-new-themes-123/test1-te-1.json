@@ -25,7 +25,15 @@
       "days": [
         {
           "name": "Day 1",
-          "exercises": []
+          "exercises": [
+            {
+              "name": "legextension",
+              "sets": 2,
+              "singleArm": false,
+              "image": "",
+              "video": null
+            }
+          ]
         }
       ],
       "createdAt": "2025-10-08T05:35:59.580Z"

@@ -37,6 +37,17 @@
         }
       ],
       "createdAt": "2025-10-08T05:35:59.580Z"
+    },
+    {
+      "name": "test3",
+      "duration": 1,
+      "days": [
+        {
+          "name": "Day 1",
+          "exercises": []
+        }
+      ],
+      "createdAt": "2025-10-08T06:05:40.642Z"
     }
   ],
   "diets": [],

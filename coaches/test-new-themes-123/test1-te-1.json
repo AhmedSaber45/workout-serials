@@ -7,7 +7,27 @@
   "height": 150,
   "coachCode": "123",
   "createdAt": "2025-10-08T05:20:53.325Z",
-  "workouts": [],
+  "workouts": [
+    {
+      "name": "PPL",
+      "duration": 3,
+      "days": [
+        {
+          "name": "Day 1",
+          "exercises": []
+        },
+        {
+          "name": "Day 2",
+          "exercises": []
+        },
+        {
+          "name": "Day 3",
+          "exercises": []
+        }
+      ],
+      "createdAt": "2025-10-08T05:21:12.949Z"
+    }
+  ],
   "diets": [],
   "records": [],
   "dietRecords": []

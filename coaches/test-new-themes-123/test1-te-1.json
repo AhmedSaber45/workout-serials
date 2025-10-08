@@ -14,7 +14,29 @@
       "days": [
         {
           "name": "Day 1",
-          "exercises": []
+          "exercises": [
+            {
+              "name": "تمرينة 1",
+              "sets": 1,
+              "singleArm": false,
+              "image": "",
+              "video": null
+            },
+            {
+              "name": "تمرينة 2",
+              "sets": 1,
+              "singleArm": false,
+              "image": "",
+              "video": null
+            },
+            {
+              "name": "تمرينة 3",
+              "sets": 1,
+              "singleArm": false,
+              "image": "",
+              "video": null
+            }
+          ]
         },
         {
           "name": "Day 2",

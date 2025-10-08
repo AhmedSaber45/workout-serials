@@ -2001,5 +2001,18 @@
     "used": true,
     "usedDate": "2025-10-08T06:39:13.609Z",
     "username": "test"
+  },
+  {
+    "serial": "AER-UMG-RCU-0SU-B7R-7QP-E1",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Week",
+    "duration": 7,
+    "durationCode": "01",
+    "price": 2,
+    "createdAt": "2025-10-08T06:39:20.370Z",
+    "expiresAt": "2025-10-15T06:39:20.370Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

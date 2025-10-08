@@ -9,7 +9,7 @@
   "createdAt": "2025-10-08T06:06:55.226Z",
   "workouts": [
     {
-      "name": "tet",
+      "name": "PPL",
       "duration": 1,
       "days": [
         {
@@ -17,7 +17,7 @@
           "exercises": []
         }
       ],
-      "createdAt": "2025-10-08T06:07:06.210Z"
+      "createdAt": "2025-10-08T06:07:57.314Z"
     }
   ],
   "diets": [],

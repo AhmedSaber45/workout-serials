@@ -2012,7 +2012,8 @@
     "createdAt": "2025-10-08T06:39:20.370Z",
     "expiresAt": "2025-10-15T06:39:20.370Z",
     "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "used": true,
+    "usedDate": "2025-10-08T06:39:34.662Z",
+    "username": "test"
   }
 ]

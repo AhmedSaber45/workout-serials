@@ -5,5 +5,12 @@
     "repeat": false,
     "repeatEndDate": null,
     "displayTime": null
+  },
+  {
+    "message": "test notification",
+    "timestamp": "2025-10-09T13:11:22.719Z",
+    "repeat": false,
+    "repeatEndDate": null,
+    "displayTime": null
   }
 ]

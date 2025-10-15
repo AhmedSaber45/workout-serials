@@ -1,8 +1,8 @@
 {
   "name": "test serial",
   "code": "1234",
-  "serial": "TRIAL-15DAYS-FREE",
-  "expiryDate": "2025-10-30T01:14:23.959Z",
-  "status": "Trial Active",
-  "isTrial": true
+  "serial": "TON-CT8-XTD-0DT-CDP-D8D-K2",
+  "expiryDate": "2025-11-14T02:42:23.013Z",
+  "status": "Active",
+  "isTrial": false
 }

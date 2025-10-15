@@ -7,7 +7,23 @@
   "height": 185,
   "coachCode": "1234",
   "createdAt": "2025-10-15T01:17:23.183Z",
-  "workouts": [],
+  "workouts": [
+    {
+      "name": "upper lower",
+      "duration": 2,
+      "days": [
+        {
+          "name": "Day 1",
+          "exercises": []
+        },
+        {
+          "name": "Day 2",
+          "exercises": []
+        }
+      ],
+      "createdAt": "2025-10-15T01:43:37.713Z"
+    }
+  ],
   "diets": [],
   "records": [],
   "dietRecords": [],

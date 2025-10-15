@@ -5,7 +5,7 @@
   "age": 20,
   "weight": 70,
   "height": 180,
-  "status": "online",
+  "status": "onfloor",
   "coachCode": "1234",
   "createdAt": "2025-10-15T04:09:31.242Z",
   "workouts": [

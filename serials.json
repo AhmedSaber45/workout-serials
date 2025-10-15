@@ -2129,9 +2129,9 @@
     "price": 25,
     "createdAt": "2025-10-15T06:10:31.991Z",
     "expiresAt": "2025-11-14T07:10:31.991Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-uumvtf4ftzc0skywr4pfs",
+    "used": true,
+    "usedDate": "2025-10-15T06:33:58.608Z"
   },
   {
     "serial": "P2L-4GV-BGO-0NC-FXJ-PDQ-22",

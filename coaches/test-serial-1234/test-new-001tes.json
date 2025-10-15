@@ -31,17 +31,17 @@
   "diets": [],
   "records": [
     {
-      "date": "2025-10-15T03:29:32.832Z",
+      "date": "2025-10-15T03:31:39.800Z",
       "workout": "bro split",
       "day": 1,
       "exerciseName": "leg",
       "set": 1,
-      "notes": "تتفتفغع",
-      "weight": "5",
-      "reps": "10",
+      "notes": "غتهعكمهخكخطح",
+      "weight": "15",
+      "reps": "8",
       "tank": "0"
     }
   ],
   "dietRecords": [],
-  "status": "onfloor"
+  "status": "online"
 }

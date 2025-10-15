@@ -30,5 +30,6 @@
   ],
   "diets": [],
   "records": [],
-  "dietRecords": []
+  "dietRecords": [],
+  "status": "onfloor"
 }

@@ -9,31 +9,18 @@
   "createdAt": "2025-10-15T01:17:23.183Z",
   "workouts": [
     {
-      "name": "upper lower",
-      "duration": 2,
+      "name": "bro split",
+      "duration": 1,
       "days": [
         {
           "name": "Day 1",
-          "exercises": [
-            {
-              "name": "hack squat",
-              "sets": 1,
-              "singleArm": false,
-              "image": "",
-              "video": null
-            }
-          ]
-        },
-        {
-          "name": "Day 2",
           "exercises": []
         }
       ],
-      "createdAt": "2025-10-15T01:43:37.713Z"
+      "createdAt": "2025-10-15T01:47:29.833Z"
     }
   ],
   "diets": [],
   "records": [],
-  "dietRecords": [],
-  "isOnline": true
+  "dietRecords": []
 }

@@ -2064,9 +2064,9 @@
     "price": 25,
     "createdAt": "2025-10-15T03:25:05.767Z",
     "expiresAt": "2025-11-14T04:25:05.767Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-uumvtf4ftzc0skywr4pfs",
+    "used": true,
+    "usedDate": "2025-10-15T03:25:37.073Z"
   },
   {
     "serial": "GNO-NCN-XD7-0AS-724-CSD-92",

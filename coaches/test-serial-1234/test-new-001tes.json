@@ -14,7 +14,15 @@
       "days": [
         {
           "name": "Day 1",
-          "exercises": []
+          "exercises": [
+            {
+              "name": "hrtehrthr",
+              "sets": 1,
+              "singleArm": false,
+              "image": "",
+              "video": null
+            }
+          ]
         }
       ],
       "createdAt": "2025-10-15T01:54:17.834Z"

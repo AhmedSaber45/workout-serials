@@ -15,7 +15,15 @@
       "days": [
         {
           "name": "Day 1",
-          "exercises": []
+          "exercises": [
+            {
+              "name": "leg extension",
+              "sets": 1,
+              "singleArm": false,
+              "image": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-serial-1234/media/leg-extension-1760501496062.PNG",
+              "video": null
+            }
+          ]
         }
       ],
       "createdAt": "2025-10-15T04:11:15.090Z"

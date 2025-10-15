@@ -5,7 +5,7 @@
   "age": 20,
   "weight": 70,
   "height": 180,
-  "status": "onfloor",
+  "status": "online",
   "coachCode": "1234",
   "createdAt": "2025-10-15T04:09:31.242Z",
   "workouts": [
@@ -32,14 +32,14 @@
   "diets": [],
   "records": [
     {
-      "date": "2025-10-15T04:36:23.324Z",
+      "date": "2025-10-15T04:42:00.652Z",
       "workout": "PPL",
       "day": 1,
       "exerciseName": "leg extension",
       "set": 1,
-      "notes": "on floor 2",
-      "weight": "35",
-      "reps": "15",
+      "notes": "cllient",
+      "weight": "30",
+      "reps": "10",
       "tank": "0"
     }
   ],

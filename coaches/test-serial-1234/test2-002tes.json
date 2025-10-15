@@ -41,6 +41,17 @@
       "weight": "30",
       "reps": "10",
       "tank": "0"
+    },
+    {
+      "date": "2025-10-15T05:24:23.599Z",
+      "workout": "PPL",
+      "day": 1,
+      "exerciseName": "leg extension",
+      "set": 1,
+      "notes": "on floor new ",
+      "weight": "35",
+      "reps": "10",
+      "tank": "0"
     }
   ],
   "dietRecords": []

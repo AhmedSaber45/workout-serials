@@ -1,0 +1,14 @@
+{
+  "name": "test new",
+  "code": "001tes",
+  "gender": "male",
+  "age": 21,
+  "weight": 67,
+  "height": 185,
+  "coachCode": "1234",
+  "createdAt": "2025-10-15T01:17:23.183Z",
+  "workouts": [],
+  "diets": [],
+  "records": [],
+  "dietRecords": []
+}

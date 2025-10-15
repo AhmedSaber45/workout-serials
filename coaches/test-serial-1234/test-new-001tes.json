@@ -10,5 +10,6 @@
   "workouts": [],
   "diets": [],
   "records": [],
-  "dietRecords": []
+  "dietRecords": [],
+  "isOnline": true
 }

@@ -26,6 +26,25 @@
         }
       ],
       "createdAt": "2025-10-15T01:47:29.833Z"
+    },
+    {
+      "name": "upper lower",
+      "duration": 1,
+      "days": [
+        {
+          "name": "Day 1",
+          "exercises": [
+            {
+              "name": "chest",
+              "sets": 1,
+              "singleArm": false,
+              "image": "",
+              "video": null
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-10-15T05:24:46.736Z"
     }
   ],
   "diets": [],

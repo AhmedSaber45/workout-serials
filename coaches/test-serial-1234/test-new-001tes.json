@@ -40,6 +40,17 @@
       "weight": "15",
       "reps": "8",
       "tank": "0"
+    },
+    {
+      "date": "2025-10-15T03:54:22.137Z",
+      "workout": "bro split",
+      "day": 1,
+      "exerciseName": "leg",
+      "set": 1,
+      "notes": "on floor",
+      "weight": "10",
+      "reps": "8",
+      "tank": "0"
     }
   ],
   "dietRecords": [],

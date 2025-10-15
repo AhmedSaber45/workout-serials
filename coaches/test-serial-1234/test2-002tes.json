@@ -30,18 +30,6 @@
     }
   ],
   "diets": [],
-  "records": [
-    {
-      "date": "2025-10-15T04:22:28.683Z",
-      "workout": "PPL",
-      "day": 1,
-      "exerciseName": "leg extension",
-      "set": 1,
-      "notes": "on floor ",
-      "weight": "10",
-      "reps": "5",
-      "tank": "0"
-    }
-  ],
+  "records": [],
   "dietRecords": []
 }

@@ -8,7 +8,19 @@
   "status": "online",
   "coachCode": "1234",
   "createdAt": "2025-10-15T04:09:31.242Z",
-  "workouts": [],
+  "workouts": [
+    {
+      "name": "PPL",
+      "duration": 1,
+      "days": [
+        {
+          "name": "Day 1",
+          "exercises": []
+        }
+      ],
+      "createdAt": "2025-10-15T04:11:15.090Z"
+    }
+  ],
   "diets": [],
   "records": [],
   "dietRecords": []

@@ -14,7 +14,15 @@
       "days": [
         {
           "name": "Day 1",
-          "exercises": []
+          "exercises": [
+            {
+              "name": "hack squat",
+              "sets": 1,
+              "singleArm": false,
+              "image": "",
+              "video": null
+            }
+          ]
         },
         {
           "name": "Day 2",

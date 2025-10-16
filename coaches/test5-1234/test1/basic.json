@@ -1,0 +1,10 @@
+{
+  "name": "test1",
+  "code": "001tes",
+  "gender": "male",
+  "age": 20,
+  "weight": 70,
+  "height": 180,
+  "status": "online",
+  "createdAt": "2025-10-16T13:04:45.723Z"
+}

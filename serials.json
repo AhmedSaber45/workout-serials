@@ -2259,9 +2259,9 @@
     "price": 25,
     "createdAt": "2025-10-16T12:08:13.231Z",
     "expiresAt": "2025-11-15T13:08:13.231Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-z2otomth5v0vj6xmjb0u9r",
+    "used": true,
+    "usedDate": "2025-10-16T12:09:24.908Z"
   },
   {
     "serial": "AFV-QTU-WON-0CU-HTW-HH2-52",

@@ -1,20 +1,9 @@
 {
   "name": "test5",
   "code": "1234",
-  "serial": "ONC-6LX-XVT-0HT-ZF4-MQJ-H2",
-  "expiryDate": "2025-11-15T14:04:18.264Z",
+  "serial": "GJ5-SGM-NYF-0C7-WQO-NCT-R2",
+  "expiryDate": "2025-11-15T15:12:11.483Z",
   "status": "Active",
   "isTrial": false,
-  "progress": [
-    {
-      "image": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test5-1234/media/progress-global-1760619912959.PNG",
-      "caption": "",
-      "date": "2025-10-16T13:05:14.505Z"
-    },
-    {
-      "image": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test5-1234/media/progress-global-1760619944787.PNG",
-      "caption": "اللاعب احمد",
-      "date": "2025-10-16T13:05:46.641Z"
-    }
-  ]
+  "progress": []
 }

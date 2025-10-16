@@ -2246,9 +2246,9 @@
     "price": 25,
     "createdAt": "2025-10-16T11:57:13.795Z",
     "expiresAt": "2025-11-15T12:57:13.795Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-z2otomth5v0vj6xmjb0u9r",
+    "used": true,
+    "usedDate": "2025-10-16T12:08:26.720Z"
   },
   {
     "serial": "KBW-KON-CKU-0X7-S9R-HR7-T2",

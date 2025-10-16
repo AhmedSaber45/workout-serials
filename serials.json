@@ -2337,9 +2337,9 @@
     "price": 25,
     "createdAt": "2025-10-16T19:10:40.131Z",
     "expiresAt": "2025-11-15T20:10:40.131Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-8db3v1ntav92cmb17uc0yg",
+    "used": true,
+    "usedDate": "2025-10-16T19:11:15.539Z"
   },
   {
     "serial": "XNK-6H8-GUX-0WP-ONC-CX2-E2",

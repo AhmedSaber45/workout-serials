@@ -2311,9 +2311,9 @@
     "price": 25,
     "createdAt": "2025-10-16T14:10:17.498Z",
     "expiresAt": "2025-11-15T15:10:17.498Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-gthoav217ifi01euc8vbva",
+    "used": true,
+    "usedDate": "2025-10-16T14:12:13.686Z"
   },
   {
     "serial": "FR2-3YC-2ON-0C8-VGG-PMA-F2",

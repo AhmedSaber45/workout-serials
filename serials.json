@@ -2272,9 +2272,9 @@
     "price": 25,
     "createdAt": "2025-10-16T12:09:08.812Z",
     "expiresAt": "2025-11-15T13:09:08.812Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-z2otomth5v0vj6xmjb0u9r",
+    "used": true,
+    "usedDate": "2025-10-16T12:43:36.266Z"
   },
   {
     "serial": "ONC-6LX-XVT-0HT-ZF4-MQJ-H2",

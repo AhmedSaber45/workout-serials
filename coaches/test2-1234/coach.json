@@ -1,8 +1,9 @@
 {
   "name": "test2",
   "code": "1234",
-  "serial": "9LX-TUV-XX2-0BF-3ON-C7L-22",
-  "expiryDate": "2025-11-15T07:58:51.783Z",
+  "serial": "AFV-QTU-WON-0CU-HTW-HH2-52",
+  "expiryDate": "2025-11-15T13:43:36.266Z",
   "status": "Active",
-  "isTrial": false
+  "isTrial": false,
+  "progress": []
 }

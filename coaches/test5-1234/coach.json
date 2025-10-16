@@ -1,16 +1,9 @@
 {
   "name": "test5",
   "code": "1234",
-  "serial": "GJ5-SGM-NYF-0C7-WQO-NCT-R2",
-  "expiryDate": "2025-11-15T15:12:11.483Z",
+  "serial": "M58-8CR-3CQ-06U-ONC-67T-A2",
+  "expiryDate": "2025-11-15T20:11:12.705Z",
   "status": "Active",
   "isTrial": false,
-  "progress": [
-    {
-      "before": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test5-1234/media/progress-before-1760625622237.PNG",
-      "after": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test5-1234/media/progress-after-1760625623798.PNG",
-      "caption": "اللاعب mohamed",
-      "date": "2025-10-16T14:40:25.482Z"
-    }
-  ]
+  "progress": []
 }

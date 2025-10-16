@@ -2194,8 +2194,8 @@
     "price": "4",
     "createdAt": "2025-10-16T04:28:25.627Z",
     "expiresAt": "2025-11-15T05:28:25.627Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-n86jc708t-mgsx6x60",
+    "used": true,
+    "usedDate": "2025-10-16T04:28:50.664Z"
   }
 ]

@@ -2285,9 +2285,9 @@
     "price": 25,
     "createdAt": "2025-10-16T12:43:22.819Z",
     "expiresAt": "2025-11-15T13:43:22.819Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-z2otomth5v0vj6xmjb0u9r",
+    "used": true,
+    "usedDate": "2025-10-16T13:04:20.908Z"
   },
   {
     "serial": "HM7-65H-T3O-0NC-WM2-J3G-E2",

@@ -23,5 +23,17 @@
     }
   ],
   "createdAt": "2025-10-17T07:34:32.518Z",
-  "records": []
+  "records": [
+    {
+      "date": "2025-10-17T08:03:01.622Z",
+      "workout": "bro split",
+      "day": 1,
+      "exerciseName": "hack squat",
+      "set": 1,
+      "notes": "فهعلهعnotes",
+      "weight": "30",
+      "reps": "15",
+      "tank": "0"
+    }
+  ]
 }

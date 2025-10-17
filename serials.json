@@ -2389,9 +2389,9 @@
     "price": 25,
     "createdAt": "2025-10-17T06:26:39.188Z",
     "expiresAt": "2025-11-16T07:26:39.188Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-vl83z2we66rnk7zrqclmia",
+    "used": true,
+    "usedDate": "2025-10-17T07:32:48.158Z"
   },
   {
     "serial": "MCD-DON-C4Y-0UW-C2Y-PLQ-32",

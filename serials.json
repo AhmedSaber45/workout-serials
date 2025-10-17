@@ -2454,9 +2454,9 @@
     "price": 25,
     "createdAt": "2025-10-17T14:13:11.898Z",
     "expiresAt": "2025-11-16T15:13:11.898Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-pximp24kv67ovp908ywvnc",
+    "used": true,
+    "usedDate": "2025-10-17T14:15:16.524Z"
   },
   {
     "serial": "EFX-E2O-NCQ-0VB-CTC-VGR-S2",

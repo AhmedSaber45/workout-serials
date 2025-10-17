@@ -2470,5 +2470,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "TEZ-K93-WLA-9XW-PHI-N8L-M9",
+    "programId": "1",
+    "programName": "Push Pull Leg HILV",
+    "duration": 0,
+    "durationCode": "99",
+    "price": 20,
+    "createdAt": "2025-10-17T18:43:42.330Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

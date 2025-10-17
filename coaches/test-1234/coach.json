@@ -5,5 +5,12 @@
   "expiryDate": "2025-11-16T08:32:46.402Z",
   "status": "Active",
   "isTrial": false,
-  "progress": []
+  "progress": [
+    {
+      "before": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-1234/progress/media/progress-before-1760686437098.PNG",
+      "after": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-1234/progress/media/progress-after-1760686438971.PNG",
+      "caption": "client محمد",
+      "date": "2025-10-17T07:34:00.711Z"
+    }
+  ]
 }

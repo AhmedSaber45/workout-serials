@@ -2441,9 +2441,9 @@
     "price": 25,
     "createdAt": "2025-10-17T13:54:16.524Z",
     "expiresAt": "2025-11-16T14:54:16.524Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-v9faxonmyzbodxt5l3tovs",
+    "used": true,
+    "usedDate": "2025-10-17T14:13:27.774Z"
   },
   {
     "serial": "SZZ-7YU-EYO-0NC-A8Q-JDA-V2",

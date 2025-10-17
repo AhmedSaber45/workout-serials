@@ -89,6 +89,17 @@
       "weight": "25",
       "reps": "10",
       "tank": "0"
+    },
+    {
+      "date": "2025-10-17T11:41:43.199Z",
+      "workout": "PPL",
+      "day": 1,
+      "exerciseName": "lat pull down",
+      "set": 1,
+      "notes": "on floor",
+      "weight": "30",
+      "reps": "15",
+      "tank": "0"
     }
   ]
 }

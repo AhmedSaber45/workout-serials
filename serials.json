@@ -2402,9 +2402,9 @@
     "price": 25,
     "createdAt": "2025-10-17T07:32:34.671Z",
     "expiresAt": "2025-11-16T08:32:34.671Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-aiyj50ddp4ldzwnngz6f64",
+    "used": true,
+    "usedDate": "2025-10-17T10:33:47.976Z"
   },
   {
     "serial": "ONC-YEY-Q8Q-0NH-JYE-BG4-32",

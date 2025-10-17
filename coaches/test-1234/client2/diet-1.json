@@ -35,5 +35,24 @@
     }
   ],
   "createdAt": "2025-10-17T11:26:04.535Z",
-  "records": []
+  "records": [
+    {
+      "date": "2025-10-17T11:31:26.456Z",
+      "mealIndex": 0,
+      "eatenCalories": 350,
+      "eatenProtein": 0
+    },
+    {
+      "date": "2025-10-17T11:31:26.456Z",
+      "mealIndex": 1,
+      "eatenCalories": 450,
+      "eatenProtein": 0
+    },
+    {
+      "date": "2025-10-17T11:31:26.456Z",
+      "mealIndex": 2,
+      "eatenCalories": 150,
+      "eatenProtein": 0
+    }
+  ]
 }

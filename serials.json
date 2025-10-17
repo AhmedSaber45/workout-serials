@@ -2428,9 +2428,9 @@
     "price": 25,
     "createdAt": "2025-10-17T13:53:42.233Z",
     "expiresAt": "2025-11-16T14:53:42.233Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-afjonbyvmpnplkxhyhbw7h",
+    "used": true,
+    "usedDate": "2025-10-17T13:54:33.588Z"
   },
   {
     "serial": "GF9-9NH-6PH-05E-SVZ-ONC-P2",

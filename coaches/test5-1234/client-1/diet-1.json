@@ -1,0 +1,38 @@
+{
+  "clientCode": "001cli",
+  "totalCalories": 1500,
+  "totalProtein": 100,
+  "totalCarbs": 200,
+  "totalFats": 50,
+  "numMeals": 3,
+  "meals": [
+    {
+      "name": "break fast",
+      "time": "09:52",
+      "calories": 500,
+      "protein": 0,
+      "carbs": 0,
+      "fats": 0,
+      "examples": "عيش وطعمية"
+    },
+    {
+      "name": "غدا",
+      "time": "11:52",
+      "calories": 600,
+      "protein": 0,
+      "carbs": 0,
+      "fats": 0,
+      "examples": "بسلة ورز"
+    },
+    {
+      "name": "عشا",
+      "time": "17:52",
+      "calories": 400,
+      "protein": 0,
+      "carbs": 0,
+      "fats": 0,
+      "examples": "عيش وجبنة"
+    }
+  ],
+  "createdAt": "2025-10-17T05:52:08.830Z"
+}

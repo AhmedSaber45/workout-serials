@@ -34,6 +34,19 @@
       "weight": "40",
       "reps": "10",
       "tank": "0"
+    },
+    {
+      "date": "2025-10-17T10:10:42.199Z",
+      "workout": "bro split",
+      "day": 1,
+      "exerciseName": "calves",
+      "set": 1,
+      "notes": "coach",
+      "weight": "35",
+      "rightReps": "10",
+      "rightTank": "0",
+      "leftReps": "9",
+      "leftTank": "0"
     }
   ]
 }

@@ -1,22 +1,9 @@
 {
   "name": "test",
   "code": "1234",
-  "serial": "PAO-NCT-XFP-0VA-LWD-U3N-N2",
-  "expiryDate": "2025-11-16T08:32:46.402Z",
+  "serial": "GF9-9NH-6PH-05E-SVZ-ONC-P2",
+  "expiryDate": "2025-11-16T15:13:25.884Z",
   "status": "Active",
   "isTrial": false,
-  "progress": [
-    {
-      "before": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-1234/progress/media/progress-before-1760686437098.PNG",
-      "after": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-1234/progress/media/progress-after-1760686438971.PNG",
-      "caption": "client محمد",
-      "date": "2025-10-17T07:34:00.711Z"
-    },
-    {
-      "before": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-1234/progress/media/progress-before-1760697270911.PNG",
-      "after": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-1234/progress/media/progress-after-1760697272544.PNG",
-      "caption": "test 2",
-      "date": "2025-10-17T10:34:34.369Z"
-    }
-  ]
+  "progress": []
 }

@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "date": "2025-10-17T06:40:04.662Z",
+    "workout": "bro split",
+    "day": 1,
+    "exerciseName": "hack squat",
+    "set": 1,
+    "notes": "degir",
+    "weight": "20",
+    "reps": "8",
+    "tank": "0"
+  }
+]

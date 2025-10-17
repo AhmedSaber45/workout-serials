@@ -1,0 +1,11 @@
+{
+  "name": "bro split",
+  "duration": 1,
+  "days": [
+    {
+      "name": "Day 1",
+      "exercises": []
+    }
+  ],
+  "createdAt": "2025-10-17T05:50:37.934Z"
+}

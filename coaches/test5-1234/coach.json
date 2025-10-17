@@ -1,16 +1,9 @@
 {
   "name": "test5",
   "code": "1234",
-  "serial": "82R-894-T76-0NO-NCW-D4S-E2",
-  "expiryDate": "2025-11-16T06:32:14.873Z",
+  "serial": "MUW-VEL-37O-0NC-LJR-8JL-H2",
+  "expiryDate": "2025-11-16T07:26:51.661Z",
   "status": "Active",
   "isTrial": false,
-  "progress": [
-    {
-      "before": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test5-1234/media/progress-before-1760682098704.png",
-      "after": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test5-1234/media/progress-after-1760682100885.jpg",
-      "caption": "",
-      "date": "2025-10-17T06:21:42.124Z"
-    }
-  ]
+  "progress": []
 }

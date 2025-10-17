@@ -2376,9 +2376,9 @@
     "price": 25,
     "createdAt": "2025-10-17T06:26:20.381Z",
     "expiresAt": "2025-11-16T07:26:20.381Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-sz2p6mw463b1ek8z9xn2p",
+    "used": true,
+    "usedDate": "2025-10-17T06:26:53.531Z"
   },
   {
     "serial": "PAO-NCT-XFP-0VA-LWD-U3N-N2",

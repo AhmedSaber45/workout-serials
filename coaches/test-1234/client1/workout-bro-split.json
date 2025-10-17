@@ -25,25 +25,14 @@
   "createdAt": "2025-10-17T07:34:32.518Z",
   "records": [
     {
-      "date": "2025-10-17T08:47:22.326Z",
+      "date": "2025-10-17T09:49:31.231Z",
       "workout": "bro split",
       "day": 1,
       "exerciseName": "hack squat",
       "set": 1,
-      "notes": "tets نوتس",
-      "weight": "20",
-      "reps": "15",
-      "tank": "0"
-    },
-    {
-      "date": "2025-10-17T09:47:46.423Z",
-      "workout": "bro split",
-      "day": 1,
-      "exerciseName": "hack squat",
-      "set": 1,
-      "notes": null,
-      "weight": "30",
-      "reps": "20",
+      "notes": "test متجدرب",
+      "weight": "40",
+      "reps": "10",
       "tank": "0"
     }
   ]

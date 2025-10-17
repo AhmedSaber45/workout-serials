@@ -34,6 +34,17 @@
       "weight": "40",
       "reps": "10",
       "tank": "0"
+    },
+    {
+      "date": "2025-10-17T09:59:18.479Z",
+      "workout": "bro split",
+      "day": 1,
+      "exerciseName": "hack squat",
+      "set": 1,
+      "notes": "coah",
+      "weight": "30",
+      "reps": "10",
+      "tank": "2"
     }
   ]
 }

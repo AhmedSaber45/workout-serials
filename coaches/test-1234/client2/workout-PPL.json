@@ -23,5 +23,28 @@
     }
   ],
   "createdAt": "2025-10-17T11:22:15.015Z",
-  "records": []
+  "records": [
+    {
+      "date": "2025-10-17T11:29:25.407Z",
+      "workout": "PPL",
+      "day": 1,
+      "exerciseName": "hack squat",
+      "set": 1,
+      "notes": "coach",
+      "weight": "30",
+      "reps": "10",
+      "tank": "0"
+    },
+    {
+      "date": "2025-10-17T11:29:25.407Z",
+      "workout": "PPL",
+      "day": 1,
+      "exerciseName": "lat pull down",
+      "set": 1,
+      "notes": "coach also",
+      "weight": "15",
+      "reps": "10",
+      "tank": "0"
+    }
+  ]
 }

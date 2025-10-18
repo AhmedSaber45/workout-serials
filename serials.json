@@ -2740,9 +2740,9 @@
     "price": "0.00",
     "createdAt": "2025-10-18T11:53:12.189Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-flprb78hz-mgw7d3a4",
+    "used": true,
+    "usedDate": "2025-10-18T11:53:43.632Z"
   },
   {
     "serial": "U5Q-999-NPE-9MV-94U-HI9-Z9",

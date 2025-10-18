@@ -2678,5 +2678,18 @@
     "deviceId": "device-xeeyce11i-mgw4f14z",
     "used": true,
     "usedDate": "2025-10-18T10:21:10.652Z"
+  },
+  {
+    "serial": "MAJ-N4D-EVT-0PH-VAK-C33-52",
+    "programId": "6",
+    "programName": "Push Pull Leg HVLI",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "4",
+    "createdAt": "2025-10-18T10:23:19.870Z",
+    "expiresAt": "2025-11-17T11:23:19.870Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

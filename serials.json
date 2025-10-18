@@ -2704,5 +2704,18 @@
     "deviceId": "device-bdb9y54ma-mgw7gf4f",
     "used": true,
     "usedDate": "2025-10-18T11:39:28.527Z"
+  },
+  {
+    "serial": "PWL-BHV-A63-9U5-JAJ-SL2-T9",
+    "programId": "7",
+    "programName": "Bro Split HVLI",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "0.00",
+    "createdAt": "2025-10-18T11:46:04.997Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

@@ -2914,19 +2914,6 @@
     "usedDate": null
   },
   {
-    "serial": "PHI-6FW-3F5-9JB-Y99-GSN-J9",
-    "programId": "1",
-    "programName": "Push Pull Leg HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": 20,
-    "createdAt": "2025-10-18T12:29:10.428Z",
-    "expiresAt": null,
-    "deviceId": "device-v3lg2zxs2-mgw8uwj4",
-    "used": true,
-    "usedDate": "2025-10-18T12:31:10.474Z"
-  },
-  {
     "serial": "AZP-BHI-S94-9PL-Q87-9HY-Q9",
     "programId": "2",
     "programName": "Bro Split HILV",

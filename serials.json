@@ -2548,5 +2548,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "CZU-BG2-KF8-0PK-Z4E-PHI-32",
+    "programId": "1",
+    "programName": "Push Pull Leg HILV",
+    "duration": 30,
+    "durationCode": "02",
+    "price": 20,
+    "createdAt": "2025-10-18T09:31:56.764Z",
+    "expiresAt": "2025-11-17T10:31:56.764Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

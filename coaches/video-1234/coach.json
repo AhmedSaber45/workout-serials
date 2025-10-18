@@ -5,5 +5,12 @@
   "expiryDate": "2025-11-17T08:10:35.689Z",
   "status": "Active",
   "isTrial": false,
-  "progress": []
+  "progress": [
+    {
+      "before": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/video-1234/progress/media/client-1-مستوى-التقدم-before-1760771516255.PNG",
+      "after": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/video-1234/progress/media/client-1-مستوى-التقدم-after-1760771517828.PNG",
+      "caption": "client 1 مستوى التقدم",
+      "date": "2025-10-18T07:11:59.301Z"
+    }
+  ]
 }

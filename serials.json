@@ -2600,5 +2600,18 @@
     "deviceId": "device-1efabvvxd-mgw3q1is",
     "used": true,
     "usedDate": "2025-10-18T09:54:58.995Z"
+  },
+  {
+    "serial": "C88-GL5-PHI-03R-WR4-Z85-92",
+    "programId": "1",
+    "programName": "Push Pull Leg HILV",
+    "duration": 30,
+    "durationCode": "02",
+    "price": 20,
+    "createdAt": "2025-10-18T09:55:22.978Z",
+    "expiresAt": "2025-11-17T10:55:22.978Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

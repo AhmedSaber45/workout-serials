@@ -23,5 +23,17 @@
     }
   ],
   "createdAt": "2025-10-18T05:45:17.348Z",
-  "records": []
+  "records": [
+    {
+      "date": "2025-10-18T06:28:11.807Z",
+      "workout": "upper lower",
+      "day": 1,
+      "exerciseName": "hack squat",
+      "set": 1,
+      "notes": "client video",
+      "weight": "35",
+      "reps": "8",
+      "tank": "0"
+    }
+  ]
 }

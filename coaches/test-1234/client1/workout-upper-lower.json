@@ -4,7 +4,22 @@
   "days": [
     {
       "name": "Day 1",
-      "exercises": []
+      "exercises": [
+        {
+          "name": "hack squat",
+          "sets": 1,
+          "singleArm": false,
+          "image": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-1234/media/hack-squat-1760768593696.PNG",
+          "video": "https://www.youtube.com/watch?v=wxgs1RvrjyY&list=RDwxgs1RvrjyY&start_radio=1"
+        },
+        {
+          "name": "calves",
+          "sets": 1,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        }
+      ]
     }
   ],
   "createdAt": "2025-10-18T05:45:17.348Z",

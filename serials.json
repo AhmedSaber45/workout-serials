@@ -2613,5 +2613,18 @@
     "deviceId": "device-1efabvvxd-mgw3q1is",
     "used": true,
     "usedDate": "2025-10-18T09:55:50.162Z"
+  },
+  {
+    "serial": "UJA-5PW-9QH-0MP-HIJ-38J-H2",
+    "programId": "1",
+    "programName": "Push Pull Leg HILV",
+    "duration": 30,
+    "durationCode": "02",
+    "price": 20,
+    "createdAt": "2025-10-18T09:56:28.961Z",
+    "expiresAt": "2025-11-17T10:56:28.961Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

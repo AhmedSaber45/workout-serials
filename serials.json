@@ -2532,9 +2532,9 @@
     "price": 25,
     "createdAt": "2025-10-18T05:26:58.732Z",
     "expiresAt": "2025-11-17T06:26:58.732Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-wzegc8nfrgcnh5ctbtzkna",
+    "used": true,
+    "usedDate": "2025-10-18T07:10:37.469Z"
   },
   {
     "serial": "RJQ-6JV-FVV-0WO-NCC-SPA-62",

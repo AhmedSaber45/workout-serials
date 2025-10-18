@@ -2782,5 +2782,18 @@
     "deviceId": "device-flprb78hz-mgw7d3a4",
     "used": true,
     "usedDate": "2025-10-18T12:07:10.095Z"
+  },
+  {
+    "serial": "CDK-XUP-HLF-9HI-V2H-6JP-P9",
+    "programId": "5",
+    "programName": "Full Body HILV",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "0.00",
+    "createdAt": "2025-10-18T12:15:00.832Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

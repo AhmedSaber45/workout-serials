@@ -1,0 +1,39 @@
+{
+  "clientCode": "001cli",
+  "totalCalories": 1000,
+  "totalProtein": 100,
+  "totalCarbs": 150,
+  "totalFats": 50,
+  "numMeals": 3,
+  "meals": [
+    {
+      "name": "فطار",
+      "time": "10:14",
+      "calories": 300,
+      "protein": 0,
+      "carbs": 0,
+      "fats": 0,
+      "examples": ""
+    },
+    {
+      "name": "غدا",
+      "time": "03:14",
+      "calories": 600,
+      "protein": 0,
+      "carbs": 0,
+      "fats": 0,
+      "examples": ""
+    },
+    {
+      "name": "عشا",
+      "time": "18:15",
+      "calories": 100,
+      "protein": 0,
+      "carbs": 0,
+      "fats": 0,
+      "examples": ""
+    }
+  ],
+  "createdAt": "2025-10-18T07:14:42.681Z",
+  "records": []
+}

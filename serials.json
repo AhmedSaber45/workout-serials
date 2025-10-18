@@ -2519,9 +2519,9 @@
     "price": 25,
     "createdAt": "2025-10-18T05:26:28.037Z",
     "expiresAt": "2025-11-17T06:26:28.037Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-wzegc8nfrgcnh5ctbtzkna",
+    "used": true,
+    "usedDate": "2025-10-18T05:27:12.554Z"
   },
   {
     "serial": "GLV-Z4Z-ONC-0QW-C7U-9XL-72",

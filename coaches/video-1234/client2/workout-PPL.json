@@ -4,7 +4,15 @@
   "days": [
     {
       "name": "Day 1",
-      "exercises": []
+      "exercises": [
+        {
+          "name": "leg",
+          "sets": 1,
+          "singleArm": false,
+          "image": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/video-1234/media/leg-1760772826067.PNG",
+          "video": ""
+        }
+      ]
     }
   ],
   "createdAt": "2025-10-18T07:33:29.778Z",

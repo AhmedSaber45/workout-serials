@@ -2688,8 +2688,8 @@
     "price": "4",
     "createdAt": "2025-10-18T10:23:19.870Z",
     "expiresAt": "2025-11-17T11:23:19.870Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-twoux3fnv-mgw570km",
+    "used": true,
+    "usedDate": "2025-10-18T10:36:10.534Z"
   }
 ]

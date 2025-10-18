@@ -2675,8 +2675,8 @@
     "price": "4",
     "createdAt": "2025-10-18T10:20:37.175Z",
     "expiresAt": "2025-11-17T11:20:37.175Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-xeeyce11i-mgw4f14z",
+    "used": true,
+    "usedDate": "2025-10-18T10:21:10.652Z"
   }
 ]

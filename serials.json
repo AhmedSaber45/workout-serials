@@ -2974,8 +2974,8 @@
     "price": "0.00",
     "createdAt": "2025-10-18T12:51:12.127Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-v3lg2zxs2-mgw8uwj4",
+    "used": true,
+    "usedDate": "2025-10-18T12:51:50.457Z"
   }
 ]

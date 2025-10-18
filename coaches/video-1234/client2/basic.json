@@ -1,0 +1,10 @@
+{
+  "name": "client2",
+  "code": "002cli",
+  "gender": "male",
+  "age": 20,
+  "weight": 67,
+  "height": 180,
+  "status": "online",
+  "createdAt": "2025-10-18T07:32:46.714Z"
+}

@@ -2792,8 +2792,8 @@
     "price": "0.00",
     "createdAt": "2025-10-18T12:03:51.182Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-flprb78hz-mgw7d3a4",
+    "used": true,
+    "usedDate": "2025-10-18T12:07:10.095Z"
   }
 ]

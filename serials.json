@@ -2571,8 +2571,8 @@
     "price": "4",
     "createdAt": "2025-10-18T09:39:30.145Z",
     "expiresAt": "2025-11-17T10:39:30.145Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-73ezevvoe-mgw31y6q",
+    "used": true,
+    "usedDate": "2025-10-18T09:41:34.066Z"
   }
 ]

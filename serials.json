@@ -2587,5 +2587,18 @@
     "deviceId": "device-73ezevvoe-mgw31y6q",
     "used": true,
     "usedDate": "2025-10-18T09:46:44.587Z"
+  },
+  {
+    "serial": "C9C-FBX-4K5-0PH-I9B-973-C2",
+    "programId": "1",
+    "programName": "Push Pull Leg HILV",
+    "duration": 30,
+    "durationCode": "02",
+    "price": 20,
+    "createdAt": "2025-10-18T09:54:16.841Z",
+    "expiresAt": "2025-11-17T10:54:16.841Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

@@ -2665,5 +2665,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "LFS-PNB-UBN-0YU-HIZ-SA7-J2",
+    "programId": "4",
+    "programName": "Upper Lower HILV",
+    "duration": 30,
+    "durationCode": "02",
+    "price": "4",
+    "createdAt": "2025-10-18T10:20:37.175Z",
+    "expiresAt": "2025-11-17T11:20:37.175Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

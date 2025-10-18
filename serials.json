@@ -2693,19 +2693,6 @@
     "usedDate": "2025-10-18T10:36:10.534Z"
   },
   {
-    "serial": "FMN-CEC-BZL-9PH-VBK-23V-89",
-    "programId": "6",
-    "programName": "Push Pull Leg HVLI",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2025-10-18T11:37:13.023Z",
-    "expiresAt": null,
-    "deviceId": "device-bdb9y54ma-mgw7gf4f",
-    "used": true,
-    "usedDate": "2025-10-18T11:39:28.527Z"
-  },
-  {
     "serial": "PWL-BHV-A63-9U5-JAJ-SL2-T9",
     "programId": "7",
     "programName": "Bro Split HVLI",

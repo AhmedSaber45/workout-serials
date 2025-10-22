@@ -47,14 +47,5 @@
       "test6",
       "test3"
     ]
-  },
-  "AHMED_SABER50": {
-    "owner": "AHMED_SABER",
-    "discount": 50,
-    "totalPoints": 50,
-    "usablePoints": 50,
-    "usedBy": [],
-    "createdAt": "2025-10-22T17:27:55.061Z",
-    "expiresAt": "2025-10-29T17:27:55.061Z"
   }
 }

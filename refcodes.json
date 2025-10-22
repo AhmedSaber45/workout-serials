@@ -2,10 +2,11 @@
   "tes20": {
     "owner": "test",
     "discount": 20,
-    "totalPoints": 20,
-    "usablePoints": 20,
+    "totalPoints": 40,
+    "usablePoints": 40,
     "usedBy": [
-      "test5"
+      "test5",
+      "test2"
     ]
   },
   "TES1494": {

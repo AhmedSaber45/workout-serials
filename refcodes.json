@@ -30,5 +30,13 @@
       "test6",
       "test3"
     ]
+  },
+  "AHMED_SABER50": {
+    "owner": "Ahmed_Saber",
+    "discount": 50,
+    "totalPoints": 0,
+    "usablePoints": 0,
+    "usedBy": [],
+    "expiration": 1761768173450
   }
 }

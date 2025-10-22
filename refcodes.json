@@ -37,5 +37,12 @@
     "usedBy": [
       "test6"
     ]
+  },
+  "TEST320": {
+    "owner": "test3",
+    "discount": 20,
+    "totalPoints": 0,
+    "usablePoints": 0,
+    "usedBy": []
   }
 }

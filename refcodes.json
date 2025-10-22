@@ -7,5 +7,12 @@
     "usedBy": [
       "test5"
     ]
+  },
+  "TES1494": {
+    "owner": "test5",
+    "discount": 20,
+    "totalPoints": 0,
+    "usablePoints": 0,
+    "usedBy": []
   }
 }

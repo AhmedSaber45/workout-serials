@@ -12,13 +12,6 @@
       "test6"
     ]
   },
-  "TES1494": {
-    "owner": "test5",
-    "discount": 20,
-    "totalPoints": 0,
-    "usablePoints": 0,
-    "usedBy": []
-  },
   "TEST620": {
     "owner": "test6",
     "discount": 20,

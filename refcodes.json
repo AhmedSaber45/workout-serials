@@ -19,16 +19,6 @@
     "usablePoints": 0,
     "usedBy": []
   },
-  "TEST220": {
-    "owner": "test2",
-    "discount": 20,
-    "totalPoints": 40,
-    "usablePoints": 40,
-    "usedBy": [
-      "test",
-      "test6"
-    ]
-  },
   "TEST620": {
     "owner": "test6",
     "discount": 20,

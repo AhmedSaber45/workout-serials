@@ -41,10 +41,11 @@
   "TEST320": {
     "owner": "test3",
     "discount": 20,
-    "totalPoints": 20,
-    "usablePoints": 20,
+    "totalPoints": 40,
+    "usablePoints": 40,
     "usedBy": [
-      "test6"
+      "test6",
+      "test3"
     ]
   }
 }

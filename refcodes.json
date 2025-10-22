@@ -22,10 +22,11 @@
   "TEST220": {
     "owner": "test2",
     "discount": 20,
-    "totalPoints": 20,
-    "usablePoints": 20,
+    "totalPoints": 40,
+    "usablePoints": 40,
     "usedBy": [
-      "test"
+      "test",
+      "test6"
     ]
   }
 }

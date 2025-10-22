@@ -19,8 +19,10 @@
   "TEST220": {
     "owner": "test2",
     "discount": 20,
-    "totalPoints": 0,
-    "usablePoints": 0,
-    "usedBy": []
+    "totalPoints": 20,
+    "usablePoints": 20,
+    "usedBy": [
+      "test"
+    ]
   }
 }

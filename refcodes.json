@@ -1,0 +1,9 @@
+{
+  "tes20": {
+    "owner": "test",
+    "discount": 20,
+    "totalPoints": 0,
+    "usablePoints": 0,
+    "usedBy": []
+  }
+}

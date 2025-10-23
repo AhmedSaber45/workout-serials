@@ -24,11 +24,12 @@
   "TEST320": {
     "owner": "test3",
     "discount": 20,
-    "totalPoints": 40,
-    "usablePoints": 40,
+    "totalPoints": 60,
+    "usablePoints": 60,
     "usedBy": [
       "test6",
-      "test3"
+      "test3",
+      "test7"
     ]
   },
   "AHMED_SABER50": {

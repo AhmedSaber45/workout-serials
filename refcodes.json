@@ -50,5 +50,12 @@
     "totalPoints": 0,
     "usablePoints": 0,
     "usedBy": []
+  },
+  "TEST520": {
+    "owner": "test5",
+    "discount": 20,
+    "totalPoints": 0,
+    "usablePoints": 0,
+    "usedBy": []
   }
 }

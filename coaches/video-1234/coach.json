@@ -1,16 +1,9 @@
 {
   "name": "video",
   "code": "1234",
-  "serial": "GLV-Z4Z-ONC-0QW-C7U-9XL-72",
-  "expiryDate": "2025-11-17T08:10:35.689Z",
+  "serial": "763-ONC-A6H-0FB-FZ7-RRP-M2",
+  "expiryDate": "2025-11-24T16:39:29.741Z",
   "status": "Active",
   "isTrial": false,
-  "progress": [
-    {
-      "before": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/video-1234/progress/media/client-1-مستوى-التقدم-before-1760771516255.PNG",
-      "after": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/video-1234/progress/media/client-1-مستوى-التقدم-after-1760771517828.PNG",
-      "caption": "client 1 مستوى التقدم",
-      "date": "2025-10-18T07:11:59.301Z"
-    }
-  ]
+  "progress": []
 }

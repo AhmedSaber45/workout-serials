@@ -1,6 +1,6 @@
 {
   "prices": {
-    "original_hilv_ppl": 10,
+    "original_hilv_ppl": 1,
     "discount_hilv_ppl": 20,
     "original_hilv_bro_split": 10,
     "discount_hilv_bro_split": 20,
@@ -71,5 +71,5 @@
     "onc_price": 10,
     "currency": "$"
   },
-  "expiration": 1764169111592
+  "expiration": null
 }

@@ -1,13 +1,4 @@
 {
-  "TEST620": {
-    "owner": "test6",
-    "discount": 20,
-    "totalPoints": 20,
-    "usablePoints": 20,
-    "usedBy": [
-      "test6"
-    ]
-  },
   "TEST320": {
     "owner": "test3",
     "discount": 20,

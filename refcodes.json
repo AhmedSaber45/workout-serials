@@ -12,13 +12,6 @@
     ],
     "expiration": 1761768173450
   },
-  "TEST720": {
-    "owner": "test7",
-    "discount": 20,
-    "totalPoints": 0,
-    "usablePoints": 0,
-    "usedBy": []
-  },
   "TEST520": {
     "owner": "test5",
     "discount": 20,

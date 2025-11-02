@@ -11,5 +11,12 @@
       "test2"
     ],
     "expiration": 1761768173450
+  },
+  "EMAD20": {
+    "owner": "Emad",
+    "discount": 20,
+    "totalPoints": 0,
+    "usablePoints": 0,
+    "usedBy": []
   }
 }

@@ -18,5 +18,13 @@
     "totalPoints": 0,
     "usablePoints": 0,
     "usedBy": []
+  },
+  "MHMD50": {
+    "owner": "Mhmd",
+    "discount": 50,
+    "totalPoints": 0,
+    "usablePoints": 0,
+    "usedBy": [],
+    "expiration": null
   }
 }

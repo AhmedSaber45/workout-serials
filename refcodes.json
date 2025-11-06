@@ -27,5 +27,13 @@
     "usablePoints": 0,
     "usedBy": [],
     "expiration": null
+  },
+  "ALAAATAA50": {
+    "owner": "Alaaataa",
+    "discount": 50,
+    "totalPoints": 0,
+    "usablePoints": 0,
+    "usedBy": [],
+    "expiration": null
   }
 }

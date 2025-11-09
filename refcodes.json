@@ -45,5 +45,13 @@
     "usablePoints": 0,
     "usedBy": [],
     "expiration": null
+  },
+  "MOHAMED1450": {
+    "owner": "mohamed14",
+    "discount": 50,
+    "totalPoints": 0,
+    "usablePoints": 0,
+    "usedBy": [],
+    "expiration": null
   }
 }

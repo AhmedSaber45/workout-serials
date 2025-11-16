@@ -54,5 +54,13 @@
     "usablePoints": 0,
     "usedBy": [],
     "expiration": null
+  },
+  "TEST1010": {
+    "owner": "test10",
+    "discount": 10,
+    "totalPoints": 0,
+    "usablePoints": 0,
+    "usedBy": [],
+    "expiration": 1763878072399
   }
 }

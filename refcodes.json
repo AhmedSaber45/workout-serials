@@ -2,14 +2,15 @@
   "AHMED_SABER50": {
     "owner": "Ahmed_Saber",
     "discount": 50,
-    "totalPoints": 250,
-    "usablePoints": 250,
+    "totalPoints": 300,
+    "usablePoints": 300,
     "usedBy": [
       "test4",
       "test7",
       "test5",
       "test2",
-      "test"
+      "test",
+      "test10"
     ],
     "expiration": 1761768173450
   },

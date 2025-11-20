@@ -35,24 +35,5 @@
     }
   ],
   "createdAt": "2025-11-20T05:35:20.975Z",
-  "records": [
-    {
-      "date": "2025-11-20T07:52:32.724Z",
-      "mealIndex": 0,
-      "eaten": true,
-      "notes": ""
-    },
-    {
-      "date": "2025-11-20T07:52:49.540Z",
-      "mealIndex": 1,
-      "eaten": true,
-      "notes": "ماقدرتش اخلصها"
-    },
-    {
-      "date": "2025-11-20T07:53:17.644Z",
-      "mealIndex": 2,
-      "eaten": true,
-      "notes": "متأخرة اوى"
-    }
-  ]
+  "records": []
 }

@@ -36,5 +36,11 @@
     }
   ],
   "createdAt": "2025-11-20T07:51:21.252Z",
-  "records": []
+  "records": [
+    {
+      "date": "2025-11-20T09:07:20.410Z",
+      "type": "water",
+      "glassIndex": 3
+    }
+  ]
 }

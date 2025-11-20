@@ -2,7 +2,7 @@
   "name": "test coach2",
   "code": "123456",
   "serial": "ONC-5W3-YVL-04W-AYU-4Y9-T1",
-  "expiryDate": "2025-11-27T09:05:32.526Z",
+  "expiryDate": "2025-11-27T09:05:34.198Z",
   "status": "Active",
   "isTrial": false,
   "progress": [
@@ -12,5 +12,6 @@
       "caption": "",
       "date": "2025-11-20T09:12:04.035Z"
     }
-  ]
+  ],
+  "image": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/coach-profile-1763637422555.PNG"
 }

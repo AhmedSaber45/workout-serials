@@ -46,6 +46,12 @@
       "date": "2025-11-20T07:55:08.604Z",
       "type": "water",
       "glassIndex": 1
+    },
+    {
+      "date": "2025-11-20T07:55:20.116Z",
+      "mealIndex": 0,
+      "eaten": true,
+      "notes": ""
     }
   ]
 }

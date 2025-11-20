@@ -39,20 +39,20 @@
     {
       "date": "2025-11-20T09:37:36.221Z",
       "mealIndex": 0,
-      "eaten": true,
+      "eaten": false,
       "notes": ""
     },
     {
       "date": "2025-11-20T09:37:36.221Z",
       "mealIndex": 1,
-      "eaten": true,
-      "notes": "yuyjrjyrtj"
+      "eaten": false,
+      "notes": ""
     },
     {
       "date": "2025-11-20T09:37:36.221Z",
       "mealIndex": 2,
-      "eaten": true,
-      "notes": "jrjtku"
+      "eaten": false,
+      "notes": ""
     }
   ],
   "dailyWaterLiters": 3,

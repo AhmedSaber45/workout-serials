@@ -35,6 +35,25 @@
     }
   ],
   "createdAt": "2025-11-20T11:15:48.272Z",
-  "records": [],
+  "records": [
+    {
+      "date": "2025-11-20T11:20:50.423Z",
+      "mealIndex": 0,
+      "checked": true,
+      "notes": "kyukyut"
+    },
+    {
+      "date": "2025-11-20T11:20:50.423Z",
+      "mealIndex": 1,
+      "checked": true,
+      "notes": "jytjtyjktykty"
+    },
+    {
+      "date": "2025-11-20T11:20:50.423Z",
+      "mealIndex": 2,
+      "checked": true,
+      "notes": "p'pyrherter"
+    }
+  ],
   "waterIntake": 3
 }

@@ -47,6 +47,12 @@
       "mealIndex": 1,
       "eaten": true,
       "notes": "ماقدرتش اخلصها"
+    },
+    {
+      "date": "2025-11-20T07:53:17.644Z",
+      "mealIndex": 2,
+      "eaten": true,
+      "notes": "متأخرة اوى"
     }
   ]
 }

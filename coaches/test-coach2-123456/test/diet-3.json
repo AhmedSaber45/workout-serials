@@ -54,6 +54,11 @@
       "mealIndex": 2,
       "eaten": true,
       "notes": "وقتها متأخر"
+    },
+    {
+      "date": "2025-11-20T10:53:08.987Z",
+      "type": "water",
+      "glassIndex": 11
     }
   ]
 }

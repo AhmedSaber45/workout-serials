@@ -2708,9 +2708,9 @@
     "price": 25,
     "createdAt": "2025-11-20T05:21:32.203Z",
     "expiresAt": "2025-11-27T05:21:32.203Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-tyu7ipe20d3snkuokl51b",
+    "used": true,
+    "usedDate": "2025-11-20T05:22:19.008Z"
   },
   {
     "serial": "P2N-NMO-NC7-0QE-9GS-TBG-61",

@@ -1,0 +1,39 @@
+{
+  "clientCode": "001tes",
+  "totalCalories": 2105,
+  "totalProtein": 140,
+  "totalCarbs": 300,
+  "totalFats": 90,
+  "numMeals": 3,
+  "meals": [
+    {
+      "name": "فطار",
+      "time": "09:37",
+      "calories": 500,
+      "protein": 30,
+      "carbs": 60,
+      "fats": 15,
+      "examples": "وجبة  واحد"
+    },
+    {
+      "name": "غدا",
+      "time": "15:37",
+      "calories": 1300,
+      "protein": 70,
+      "carbs": 100,
+      "fats": 40,
+      "examples": "وجبة اتنين"
+    },
+    {
+      "name": "عشا",
+      "time": "20:37",
+      "calories": 305,
+      "protein": 50,
+      "carbs": 100,
+      "fats": 30,
+      "examples": "وجبة 3"
+    }
+  ],
+  "createdAt": "2025-11-20T05:35:20.975Z",
+  "records": []
+}

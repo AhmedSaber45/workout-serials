@@ -1,0 +1,40 @@
+{
+  "clientCode": "003tes",
+  "totalCalories": 2853,
+  "totalProtein": 90,
+  "totalCarbs": 300,
+  "totalFats": 90,
+  "numMeals": 3,
+  "meals": [
+    {
+      "name": "t'hv",
+      "time": "11:34",
+      "calories": 500,
+      "protein": 30,
+      "carbs": 10,
+      "fats": 10,
+      "examples": "gtfjyjyt"
+    },
+    {
+      "name": "tykuyku",
+      "time": "03:34",
+      "calories": 236,
+      "protein": 31,
+      "carbs": 21,
+      "fats": 21,
+      "examples": "tyj"
+    },
+    {
+      "name": "utrrj",
+      "time": "22:34",
+      "calories": 2000,
+      "protein": 44,
+      "carbs": 54,
+      "fats": 21,
+      "examples": "ikliyi"
+    }
+  ],
+  "createdAt": "2025-11-20T09:34:25.110Z",
+  "records": [],
+  "dailyWaterLiters": 3
+}

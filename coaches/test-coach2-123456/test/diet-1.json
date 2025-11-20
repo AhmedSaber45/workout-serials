@@ -35,5 +35,12 @@
     }
   ],
   "createdAt": "2025-11-20T05:35:20.975Z",
-  "records": []
+  "records": [
+    {
+      "date": "2025-11-20T07:52:32.724Z",
+      "mealIndex": 0,
+      "eaten": true,
+      "notes": ""
+    }
+  ]
 }

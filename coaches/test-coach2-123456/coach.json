@@ -1,10 +1,16 @@
 {
   "name": "test coach2",
   "code": "123456",
-  "serial": "KR3-YNK-MWS-0ON-CDV-4T4-A1",
-  "expiryDate": "2025-11-27T05:26:48.240Z",
+  "serial": "ONC-5W3-YVL-04W-AYU-4Y9-T1",
+  "expiryDate": "2025-11-27T09:05:32.526Z",
   "status": "Active",
   "isTrial": false,
-  "progress": [],
-  "profileImage": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/profile-1763623243023.PNG"
+  "progress": [
+    {
+      "before": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/progress/media/progress-before-1763629921287.PNG",
+      "after": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/progress/media/progress-after-1763629922717.jpg",
+      "caption": "",
+      "date": "2025-11-20T09:12:04.035Z"
+    }
+  ]
 }

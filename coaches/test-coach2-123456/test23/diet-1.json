@@ -51,8 +51,8 @@
     {
       "date": "2025-11-20T09:37:36.221Z",
       "mealIndex": 2,
-      "eaten": true,
-      "notes": ""
+      "eaten": false,
+      "notes": "jrjtku"
     }
   ],
   "dailyWaterLiters": 3,

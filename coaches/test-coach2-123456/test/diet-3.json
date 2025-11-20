@@ -36,34 +36,5 @@
     }
   ],
   "createdAt": "2025-11-20T07:51:21.252Z",
-  "records": [
-    {
-      "date": "2025-11-20T07:55:02.244Z",
-      "type": "water",
-      "glassIndex": 0
-    },
-    {
-      "date": "2025-11-20T07:55:08.604Z",
-      "type": "water",
-      "glassIndex": 1
-    },
-    {
-      "date": "2025-11-20T07:55:20.116Z",
-      "mealIndex": 0,
-      "eaten": true,
-      "notes": ""
-    },
-    {
-      "date": "2025-11-20T07:55:35.700Z",
-      "mealIndex": 1,
-      "eaten": true,
-      "notes": "ماقدرتش اخلصها"
-    },
-    {
-      "date": "2025-11-20T07:55:49.843Z",
-      "mealIndex": 2,
-      "eaten": true,
-      "notes": "وقتها متاخر اوى"
-    }
-  ]
+  "records": []
 }

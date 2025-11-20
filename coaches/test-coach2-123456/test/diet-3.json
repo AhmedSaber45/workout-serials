@@ -42,6 +42,18 @@
       "mealIndex": 0,
       "eaten": true,
       "notes": ""
+    },
+    {
+      "date": "2025-11-20T09:30:55.311Z",
+      "mealIndex": 1,
+      "eaten": true,
+      "notes": "la rh]v hogwih"
+    },
+    {
+      "date": "2025-11-20T09:30:55.311Z",
+      "mealIndex": 2,
+      "eaten": true,
+      "notes": "وقتها متأخر"
     }
   ]
 }

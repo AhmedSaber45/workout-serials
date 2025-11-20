@@ -35,7 +35,26 @@
     }
   ],
   "createdAt": "2025-11-20T09:34:25.110Z",
-  "records": [],
+  "records": [
+    {
+      "date": "2025-11-20T09:37:36.221Z",
+      "mealIndex": 0,
+      "eaten": false,
+      "notes": ""
+    },
+    {
+      "date": "2025-11-20T09:37:36.221Z",
+      "mealIndex": 1,
+      "eaten": false,
+      "notes": ""
+    },
+    {
+      "date": "2025-11-20T09:37:36.221Z",
+      "mealIndex": 2,
+      "eaten": false,
+      "notes": ""
+    }
+  ],
   "dailyWaterLiters": 3,
   "waterRecords": [
     {

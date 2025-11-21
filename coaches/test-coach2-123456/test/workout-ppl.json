@@ -41,6 +41,17 @@
       "weight": "5",
       "reps": "10",
       "tank": "0"
+    },
+    {
+      "date": "2025-11-21T07:12:13.220Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "chest fly",
+      "set": 1,
+      "notes": null,
+      "weight": "10",
+      "reps": "20",
+      "tank": "0"
     }
   ]
 }

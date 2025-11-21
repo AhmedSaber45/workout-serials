@@ -12,5 +12,12 @@
     "message": "hello ازيك",
     "timestamp": "2025-11-21T15:03:51.623Z",
     "read": false
+  },
+  {
+    "id": "1763737626858",
+    "sender": "coach",
+    "text": "hello ازيك",
+    "timestamp": "2025-11-21T15:07:06.858Z",
+    "seen": false
   }
 ]

@@ -4,20 +4,21 @@
     "sender": "coach",
     "message": "hello لازيك",
     "timestamp": "2025-11-21T15:03:43.265Z",
-    "read": false
+    "read": true
   },
   {
     "id": "1763737431623",
     "sender": "coach",
     "message": "hello ازيك",
     "timestamp": "2025-11-21T15:03:51.623Z",
-    "read": false
+    "read": true
   },
   {
     "id": "1763737626858",
     "sender": "coach",
     "text": "hello ازيك",
     "timestamp": "2025-11-21T15:07:06.858Z",
-    "seen": false
+    "seen": false,
+    "read": true
   }
 ]

@@ -1,0 +1,22 @@
+{
+  "clientCode": "004tes",
+  "totalCalories": 1500,
+  "totalProtein": 100,
+  "totalCarbs": 150,
+  "totalFats": 50,
+  "numMeals": 1,
+  "dailyWaterLiters": 10,
+  "meals": [
+    {
+      "name": "break fast",
+      "time": "",
+      "calories": 1500,
+      "protein": 100,
+      "carbs": 150,
+      "fats": 50,
+      "examples": "hjrtyjtyytukuy"
+    }
+  ],
+  "createdAt": "2025-11-21T01:31:45.894Z",
+  "records": []
+}

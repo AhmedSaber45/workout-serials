@@ -1,0 +1,40 @@
+{
+  "clientCode": "001tes",
+  "totalCalories": 1500,
+  "totalProtein": 150,
+  "totalCarbs": 300,
+  "totalFats": 75,
+  "numMeals": 3,
+  "dailyWaterLiters": 3,
+  "meals": [
+    {
+      "name": "فطار",
+      "time": "04:54",
+      "calories": 500,
+      "protein": 50,
+      "carbs": 100,
+      "fats": 25,
+      "examples": "gmeirjgoihort"
+    },
+    {
+      "name": "launch",
+      "time": "14:02",
+      "calories": 500,
+      "protein": 50,
+      "carbs": 100,
+      "fats": 25,
+      "examples": "irtjhiortjrt"
+    },
+    {
+      "name": "dinner",
+      "time": "18:03",
+      "calories": 500,
+      "protein": 50,
+      "carbs": 100,
+      "fats": 25,
+      "examples": "hjrtepghio9erjgh"
+    }
+  ],
+  "createdAt": "2025-11-21T00:54:28.814Z",
+  "records": []
+}

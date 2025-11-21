@@ -36,5 +36,11 @@
     }
   ],
   "createdAt": "2025-11-21T00:54:28.814Z",
-  "records": []
+  "records": [
+    {
+      "date": "2025-11-21T01:07:58.646Z",
+      "type": "water",
+      "consumedGlasses": 2
+    }
+  ]
 }

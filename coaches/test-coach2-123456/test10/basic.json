@@ -5,7 +5,7 @@
   "age": 20,
   "weight": 82,
   "height": 180,
-  "status": "online",
+  "status": "onfloor",
   "createdAt": "2025-11-21T01:05:38.678Z",
   "subscriptionDuration": 2,
   "expirationDate": "2026-01-21T01:05:58.095Z"

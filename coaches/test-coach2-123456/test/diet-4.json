@@ -40,12 +40,24 @@
     {
       "date": "2025-11-21T01:07:58.646Z",
       "type": "water",
-      "consumedGlasses": 3
+      "consumedGlasses": 4
     },
     {
       "date": "2025-11-21T01:08:25.246Z",
       "mealIndex": 0,
       "eatenCalories": 350,
+      "eatenProtein": 0
+    },
+    {
+      "date": "2025-11-21T01:09:54.270Z",
+      "mealIndex": 1,
+      "eatenCalories": 350,
+      "eatenProtein": 0
+    },
+    {
+      "date": "2025-11-21T01:09:54.270Z",
+      "mealIndex": 2,
+      "eatenCalories": 900,
       "eatenProtein": 0
     }
   ]

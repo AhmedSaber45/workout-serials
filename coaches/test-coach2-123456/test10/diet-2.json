@@ -1,0 +1,22 @@
+{
+  "clientCode": "004tes",
+  "totalCalories": 1500,
+  "totalProtein": 100,
+  "totalCarbs": 200,
+  "totalFats": 50,
+  "numMeals": 1,
+  "dailyWaterLiters": 3,
+  "meals": [
+    {
+      "name": "test meal edit",
+      "time": "",
+      "calories": 1500,
+      "protein": 100,
+      "carbs": 200,
+      "fats": 50,
+      "examples": "87i7tii7iyjtk"
+    }
+  ],
+  "createdAt": "2025-11-21T02:06:06.686Z",
+  "records": []
+}

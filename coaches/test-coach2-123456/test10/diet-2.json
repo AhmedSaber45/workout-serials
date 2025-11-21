@@ -5,7 +5,7 @@
   "totalCarbs": 200,
   "totalFats": 50,
   "numMeals": 1,
-  "dailyWaterLiters": 3,
+  "dailyWaterLiters": 2,
   "meals": [
     {
       "name": "test meal edit",

@@ -24,6 +24,11 @@
       "mealIndex": 0,
       "eatenCalories": 900,
       "eatenProtein": 0
+    },
+    {
+      "date": "2025-11-21T02:30:46.575Z",
+      "type": "water",
+      "consumedGlasses": 1
     }
   ]
 }

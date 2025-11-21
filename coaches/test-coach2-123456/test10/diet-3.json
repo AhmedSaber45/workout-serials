@@ -27,5 +27,22 @@
     }
   ],
   "createdAt": "2025-11-21T06:01:31.140Z",
-  "records": []
+  "records": [
+    {
+      "date": "2025-11-21T06:03:12.556Z",
+      "mealIndex": 0,
+      "isEaten": true,
+      "notes": "اخر معادها شوية",
+      "eatenCalories": 750,
+      "eatenProtein": 50
+    },
+    {
+      "date": "2025-11-21T06:03:12.556Z",
+      "mealIndex": 1,
+      "isEaten": true,
+      "notes": "ماقدرتش اخلصها",
+      "eatenCalories": 750,
+      "eatenProtein": 50
+    }
+  ]
 }

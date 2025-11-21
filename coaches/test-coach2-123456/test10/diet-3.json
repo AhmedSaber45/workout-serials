@@ -1,0 +1,31 @@
+{
+  "clientCode": "004tes",
+  "totalCalories": 1500,
+  "totalProtein": 100,
+  "totalCarbs": 200,
+  "totalFats": 50,
+  "numMeals": 2,
+  "dailyWaterLiters": 3,
+  "meals": [
+    {
+      "name": "فطار",
+      "time": "09:01",
+      "calories": 750,
+      "protein": 50,
+      "carbs": 100,
+      "fats": 25,
+      "examples": "فطار فول وطعمية"
+    },
+    {
+      "name": "غدا",
+      "time": "17:02",
+      "calories": 750,
+      "protein": 50,
+      "carbs": 100,
+      "fats": 25,
+      "examples": "غدا لحمة ورز"
+    }
+  ],
+  "createdAt": "2025-11-21T06:01:31.140Z",
+  "records": []
+}

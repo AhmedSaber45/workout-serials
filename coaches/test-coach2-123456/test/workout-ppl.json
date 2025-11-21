@@ -30,5 +30,17 @@
     }
   ],
   "createdAt": "2025-11-20T14:39:56.940Z",
-  "records": []
+  "records": [
+    {
+      "date": "2025-11-21T07:11:56.188Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "chest fly",
+      "set": 1,
+      "notes": null,
+      "weight": "5",
+      "reps": "10",
+      "tank": "0"
+    }
+  ]
 }

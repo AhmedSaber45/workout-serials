@@ -22,8 +22,10 @@
     {
       "date": "2025-11-21T02:08:17.550Z",
       "mealIndex": 0,
-      "eatenCalories": 900,
-      "eatenProtein": 0
+      "eatenCalories": 0,
+      "eatenProtein": 0,
+      "isEaten": false,
+      "notes": ""
     },
     {
       "date": "2025-11-21T02:30:46.575Z",

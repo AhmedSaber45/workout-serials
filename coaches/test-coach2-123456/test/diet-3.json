@@ -59,6 +59,11 @@
       "date": "2025-11-20T10:53:08.987Z",
       "type": "water",
       "glassIndex": 11
+    },
+    {
+      "date": "2025-11-21T00:56:37.078Z",
+      "type": "water",
+      "consumedGlasses": 4
     }
   ]
 }

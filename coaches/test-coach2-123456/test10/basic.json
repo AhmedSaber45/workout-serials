@@ -1,0 +1,12 @@
+{
+  "name": "test10",
+  "code": "004tes",
+  "gender": "male",
+  "age": 20,
+  "weight": 82,
+  "height": 180,
+  "status": "online",
+  "createdAt": "2025-11-21T01:05:38.678Z",
+  "subscriptionDuration": 1,
+  "expirationDate": "2025-12-21T01:05:38.678Z"
+}

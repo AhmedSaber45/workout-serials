@@ -62,5 +62,13 @@
     "usablePoints": 0,
     "usedBy": [],
     "expiration": 1763878072399
+  },
+  "MEDO50": {
+    "owner": "Medo",
+    "discount": 50,
+    "totalPoints": 0,
+    "usablePoints": 0,
+    "usedBy": [],
+    "expiration": null
   }
 }

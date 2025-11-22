@@ -71,5 +71,12 @@
     "audio": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/msg-001tes-1763794173695.webm",
     "timestamp": "2025-11-22T06:49:35.022Z",
     "read": true
+  },
+  {
+    "id": "17637962152400.7811441192654244",
+    "sender": "coach",
+    "message": "\n\n<audio controls src=\"https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/voice/broadcast-voice-1763796211463.mp4\"></audio>",
+    "timestamp": "2025-11-22T07:23:31.463Z",
+    "read": false
   }
 ]

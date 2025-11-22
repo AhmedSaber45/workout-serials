@@ -4,6 +4,6 @@
     "sender": "coach",
     "message": "test notification",
     "timestamp": "2025-11-22T05:59:54.676Z",
-    "read": false
+    "read": true
   }
 ]

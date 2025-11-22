@@ -63,5 +63,13 @@
     "audio": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/broadcast-1763794125695.webm",
     "timestamp": "2025-11-22T06:48:47.109Z",
     "read": false
+  },
+  {
+    "id": "1763794175022",
+    "sender": "coach",
+    "message": "",
+    "audio": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/msg-001tes-1763794173695.webm",
+    "timestamp": "2025-11-22T06:49:35.022Z",
+    "read": false
   }
 ]

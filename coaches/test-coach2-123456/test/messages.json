@@ -54,7 +54,7 @@
     "sender": "coach",
     "message": "noifications",
     "timestamp": "2025-11-22T02:16:40.627Z",
-    "read": false
+    "read": true
   },
   {
     "id": "17637941271090.9176686962514955",
@@ -62,7 +62,7 @@
     "message": "",
     "audio": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/broadcast-1763794125695.webm",
     "timestamp": "2025-11-22T06:48:47.109Z",
-    "read": false
+    "read": true
   },
   {
     "id": "1763794175022",
@@ -70,6 +70,6 @@
     "message": "",
     "audio": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/msg-001tes-1763794173695.webm",
     "timestamp": "2025-11-22T06:49:35.022Z",
-    "read": false
+    "read": true
   }
 ]

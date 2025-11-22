@@ -1,0 +1,28 @@
+{
+  "name": "Fb",
+  "duration": 5,
+  "days": [
+    {
+      "name": "يوم 1",
+      "exercises": []
+    },
+    {
+      "name": "يوم 2",
+      "exercises": []
+    },
+    {
+      "name": "يوم 3",
+      "exercises": []
+    },
+    {
+      "name": "يوم 4",
+      "exercises": []
+    },
+    {
+      "name": "يوم 5",
+      "exercises": []
+    }
+  ],
+  "createdAt": "2025-11-22T18:49:52.243Z",
+  "records": []
+}

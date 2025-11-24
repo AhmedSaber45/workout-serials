@@ -1,0 +1,17 @@
+{
+  "username": "test10",
+  "workout": "arnold",
+  "variant": "hilv",
+  "configs": {
+    "arnold/arm_config.json": {
+      "exercises": []
+    },
+    "arnold/leg_config.json": {
+      "exercises": []
+    },
+    "arnold/chest-back_config.json": {
+      "exercises": []
+    }
+  },
+  "timestamp": 1763984344034
+}

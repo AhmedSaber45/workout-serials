@@ -1,0 +1,19 @@
+{
+  "test10-arnold-26": {
+    "username": "test10",
+    "workout": "arnold",
+    "variant": "hilv",
+    "configs": {
+      "HILV/arnold/arm_config.json": {
+        "exercises": []
+      },
+      "HILV/arnold/leg_config.json": {
+        "exercises": []
+      },
+      "HILV/arnold/chest-back_config.json": {
+        "exercises": []
+      }
+    },
+    "timestamp": 1763984614285
+  }
+}

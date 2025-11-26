@@ -2600,8 +2600,8 @@
     "price": 20,
     "createdAt": "2025-11-26T19:45:22.878Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-l5248vplj-mhmbr228",
+    "used": true,
+    "usedDate": "2025-11-26T19:45:54.245Z"
   }
 ]

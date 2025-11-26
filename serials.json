@@ -2561,7 +2561,8 @@
     "createdAt": "2025-11-26T19:42:34.818Z",
     "expiresAt": null,
     "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "used": true,
+    "usedDate": "2025-11-26T19:43:22.596Z",
+    "username": "Ahmed_Saber"
   }
 ]

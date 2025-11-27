@@ -85,5 +85,12 @@
     "message": "test reply",
     "timestamp": "2025-11-27T13:22:56.094Z",
     "read": true
+  },
+  {
+    "id": "1764249810906",
+    "sender": "client",
+    "message": "\n\n<audio controls src=\"https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/voice/client-voice-1764249808775.mp4\"></audio>",
+    "timestamp": "2025-11-27T13:23:30.906Z",
+    "read": false
   }
 ]

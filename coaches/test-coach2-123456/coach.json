@@ -6,6 +6,12 @@
   "status": "Active",
   "isTrial": false,
   "progress": [],
-  "certifications": [],
+  "certifications": [
+    {
+      "image": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/certs/media/cert-1764233762585-1764233762586.PNG",
+      "caption": "Certification",
+      "date": "2025-11-27T08:56:04.109Z"
+    }
+  ],
   "profileImage": ""
 }

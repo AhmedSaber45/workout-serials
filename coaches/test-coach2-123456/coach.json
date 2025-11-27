@@ -2,8 +2,16 @@
   "name": "test coach2",
   "code": "123456",
   "serial": "T7U-U6U-AON-0CA-9AJ-GKC-R2",
-  "expiryDate": "2025-12-27T10:18:24.718Z",
+  "expiryDate": "2025-12-27T10:18:26.170Z",
   "status": "Active",
   "isTrial": false,
-  "progress": []
+  "progress": [
+    {
+      "before": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/progress/media/progress-before-1764244180335.PNG",
+      "after": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/progress/media/progress-after-1764244181778.PNG",
+      "caption": "",
+      "date": "2025-11-27T11:49:43.261Z"
+    }
+  ],
+  "profileImage": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/profile-1764243941908.png"
 }

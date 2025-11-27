@@ -2613,8 +2613,8 @@
     "price": 25,
     "createdAt": "2025-11-27T08:45:09.269Z",
     "expiresAt": "2025-12-04T08:45:09.269Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-yc7dwu0osfyd6zl2r9ggh",
+    "used": true,
+    "usedDate": "2025-11-27T08:51:49.089Z"
   }
 ]

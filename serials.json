@@ -2821,9 +2821,9 @@
     "price": 25,
     "createdAt": "2025-11-27T11:54:15.883Z",
     "expiresAt": "2025-12-27T11:54:15.883Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-yc7dwu0osfyd6zl2r9ggh",
+    "used": true,
+    "usedDate": "2025-11-27T11:54:53.153Z"
   },
   {
     "serial": "J47-X97-4QK-0ON-CMV-MW3-V2",

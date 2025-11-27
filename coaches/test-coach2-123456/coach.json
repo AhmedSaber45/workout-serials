@@ -1,11 +1,17 @@
 {
   "name": "test coach2",
   "code": "123456",
-  "serial": "TUT-6P4-GMU-0PU-ONC-329-52",
-  "expiryDate": "2025-12-27T09:10:07.238Z",
+  "serial": "H2V-EK5-ONC-0NC-SR7-QSA-U2",
+  "expiryDate": "2025-12-27T08:55:33.277Z",
   "status": "Active",
   "isTrial": false,
-  "progress": [],
-  "certifications": [],
+  "progress": [
+    {
+      "before": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/progress/media/progress-before-1764238051952.PNG",
+      "after": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/progress/media/progress-after-1764238053393.PNG",
+      "caption": "",
+      "date": "2025-11-27T10:07:34.870Z"
+    }
+  ],
   "profileImage": ""
 }

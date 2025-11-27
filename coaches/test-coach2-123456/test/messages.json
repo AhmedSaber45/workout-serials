@@ -84,6 +84,6 @@
     "sender": "coach",
     "message": "test reply",
     "timestamp": "2025-11-27T13:22:56.094Z",
-    "read": false
+    "read": true
   }
 ]

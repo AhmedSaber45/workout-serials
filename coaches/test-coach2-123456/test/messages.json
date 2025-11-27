@@ -78,5 +78,12 @@
     "message": "\n\n<audio controls src=\"https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/voice/broadcast-voice-1763796211463.mp4\"></audio>",
     "timestamp": "2025-11-22T07:23:31.463Z",
     "read": true
+  },
+  {
+    "id": "1764249776094",
+    "sender": "coach",
+    "message": "test reply",
+    "timestamp": "2025-11-27T13:22:56.094Z",
+    "read": false
   }
 ]

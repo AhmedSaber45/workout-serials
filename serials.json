@@ -2899,9 +2899,9 @@
     "price": 25,
     "createdAt": "2025-12-15T11:14:34.972Z",
     "expiresAt": "2026-01-14T11:14:34.972Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-ahdi3vszsqnwe9q5sknmu",
+    "used": true,
+    "usedDate": "2025-12-15T11:15:21.110Z"
   },
   {
     "serial": "2XR-DNV-TW9-0MO-NC9-Y4Q-92",

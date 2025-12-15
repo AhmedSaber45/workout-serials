@@ -1,12 +1,12 @@
 {
   "name": "test",
   "code": "001tes",
+  "username": "test",
   "gender": "male",
   "age": 21,
   "weight": 67,
   "height": 185,
   "status": "onfloor",
   "createdAt": "2025-11-20T05:27:46.784Z",
-  "subscriptionDuration": 2,
-  "username": "test10"
+  "subscriptionDuration": 2
 }

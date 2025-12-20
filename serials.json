@@ -2956,5 +2956,18 @@
     "usedDate": "2025-12-20T17:53:15.019Z",
     "activationDate": "2025-12-20T17:53:15.019Z",
     "username": "Ahmedosamaelbarbary2"
+  },
+  {
+    "serial": "CUS-4N7-88X-9ZE-SMD-HZ2-H9",
+    "programId": "11",
+    "programName": "Custom Workout - Permanent",
+    "duration": 0,
+    "durationCode": "99",
+    "price": 30,
+    "createdAt": "2025-12-20T17:59:17.905Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

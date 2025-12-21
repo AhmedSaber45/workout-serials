@@ -203,5 +203,10 @@
     "rating": 5,
     "message": "",
     "date": "2025-12-17T07:52:55.811Z"
+  },
+  {
+    "rating": 5,
+    "message": "test config",
+    "date": "2025-12-21T18:34:49.907Z"
   }
 ]

@@ -3022,5 +3022,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "CDE-GMQ-TCU-0SJ-SPP-3FW-Y1",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Week",
+    "duration": 7,
+    "durationCode": "01",
+    "price": 3,
+    "createdAt": "2025-12-22T12:02:22.279Z",
+    "expiresAt": "2025-12-29T12:02:22.279Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

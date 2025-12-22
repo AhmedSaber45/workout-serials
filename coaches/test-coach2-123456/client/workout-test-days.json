@@ -4,11 +4,31 @@
   "days": [
     {
       "name": "Day 1",
-      "exercises": []
+      "exercises": [
+        {
+          "name": "test1",
+          "sets": 1,
+          "singleArm": false,
+          "image": "",
+          "video": "",
+          "notes": "",
+          "restTime": null
+        }
+      ]
     },
     {
       "name": "Day 2",
-      "exercises": []
+      "exercises": [
+        {
+          "name": "test2",
+          "sets": 1,
+          "singleArm": false,
+          "image": "",
+          "video": "",
+          "notes": "",
+          "restTime": null
+        }
+      ]
     },
     {
       "name": "Day 3",

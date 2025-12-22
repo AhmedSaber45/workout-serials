@@ -9,7 +9,7 @@
           "name": "chest fly",
           "sets": 1,
           "singleArm": false,
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTczTRSKTIiz8H0s5YjMkV5YAzqaAv31ZqmVA&s",
+          "image": "https://cdn-kbijj.nitrocdn.com/TZyKwYaTolAraTyTlyroeUSlFdlZcsZt/assets/images/optimized/rev-ab2aef0/forte-fitness.co.uk/wp-content/uploads/2024/05/gettyimages-1429386066-612x612-1.jpg",
           "video": ""
         },
         {
@@ -74,6 +74,18 @@
       "weight": "15",
       "reps": "10",
       "tank": "0"
+    },
+    {
+      "date": "2025-12-22T19:36:59.287Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "chest fly",
+      "set": 1,
+      "notes": null,
+      "weight": "20",
+      "reps": "10",
+      "tank": "0",
+      "rest": "10"
     }
   ]
 }

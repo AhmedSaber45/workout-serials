@@ -32,7 +32,17 @@
     },
     {
       "name": "Day 3",
-      "exercises": []
+      "exercises": [
+        {
+          "name": "تمرينة 3",
+          "sets": 1,
+          "singleArm": false,
+          "image": "",
+          "video": "",
+          "notes": "",
+          "restTime": null
+        }
+      ]
     }
   ],
   "createdAt": "2025-12-22T21:59:08.317Z",

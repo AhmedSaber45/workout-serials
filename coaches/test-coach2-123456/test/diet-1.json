@@ -35,5 +35,30 @@
     }
   ],
   "createdAt": "2025-11-20T05:35:20.975Z",
-  "records": []
+  "records": [
+    {
+      "date": "2025-12-22T21:44:11.047Z",
+      "mealIndex": 0,
+      "isEaten": false,
+      "notes": "",
+      "eatenCalories": 0,
+      "eatenProtein": 0
+    },
+    {
+      "date": "2025-12-22T21:44:11.047Z",
+      "mealIndex": 1,
+      "isEaten": false,
+      "notes": "",
+      "eatenCalories": 0,
+      "eatenProtein": 0
+    },
+    {
+      "date": "2025-12-22T21:44:11.047Z",
+      "mealIndex": 2,
+      "isEaten": false,
+      "notes": "",
+      "eatenCalories": 0,
+      "eatenProtein": 0
+    }
+  ]
 }

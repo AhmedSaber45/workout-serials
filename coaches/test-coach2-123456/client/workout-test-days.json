@@ -1,0 +1,20 @@
+{
+  "name": "test days",
+  "duration": 3,
+  "days": [
+    {
+      "name": "Day 1",
+      "exercises": []
+    },
+    {
+      "name": "Day 2",
+      "exercises": []
+    },
+    {
+      "name": "Day 3",
+      "exercises": []
+    }
+  ],
+  "createdAt": "2025-12-22T21:59:08.317Z",
+  "records": []
+}

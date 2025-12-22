@@ -18,7 +18,17 @@
     },
     {
       "name": "Day 2",
-      "exercises": []
+      "exercises": [
+        {
+          "name": "تمرينة 2",
+          "sets": 1,
+          "singleArm": false,
+          "image": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/تمرينة-2-1766440416004.png",
+          "video": "",
+          "notes": "test static notes",
+          "restTime": null
+        }
+      ]
     }
   ],
   "createdAt": "2025-12-22T21:49:29.830Z",

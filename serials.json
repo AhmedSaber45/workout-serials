@@ -3006,9 +3006,9 @@
     "price": 25,
     "createdAt": "2025-12-22T00:03:26.675Z",
     "expiresAt": "2026-01-21T00:03:26.675Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-187iuw1vc8yamjwk5pscqt",
+    "used": true,
+    "usedDate": "2025-12-22T00:04:01.813Z"
   },
   {
     "serial": "E93-ONC-3KR-0JT-BUS-PDD-92",

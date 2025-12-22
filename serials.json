@@ -3036,5 +3036,18 @@
     "used": true,
     "usedDate": "2025-12-22T12:02:37.939Z",
     "username": "test10"
+  },
+  {
+    "serial": "HAC-BLT-QCU-0S4-QEM-8PD-91",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Week",
+    "duration": 7,
+    "durationCode": "01",
+    "price": 3,
+    "createdAt": "2025-12-22T12:02:40.144Z",
+    "expiresAt": "2025-12-29T12:02:40.144Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

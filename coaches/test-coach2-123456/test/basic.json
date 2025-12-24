@@ -9,5 +9,5 @@
   "status": "onfloor",
   "createdAt": "2025-11-20T05:27:46.784Z",
   "subscriptionDuration": 2,
-  "isLocked": true
+  "isLocked": false
 }

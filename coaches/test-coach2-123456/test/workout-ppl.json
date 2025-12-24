@@ -179,6 +179,40 @@
       "weight": "20",
       "reps": "10",
       "tank": "0"
+    },
+    {
+      "date": "2025-12-24T17:33:27.595Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "chest fly",
+      "set": 1,
+      "notes": null,
+      "rest": 10,
+      "weight": "20",
+      "reps": "10",
+      "tank": "0"
+    },
+    {
+      "date": "2025-12-24T17:33:27.595Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "jykytk",
+      "set": 1,
+      "notes": null,
+      "weight": "30",
+      "reps": null,
+      "tank": null
+    },
+    {
+      "date": "2025-12-24T17:33:27.595Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "kuykuy",
+      "set": 1,
+      "notes": null,
+      "weight": "20",
+      "reps": null,
+      "tank": null
     }
   ]
 }

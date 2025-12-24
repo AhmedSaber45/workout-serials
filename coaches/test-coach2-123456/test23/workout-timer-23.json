@@ -1,12 +1,21 @@
 {
+  "clientCode": "003tes",
   "name": "timer 23",
   "duration": 1,
   "days": [
     {
       "name": "Day 1",
-      "exercises": []
+      "exercises": [
+        {
+          "name": "timer",
+          "sets": 1,
+          "singleArm": false,
+          "image": "",
+          "video": "",
+          "notes": "",
+          "restTime": 45
+        }
+      ]
     }
-  ],
-  "createdAt": "2025-12-24T14:39:05.921Z",
-  "records": []
+  ]
 }

@@ -144,6 +144,29 @@
       "weight": "30",
       "reps": null,
       "tank": null
+    },
+    {
+      "date": "2025-12-24T14:52:05.208Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "chest fly",
+      "set": 1,
+      "notes": null,
+      "weight": "10",
+      "reps": null,
+      "tank": null
+    },
+    {
+      "date": "2025-12-24T14:52:05.208Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "jykytk",
+      "set": 1,
+      "notes": null,
+      "rest": 10,
+      "weight": "30",
+      "reps": "15",
+      "tank": "0"
     }
   ]
 }

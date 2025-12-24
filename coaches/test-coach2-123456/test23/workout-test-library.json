@@ -19,5 +19,18 @@
     }
   ],
   "createdAt": "2025-12-24T17:29:08.994Z",
-  "records": []
+  "records": [
+    {
+      "date": "2025-12-24T17:37:50.563Z",
+      "workout": "test library",
+      "day": 1,
+      "exerciseName": "incline dumbbell chest press دامبل بنش عالى",
+      "set": 1,
+      "notes": "تيست نوتس english ",
+      "rest": 10,
+      "weight": "15",
+      "reps": "10",
+      "tank": "0"
+    }
+  ]
 }

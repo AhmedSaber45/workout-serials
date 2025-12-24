@@ -5,27 +5,27 @@
     "message": "",
     "audio": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/broadcast-1763794125695.webm",
     "timestamp": "2025-11-22T06:48:48.110Z",
-    "read": false
+    "read": true
   },
   {
     "id": "17637962173940.5424333892684313",
     "sender": "coach",
     "message": "\n\n<audio controls src=\"https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/voice/broadcast-voice-1763796211463.mp4\"></audio>",
     "timestamp": "2025-11-22T07:23:31.463Z",
-    "read": false
+    "read": true
   },
   {
     "id": "17665026485300.5977397378859334",
     "sender": "coach",
     "message": "\n\n<audio controls src=\"https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/voice/broadcast-voice-1766502622466.mp4\"></audio>",
     "timestamp": "2025-12-23T15:10:22.466Z",
-    "read": false
+    "read": true
   },
   {
     "id": "17665026509810.1809614859224563",
     "sender": "coach",
     "message": "\n\n<audio controls src=\"https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/voice/broadcast-voice-1766502622466.mp4\"></audio>",
     "timestamp": "2025-12-23T15:10:22.466Z",
-    "read": false
+    "read": true
   }
 ]

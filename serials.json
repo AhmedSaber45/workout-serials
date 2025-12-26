@@ -3077,5 +3077,18 @@
     "usedDate": "2025-12-26T15:35:39.222Z",
     "activationDate": "2025-12-26T15:35:39.223Z",
     "username": "Mohanad"
+  },
+  {
+    "serial": "NXN-89B-A3K-9CU-SML-722-A9",
+    "programId": "11",
+    "programName": "Custom Workout - Permanent",
+    "duration": 0,
+    "durationCode": "99",
+    "price": 30,
+    "createdAt": "2025-12-26T15:38:50.664Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

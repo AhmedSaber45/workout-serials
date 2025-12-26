@@ -2873,9 +2873,9 @@
     "price": 25,
     "createdAt": "2025-12-15T10:54:35.395Z",
     "expiresAt": "2026-01-14T10:54:35.395Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-tivcygsbju5u9vavjb4pw",
+    "used": true,
+    "usedDate": "2025-12-26T16:33:32.381Z"
   },
   {
     "serial": "ONC-GVX-YRS-0N8-LXZ-BAE-T2",

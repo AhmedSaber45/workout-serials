@@ -3,8 +3,114 @@
   "duration": 3,
   "days": [
     {
-      "name": "يوم 1",
-      "exercises": []
+      "name": "FB",
+      "exercises": [
+        {
+          "name": "Incline chest press 60D",
+          "sets": 2,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "Tbar",
+          "sets": 2,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "Chest fly",
+          "sets": 1,
+          "singleArm": true,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "Arm extension",
+          "sets": 1,
+          "singleArm": true,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "Arm Adduction",
+          "sets": 1,
+          "singleArm": true,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "Leg extension",
+          "sets": 1,
+          "singleArm": true,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "Cable lateral raises",
+          "sets": 1,
+          "singleArm": true,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "Dumbbell lateral raises",
+          "sets": 1,
+          "singleArm": true,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "Seated leg curl",
+          "sets": 1,
+          "singleArm": true,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "Triceps push down",
+          "sets": 1,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "No cheat Dumbbell curl",
+          "sets": 1,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "Triceps overhead",
+          "sets": 1,
+          "singleArm": true,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "Preacher curl 60D",
+          "sets": 1,
+          "singleArm": true,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "Brachioradialis",
+          "sets": 2,
+          "singleArm": true,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "Wrist flexion",
+          "sets": 2,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        }
+      ]
     },
     {
       "name": "يوم 2",

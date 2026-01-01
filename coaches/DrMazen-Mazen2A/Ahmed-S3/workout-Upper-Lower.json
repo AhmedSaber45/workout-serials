@@ -1,0 +1,36 @@
+{
+  "name": "Upper Lower",
+  "duration": 7,
+  "days": [
+    {
+      "name": "يوم 1",
+      "exercises": []
+    },
+    {
+      "name": "يوم 2",
+      "exercises": []
+    },
+    {
+      "name": "يوم 3",
+      "exercises": []
+    },
+    {
+      "name": "يوم 4",
+      "exercises": []
+    },
+    {
+      "name": "يوم 5",
+      "exercises": []
+    },
+    {
+      "name": "يوم 6",
+      "exercises": []
+    },
+    {
+      "name": "يوم 7",
+      "exercises": []
+    }
+  ],
+  "createdAt": "2026-01-01T13:44:53.865Z",
+  "records": []
+}

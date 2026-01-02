@@ -244,8 +244,58 @@
       ]
     },
     {
-      "name": "يوم 6",
-      "exercises": []
+      "name": "LOWER",
+      "exercises": [
+        {
+          "name": "STANDING SQUAT",
+          "sets": 2,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "LEANING FORWARD SEATED LEG CURL",
+          "sets": 1,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "ADDUCTION MACHINE",
+          "sets": 2,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "BARBELL RDL",
+          "sets": 2,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "SL LEG EXTENSION",
+          "sets": 2,
+          "singleArm": true,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "STANDING CALF RAISES",
+          "sets": 1,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "DORSI FLEXION",
+          "sets": 1,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        }
+      ]
     },
     {
       "name": "يوم 7",

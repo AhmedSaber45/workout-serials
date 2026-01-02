@@ -6,21 +6,21 @@
       "name": "Upper 1",
       "exercises": [
         {
-          "name": "INCLINE 60D DUMBBELL CHEST PRESS",
+          "name": "INCLINE 60D DB CHEST PRESS",
           "sets": 2,
           "singleArm": false,
           "image": "",
           "video": ""
         },
         {
-          "name": "LAT PULLDOWN",
+          "name": "LATS PULLDOWN",
           "sets": 2,
           "singleArm": false,
           "image": "",
           "video": ""
         },
         {
-          "name": "SA PULLOVER",
+          "name": "SA LATS PULLOVER",
           "sets": 1,
           "singleArm": true,
           "image": "",
@@ -34,7 +34,7 @@
           "video": ""
         },
         {
-          "name": "SA CABLE LATERAL RAISES",
+          "name": "SA CABLE LAT RAISES",
           "sets": 2,
           "singleArm": true,
           "image": "",

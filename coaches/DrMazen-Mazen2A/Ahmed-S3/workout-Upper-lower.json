@@ -176,8 +176,72 @@
       "exercises": []
     },
     {
-      "name": "يوم 5",
-      "exercises": []
+      "name": "UPPER 3",
+      "exercises": [
+        {
+          "name": "SA CABLE LAT RAISES",
+          "sets": 2,
+          "singleArm": true,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "INCLINE 60D DM PRESS",
+          "sets": 2,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "SHOULDER PRESS MACHINE",
+          "sets": 1,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "LATS PULL DOWN",
+          "sets": 2,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "SA LATS PULL OVER",
+          "sets": 1,
+          "singleArm": true,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "NO CHEAT BICEP CURL",
+          "sets": 2,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "CHEST FLY MACHINE",
+          "sets": 1,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "TRICEPS PUSH DOWN",
+          "sets": 2,
+          "singleArm": true,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "Tbar ROW",
+          "sets": 2,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        }
+      ]
     },
     {
       "name": "يوم 6",

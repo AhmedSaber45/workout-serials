@@ -3,8 +3,58 @@
   "duration": 7,
   "days": [
     {
-      "name": "يوم 1",
-      "exercises": []
+      "name": "Upper 1",
+      "exercises": [
+        {
+          "name": "INCLINE 60D DUMBBELL CHEST PRESS",
+          "sets": 2,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "LAT PULLDOWN",
+          "sets": 2,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "SA PULLOVER",
+          "sets": 1,
+          "singleArm": true,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "WRIST CURL (FLEXION)",
+          "sets": 2,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "SA CABLE LATERAL RAISES",
+          "sets": 2,
+          "singleArm": true,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "SA TRICEPS PUSH DOWN",
+          "sets": 1,
+          "singleArm": true,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "No CHEAT BICEP CURL",
+          "sets": 2,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        }
+      ]
     },
     {
       "name": "يوم 2",

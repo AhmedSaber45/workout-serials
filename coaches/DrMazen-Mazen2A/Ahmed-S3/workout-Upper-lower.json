@@ -57,7 +57,7 @@
       ]
     },
     {
-      "name": "يوم 2",
+      "name": "UPPER 2",
       "exercises": [
         {
           "name": "T BAR ROW",
@@ -74,7 +74,7 @@
           "video": ""
         },
         {
-          "name": "DUMBBELL LATERAL RAISES",
+          "name": "STANDING LATERAL RAISES MACHINE",
           "sets": 2,
           "singleArm": false,
           "image": "",
@@ -88,14 +88,14 @@
           "video": ""
         },
         {
-          "name": "60D BICEPS PREACHER CURL",
+          "name": "60D BICEPS DB PREACHER CURL",
           "sets": 1,
           "singleArm": true,
           "image": "",
           "video": ""
         },
         {
-          "name": "REVERS DUMBBELL WRIST CURL (EXTENSION)",
+          "name": "REVERS DB WRIST CURL (EXTENSION)",
           "sets": 2,
           "singleArm": false,
           "image": "",

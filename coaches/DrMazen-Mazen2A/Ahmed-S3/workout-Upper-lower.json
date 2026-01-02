@@ -58,7 +58,64 @@
     },
     {
       "name": "يوم 2",
-      "exercises": []
+      "exercises": [
+        {
+          "name": "T BAR ROW",
+          "sets": 2,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "CHEST FLY MACHINE",
+          "sets": 2,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "DUMBBELL LATERAL RAISES",
+          "sets": 2,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "SA TRICEP OVER HEAD",
+          "sets": 2,
+          "singleArm": true,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "60D BICEPS PREACHER CURL",
+          "sets": 1,
+          "singleArm": true,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "REVERS DUMBBELL WRIST CURL (EXTENSION)",
+          "sets": 2,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "WRIST CURL (FLEXION)",
+          "sets": 2,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        },
+        {
+          "name": "SHOULDER PRESS",
+          "sets": 1,
+          "singleArm": false,
+          "image": "",
+          "video": ""
+        }
+      ]
     },
     {
       "name": "يوم 3",

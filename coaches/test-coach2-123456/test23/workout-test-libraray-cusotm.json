@@ -1,0 +1,12 @@
+{
+  "name": "test libraray cusotm",
+  "duration": 1,
+  "days": [
+    {
+      "name": "Day 1",
+      "exercises": []
+    }
+  ],
+  "createdAt": "2026-01-22T13:30:20.365Z",
+  "records": []
+}

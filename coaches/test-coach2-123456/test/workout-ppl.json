@@ -1,30 +1,43 @@
 {
+  "clientCode": "001tes",
   "name": "ppl",
   "duration": 1,
   "days": [
     {
-      "name": "Day 1",
+      "name": "push a",
       "exercises": [
         {
           "name": "chest fly",
           "sets": 1,
           "singleArm": false,
           "image": "https://cdn-kbijj.nitrocdn.com/TZyKwYaTolAraTyTlyroeUSlFdlZcsZt/assets/images/optimized/rev-ab2aef0/forte-fitness.co.uk/wp-content/uploads/2024/05/gettyimages-1429386066-612x612-1.jpg",
-          "video": ""
+          "video": "",
+          "notes": "",
+          "restTime": null,
+          "alternatives": [],
+          "selectedAlternative": 0
         },
         {
           "name": "jykytk",
           "sets": 1,
           "singleArm": false,
           "image": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/jykytk-1763649651908.jpg",
-          "video": ""
+          "video": "",
+          "notes": "",
+          "restTime": null,
+          "alternatives": [],
+          "selectedAlternative": 0
         },
         {
           "name": "kuykuy",
           "sets": 1,
           "singleArm": false,
           "image": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/kuykuy-1763649653291.PNG",
-          "video": ""
+          "video": "",
+          "notes": "",
+          "restTime": null,
+          "alternatives": [],
+          "selectedAlternative": 0
         }
       ]
     }

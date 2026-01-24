@@ -1,0 +1,12 @@
+{
+  "name": "test video",
+  "duration": 1,
+  "days": [
+    {
+      "name": "Day 1",
+      "exercises": []
+    }
+  ],
+  "createdAt": "2026-01-24T15:05:52.289Z",
+  "records": []
+}

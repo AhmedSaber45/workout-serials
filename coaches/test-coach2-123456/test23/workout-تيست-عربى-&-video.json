@@ -1,14 +1,23 @@
 {
+  "clientCode": "003tes",
   "name": "تيست عربى & video",
-  "duration": 2,
+  "duration": 1,
   "days": [
     {
-      "name": "Day 1",
-      "exercises": []
-    },
-    {
-      "name": "Day 2",
-      "exercises": []
+      "name": "day يوم",
+      "exercises": [
+        {
+          "name": "incline dumbbell chest press دامبل بنش عالى",
+          "sets": 1,
+          "singleArm": false,
+          "image": "https://raw.githubusercontent.com/RepzApp/exercise-library/main/images/1764254273742_incline_dumbbell_chest_press_دامبل_بنش_عالى.PNG",
+          "video": "https://www.youtube.com/watch?v=HTYCC5HgRyw&list=RDqL19RKLyDTs&index=4",
+          "notes": "العب بوزن مناسب👌",
+          "restTime": 30,
+          "alternatives": [],
+          "selectedAlternative": 0
+        }
+      ]
     }
   ],
   "createdAt": "2026-01-24T14:01:08.412Z",

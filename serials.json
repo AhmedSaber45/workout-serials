@@ -3179,9 +3179,9 @@
     "price": 25,
     "createdAt": "2026-01-24T14:06:58.250Z",
     "expiresAt": "2026-02-23T14:06:58.250Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-187iuw1vc8yamjwk5pscqt",
+    "used": true,
+    "usedDate": "2026-01-24T14:07:26.070Z"
   },
   {
     "serial": "MAO-NCW-T3T-0G5-FUN-8R3-92",

@@ -3362,9 +3362,9 @@
     "price": 25,
     "createdAt": "2026-01-24T15:54:09.475Z",
     "expiresAt": "2026-02-23T15:54:09.475Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-n5fzpqljyziul2y8v2rh9",
+    "used": true,
+    "usedDate": "2026-01-24T15:54:49.213Z"
   },
   {
     "serial": "BXL-N77-4PJ-0HJ-KON-CY6-U2",

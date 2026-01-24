@@ -1,10 +1,23 @@
 {
+  "clientCode": "002cli",
   "name": "test video",
   "duration": 1,
   "days": [
     {
-      "name": "Day 1",
-      "exercises": []
+      "name": "Day يوم",
+      "exercises": [
+        {
+          "name": "Adductor Machine جهاز ضامة",
+          "sets": 1,
+          "singleArm": false,
+          "image": "https://raw.githubusercontent.com/RepzApp/exercise-library/main/images/1766677300119_Adductor_Machine_جهاز_ضامة.PNG",
+          "video": "https://www.youtube.com/watch?v=STXE-yTTTFI",
+          "notes": "",
+          "restTime": null,
+          "alternatives": [],
+          "selectedAlternative": 0
+        }
+      ]
     }
   ],
   "createdAt": "2026-01-24T15:05:52.289Z",

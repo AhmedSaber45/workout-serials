@@ -213,41 +213,6 @@
       "weight": "20",
       "reps": null,
       "tank": null
-    },
-    {
-      "date": "2026-01-24T13:42:04.573Z",
-      "workout": "ppl",
-      "day": 1,
-      "exerciseName": "chest fly",
-      "set": 1,
-      "notes": null,
-      "rest": 8,
-      "weight": "10",
-      "reps": null,
-      "tank": null
-    },
-    {
-      "date": "2026-01-24T13:42:04.573Z",
-      "workout": "ppl",
-      "day": 1,
-      "exerciseName": "jykytk",
-      "set": 1,
-      "notes": null,
-      "rest": 90,
-      "weight": "30",
-      "reps": "10",
-      "tank": "0"
-    },
-    {
-      "date": "2026-01-24T13:42:04.573Z",
-      "workout": "ppl",
-      "day": 1,
-      "exerciseName": "kuykuy",
-      "set": 1,
-      "notes": null,
-      "weight": "20",
-      "reps": null,
-      "tank": null
     }
   ]
 }

@@ -3257,9 +3257,9 @@
     "price": 25,
     "createdAt": "2026-01-24T14:14:58.228Z",
     "expiresAt": "2026-02-23T14:14:58.228Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-187iuw1vc8yamjwk5pscqt",
+    "used": true,
+    "usedDate": "2026-01-24T14:35:57.759Z"
   },
   {
     "serial": "4WZ-ZWF-8HN-0CO-NCW-5CE-L2",

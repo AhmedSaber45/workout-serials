@@ -1,0 +1,16 @@
+{
+  "name": "ppl123456",
+  "duration": 2,
+  "days": [
+    {
+      "name": "Day 1",
+      "exercises": []
+    },
+    {
+      "name": "Day 2",
+      "exercises": []
+    }
+  ],
+  "createdAt": "2026-01-24T13:12:59.030Z",
+  "records": []
+}

@@ -1,10 +1,25 @@
 {
+  "clientCode": "003tes",
   "name": "test tech",
   "duration": 1,
   "days": [
     {
       "name": "Day 1",
-      "exercises": []
+      "exercises": [
+        {
+          "name": "custom",
+          "sets": 1,
+          "singleArm": false,
+          "image": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/custom-1766598396426.PNG",
+          "video": "",
+          "notes": "",
+          "restTime": null,
+          "setType": "Normal",
+          "isDropSet": true,
+          "alternatives": [],
+          "selectedAlternative": 0
+        }
+      ]
     }
   ],
   "createdAt": "2026-01-25T12:47:14.456Z",

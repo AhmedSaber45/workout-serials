@@ -1,10 +1,38 @@
 {
+  "clientCode": "003tes",
   "name": "test edit",
   "duration": 2,
   "days": [
     {
-      "name": "Day 1",
-      "exercises": []
+      "name": "اول يوم",
+      "exercises": [
+        {
+          "name": "Dumbbell Standing Wrist Curl دامبل ثنى الساعد واقف",
+          "sets": 1,
+          "singleArm": false,
+          "image": "https://raw.githubusercontent.com/RepzApp/exercise-library/main/images/dumbell standing wrist curl.webp",
+          "video": "",
+          "notes": "",
+          "restTime": null,
+          "groupId": "",
+          "isDropset": false,
+          "alternatives": [],
+          "selectedAlternative": 0
+        },
+        {
+          "name": "Bar Dead Lift بار ديد ليفت",
+          "sets": 1,
+          "singleArm": false,
+          "image": "https://raw.githubusercontent.com/RepzApp/exercise-library/main/images/1766680372303_Bar_Dead_Lift_بار_ديد_ليفت.PNG",
+          "video": "",
+          "notes": "",
+          "restTime": null,
+          "groupId": "",
+          "isDropset": false,
+          "alternatives": [],
+          "selectedAlternative": 0
+        }
+      ]
     },
     {
       "name": "Day 2",

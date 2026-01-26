@@ -1,0 +1,22 @@
+{
+  "clientCode": "004tes",
+  "totalCalories": 1000,
+  "totalProtein": 100,
+  "totalCarbs": 100,
+  "totalFats": 100,
+  "numMeals": 1,
+  "dailyWaterLiters": 3,
+  "meals": [
+    {
+      "name": "غدا",
+      "time": "11:43",
+      "calories": 1000,
+      "protein": 100,
+      "carbs": 100,
+      "fats": 100,
+      "examples": ""
+    }
+  ],
+  "createdAt": "2026-01-26T07:43:48.618Z",
+  "records": []
+}

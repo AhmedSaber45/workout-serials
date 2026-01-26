@@ -1,0 +1,12 @@
+{
+  "name": "test drop",
+  "duration": 1,
+  "days": [
+    {
+      "name": "Day 1",
+      "exercises": []
+    }
+  ],
+  "createdAt": "2026-01-26T06:53:39.970Z",
+  "records": []
+}

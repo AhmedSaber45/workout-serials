@@ -1,0 +1,16 @@
+{
+  "name": "test edit",
+  "duration": 2,
+  "days": [
+    {
+      "name": "Day 1",
+      "exercises": []
+    },
+    {
+      "name": "Day 2",
+      "exercises": []
+    }
+  ],
+  "createdAt": "2026-01-26T07:31:04.194Z",
+  "records": []
+}

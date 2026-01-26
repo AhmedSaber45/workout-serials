@@ -1,0 +1,22 @@
+{
+  "clientCode": "003tes",
+  "totalCalories": 1968,
+  "totalProtein": 120,
+  "totalCarbs": 300,
+  "totalFats": 90,
+  "numMeals": 1,
+  "dailyWaterLiters": 4,
+  "meals": [
+    {
+      "name": "فطار",
+      "time": "00:41",
+      "calories": 1968,
+      "protein": 120,
+      "carbs": 300,
+      "fats": 90,
+      "examples": ""
+    }
+  ],
+  "createdAt": "2026-01-26T07:41:24.450Z",
+  "records": []
+}

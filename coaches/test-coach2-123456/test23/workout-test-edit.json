@@ -35,8 +35,22 @@
       ]
     },
     {
-      "name": "Day 2",
-      "exercises": []
+      "name": "تانى يوم",
+      "exercises": [
+        {
+          "name": "illiac Lat Pull Down Single Arm سحب عالى فردى مجنص",
+          "sets": 1,
+          "singleArm": true,
+          "image": "https://raw.githubusercontent.com/RepzApp/exercise-library/main/images/1766680052087_illiac_Lat_Pull_Down_Single_Arm_سحب_عالى_فردى_مجنص.jpg",
+          "video": "",
+          "notes": "",
+          "restTime": null,
+          "groupId": "",
+          "isDropset": false,
+          "alternatives": [],
+          "selectedAlternative": 0
+        }
+      ]
     }
   ],
   "createdAt": "2026-01-26T07:31:04.194Z",

@@ -30,6 +30,21 @@
       "date": "2026-01-29T08:50:59.777Z",
       "type": "water",
       "consumedGlasses": 2
+    },
+    {
+      "date": "2026-01-29T08:51:43.921Z",
+      "mealIndex": 0,
+      "isEaten": true,
+      "notes": "",
+      "eatenCalories": 1000,
+      "eatenProtein": 100
+    },
+    {
+      "date": "2026-01-29T08:51:43.921Z",
+      "type": "supplement",
+      "suppIndex": 0,
+      "isTaken": true,
+      "notes": "تمام بس عاوز نوع ارخص شوية ده غالى عليا"
     }
   ]
 }

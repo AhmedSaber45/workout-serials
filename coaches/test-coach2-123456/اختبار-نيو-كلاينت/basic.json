@@ -1,0 +1,13 @@
+{
+  "name": "اختبار نيو كلاينت",
+  "code": "005ne",
+  "gender": "male",
+  "age": 21,
+  "weight": 67,
+  "height": 185,
+  "status": "online",
+  "createdAt": "2026-01-29T09:42:04.242Z",
+  "subscriptionDuration": 1,
+  "expirationDate": "2026-03-01T09:42:04.242Z",
+  "isLocked": false
+}

@@ -1,0 +1,29 @@
+{
+  "clientCode": "004tes",
+  "totalCalories": 1000,
+  "totalProtein": 100,
+  "totalCarbs": 100,
+  "totalFats": 10,
+  "numMeals": 1,
+  "dailyWaterLiters": 3,
+  "meals": [
+    {
+      "name": "فطار",
+      "time": "10:44",
+      "calories": 1000,
+      "protein": 100,
+      "carbs": 100,
+      "fats": 10,
+      "examples": "تيست فطار"
+    }
+  ],
+  "supplements": [
+    {
+      "name": "كرياتين",
+      "dosage": "4 جرام",
+      "time": "10:44"
+    }
+  ],
+  "createdAt": "2026-01-29T08:43:52.489Z",
+  "records": []
+}

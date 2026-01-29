@@ -1,0 +1,17 @@
+{
+  "name": "test new client tech",
+  "code": "006tes",
+  "gender": "male",
+  "age": 21,
+  "weight": 74,
+  "height": 185,
+  "status": "online",
+  "createdAt": "2026-01-29T15:59:30.331Z",
+  "subscriptionDuration": 4,
+  "expirationDate": "2026-05-29T14:59:30.331Z",
+  "isLocked": false,
+  "activityLevel": "1.9",
+  "trainingDays": "5",
+  "goal": "ضخامة",
+  "conditions": ""
+}

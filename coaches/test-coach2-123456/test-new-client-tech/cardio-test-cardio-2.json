@@ -1,0 +1,28 @@
+{
+  "id": "1769935821972",
+  "name": "test cardio 2",
+  "weeks": 4,
+  "daysPerWeek": 1,
+  "days": [
+    {
+      "dayNumber": 1,
+      "name": "Day 1",
+      "exercises": [
+        {
+          "type": "time",
+          "name": "test dist",
+          "target": {
+            "duration": "20",
+            "intensity": "moderate"
+          },
+          "notes": "",
+          "image": "",
+          "video": "",
+          "tempFile": null
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-02-01T08:50:21.972Z",
+  "logs": []
+}

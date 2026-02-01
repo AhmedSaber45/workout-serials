@@ -157,6 +157,14 @@
       "reps": "10",
       "tank": "0",
       "note": ""
+    },
+    {
+      "date": "2026-02-01T15:41:04.934Z",
+      "day": 1,
+      "exerciseIndex": 0,
+      "exerciseName": "time based",
+      "result": "2s",
+      "note": ""
     }
   ]
 }

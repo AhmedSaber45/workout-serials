@@ -217,6 +217,42 @@
       "exerciseName": "test intervals",
       "result": "test summary",
       "note": "notes"
+    },
+    {
+      "date": "2026-02-01T15:50:06.621Z",
+      "day": 1,
+      "exerciseIndex": 4,
+      "exerciseName": "test body weight",
+      "set": 1,
+      "weight": null,
+      "reps": "10",
+      "tank": "0",
+      "rest": "",
+      "note": ""
+    },
+    {
+      "date": "2026-02-01T15:50:06.621Z",
+      "day": 1,
+      "exerciseIndex": 4,
+      "exerciseName": "test body weight",
+      "set": 2,
+      "weight": null,
+      "reps": "10",
+      "tank": "0",
+      "rest": "",
+      "note": ""
+    },
+    {
+      "date": "2026-02-01T15:50:06.621Z",
+      "day": 1,
+      "exerciseIndex": 4,
+      "exerciseName": "test body weight",
+      "set": 3,
+      "weight": null,
+      "reps": "10",
+      "tank": "0",
+      "rest": "",
+      "note": ""
     }
   ]
 }

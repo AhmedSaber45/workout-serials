@@ -201,6 +201,14 @@
       "tank": "0",
       "rest": "",
       "note": ""
+    },
+    {
+      "date": "2026-02-01T15:47:41.573Z",
+      "day": 1,
+      "exerciseIndex": 0,
+      "exerciseName": "time based",
+      "result": "0s",
+      "note": ""
     }
   ]
 }

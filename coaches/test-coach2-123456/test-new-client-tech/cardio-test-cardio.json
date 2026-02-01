@@ -1,0 +1,78 @@
+{
+  "id": "1769935037522",
+  "name": "test cardio",
+  "weeks": 4,
+  "daysPerWeek": 1,
+  "days": [
+    {
+      "dayNumber": 1,
+      "name": "Day 1",
+      "exercises": [
+        {
+          "type": "time",
+          "name": "test cardio",
+          "target": {
+            "duration": "5",
+            "intensity": "low"
+          },
+          "notes": "",
+          "image": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/cardio-test-cardio-1769935036356-1769935036360.png",
+          "video": "https://www.youtube.com/watch?v=WAD4E5-0kuo&list=RDTKKW8RBlmUU&index=10"
+        },
+        {
+          "type": "reps",
+          "name": "test reps",
+          "target": {
+            "sets": "3",
+            "reps": "10",
+            "rest": "50"
+          },
+          "notes": "",
+          "image": "",
+          "video": "",
+          "tempFile": null
+        },
+        {
+          "type": "distance",
+          "name": "test dist",
+          "target": {
+            "distance": "5",
+            "pace": "30"
+          },
+          "notes": "",
+          "image": "",
+          "video": "",
+          "tempFile": null
+        },
+        {
+          "type": "hiit",
+          "name": "test intervals",
+          "target": {
+            "rounds": "5",
+            "work": "50",
+            "rest": "30"
+          },
+          "notes": "",
+          "image": "",
+          "video": "",
+          "tempFile": null
+        },
+        {
+          "type": "bodyweight",
+          "name": "test weight",
+          "target": {
+            "sets": "3",
+            "reps": "10",
+            "rest": "50"
+          },
+          "notes": "",
+          "image": "",
+          "video": "",
+          "tempFile": null
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-02-01T08:37:17.522Z",
+  "logs": []
+}

@@ -1,0 +1,79 @@
+{
+  "id": "1769936049810",
+  "name": "test 3",
+  "weeks": 4,
+  "daysPerWeek": 1,
+  "days": [
+    {
+      "dayNumber": 1,
+      "name": "Day 1",
+      "exercises": [
+        {
+          "type": "time",
+          "name": "time based",
+          "target": {
+            "duration": "30",
+            "intensity": "moderate"
+          },
+          "notes": "",
+          "image": "",
+          "video": "",
+          "tempFile": null
+        },
+        {
+          "type": "reps",
+          "name": "reps",
+          "target": {
+            "sets": "3",
+            "reps": "10",
+            "rest": "50"
+          },
+          "notes": "test static notes",
+          "image": "",
+          "video": "",
+          "tempFile": null
+        },
+        {
+          "type": "distance",
+          "name": "test dist",
+          "target": {
+            "distance": "3",
+            "pace": "5:30"
+          },
+          "notes": "",
+          "image": "",
+          "video": "",
+          "tempFile": null
+        },
+        {
+          "type": "hiit",
+          "name": "test intervals",
+          "target": {
+            "rounds": "5",
+            "work": "30",
+            "rest": "30"
+          },
+          "notes": "",
+          "image": "",
+          "video": "",
+          "tempFile": null
+        },
+        {
+          "type": "bodyweight",
+          "name": "test body weight",
+          "target": {
+            "sets": "3",
+            "reps": "10",
+            "rest": "50"
+          },
+          "notes": "",
+          "image": "",
+          "video": "",
+          "tempFile": null
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-02-01T08:54:09.810Z",
+  "logs": []
+}

@@ -75,5 +75,14 @@
     }
   ],
   "createdAt": "2026-02-01T08:54:09.810Z",
-  "logs": []
+  "logs": [
+    {
+      "date": "2026-02-01T08:54:46.513Z",
+      "day": 1,
+      "exerciseIndex": 1,
+      "exerciseName": "reps",
+      "result": "10",
+      "note": ""
+    }
+  ]
 }

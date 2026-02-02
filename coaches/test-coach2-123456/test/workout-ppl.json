@@ -55,7 +55,7 @@
           "warmUp": {
             "enabled": true,
             "sets": 3,
-            "protocol": "ramp"
+            "protocol": "custom"
           },
           "alternatives": [],
           "selectedAlternative": 0

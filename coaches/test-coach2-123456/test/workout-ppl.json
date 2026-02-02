@@ -19,7 +19,8 @@
           "warmUp": {
             "enabled": true,
             "sets": 3,
-            "protocol": "pyramid"
+            "protocol": "pyramid",
+            "customPercentages": []
           },
           "alternatives": [],
           "selectedAlternative": 0
@@ -37,7 +38,12 @@
           "warmUp": {
             "enabled": true,
             "sets": 3,
-            "protocol": "custom"
+            "protocol": "custom",
+            "customPercentages": [
+              0,
+              0,
+              0
+            ]
           },
           "alternatives": [],
           "selectedAlternative": 0
@@ -55,7 +61,12 @@
           "warmUp": {
             "enabled": true,
             "sets": 3,
-            "protocol": "custom"
+            "protocol": "custom",
+            "customPercentages": [
+              60,
+              75,
+              90
+            ]
           },
           "alternatives": [],
           "selectedAlternative": 0

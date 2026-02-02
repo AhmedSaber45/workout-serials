@@ -1,0 +1,86 @@
+{
+  "clientCode": "006tes",
+  "name": "test warmup sets2",
+  "duration": 1,
+  "days": [
+    {
+      "name": "Day 1",
+      "exercises": [
+        {
+          "name": "pyramid",
+          "sets": 1,
+          "singleArm": false,
+          "image": "",
+          "video": "",
+          "notes": "",
+          "restTime": null,
+          "groupId": "",
+          "isDropset": false,
+          "warmUp": {
+            "enabled": true,
+            "sets": 3,
+            "protocol": "pyramid"
+          },
+          "alternatives": [],
+          "selectedAlternative": 0
+        },
+        {
+          "name": "fixed",
+          "sets": 1,
+          "singleArm": false,
+          "image": "",
+          "video": "",
+          "notes": "",
+          "restTime": null,
+          "groupId": "",
+          "isDropset": false,
+          "warmUp": {
+            "enabled": true,
+            "sets": 3,
+            "protocol": "fixed"
+          },
+          "alternatives": [],
+          "selectedAlternative": 0
+        },
+        {
+          "name": "ramp",
+          "sets": 1,
+          "singleArm": false,
+          "image": "",
+          "video": "",
+          "notes": "",
+          "restTime": null,
+          "groupId": "",
+          "isDropset": false,
+          "warmUp": {
+            "enabled": true,
+            "sets": 3,
+            "protocol": "ramp"
+          },
+          "alternatives": [],
+          "selectedAlternative": 0
+        },
+        {
+          "name": "custom",
+          "sets": 1,
+          "singleArm": false,
+          "image": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/custom-1766598396426.PNG",
+          "video": "",
+          "notes": "",
+          "restTime": null,
+          "groupId": "",
+          "isDropset": false,
+          "warmUp": {
+            "enabled": true,
+            "sets": 3,
+            "protocol": "custom"
+          },
+          "alternatives": [],
+          "selectedAlternative": 0
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-02-02T09:00:57.329Z",
+  "records": []
+}

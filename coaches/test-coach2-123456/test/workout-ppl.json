@@ -14,6 +14,13 @@
           "video": "",
           "notes": "",
           "restTime": null,
+          "groupId": "",
+          "isDropset": false,
+          "warmUp": {
+            "enabled": true,
+            "sets": 3,
+            "protocol": "pyramid"
+          },
           "alternatives": [],
           "selectedAlternative": 0
         },
@@ -25,6 +32,13 @@
           "video": "",
           "notes": "",
           "restTime": null,
+          "groupId": "",
+          "isDropset": false,
+          "warmUp": {
+            "enabled": true,
+            "sets": 3,
+            "protocol": "fixed"
+          },
           "alternatives": [],
           "selectedAlternative": 0
         },
@@ -36,6 +50,13 @@
           "video": "",
           "notes": "",
           "restTime": null,
+          "groupId": "",
+          "isDropset": false,
+          "warmUp": {
+            "enabled": true,
+            "sets": 3,
+            "protocol": "ramp"
+          },
           "alternatives": [],
           "selectedAlternative": 0
         }

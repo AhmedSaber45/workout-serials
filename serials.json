@@ -2960,7 +2960,8 @@
     "createdAt": "2026-02-03T15:08:05.566Z",
     "expiresAt": null,
     "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "used": true,
+    "usedDate": "2026-02-03T20:30:55.589Z",
+    "username": "Elmallah"
   }
 ]

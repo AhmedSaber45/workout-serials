@@ -1,0 +1,17 @@
+{
+  "name": "test count",
+  "code": "007tes",
+  "gender": "female",
+  "age": 20,
+  "weight": 80,
+  "height": 150,
+  "status": "online",
+  "createdAt": "2026-02-04T15:26:12.381Z",
+  "subscriptionDuration": 1,
+  "expirationDate": "2026-03-04T15:26:12.381Z",
+  "isLocked": false,
+  "activityLevel": "1.375",
+  "trainingDays": "1",
+  "goal": "",
+  "conditions": ""
+}

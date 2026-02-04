@@ -3080,5 +3080,18 @@
     "deviceId": "test-free-123-123456",
     "used": true,
     "usedDate": "2026-02-04T18:55:25.934Z"
+  },
+  {
+    "serial": "WX9-Z34-K9Q-0PO-NCL-JHE-P1",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 7,
+    "durationCode": "01",
+    "price": 0,
+    "createdAt": "2026-02-04T18:56:30.559Z",
+    "expiresAt": "2026-02-11T18:56:30.559Z",
+    "deviceId": "test-free-123-123456",
+    "used": true,
+    "usedDate": "2026-02-04T18:56:30.559Z"
   }
 ]

@@ -2976,5 +2976,18 @@
     "deviceId": "test_direct",
     "used": true,
     "usedDate": "2026-02-04T15:01:45.207Z"
+  },
+  {
+    "serial": "R83-4D1-AYW-RZ8-9E3-NNG-QUQ",
+    "programId": "3",
+    "programName": "Arnold HILV",
+    "duration": 0,
+    "durationCode": "DA",
+    "price": 0,
+    "createdAt": "2026-02-04T15:05:32.812Z",
+    "expiresAt": null,
+    "deviceId": "test_direct",
+    "used": true,
+    "usedDate": "2026-02-04T15:05:32.812Z"
   }
 ]

@@ -3119,5 +3119,18 @@
     "deviceId": "test-free-123-123456",
     "used": true,
     "usedDate": "2026-02-04T19:05:28.433Z"
+  },
+  {
+    "serial": "DHO-NCH-5WP-0IB-CP8-FVI-V1",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 7,
+    "durationCode": "01",
+    "price": 0,
+    "createdAt": "2026-02-04T19:06:20.468Z",
+    "expiresAt": "2026-02-11T19:06:20.468Z",
+    "deviceId": "test-free-123-123456",
+    "used": true,
+    "usedDate": "2026-02-04T19:06:20.468Z"
   }
 ]

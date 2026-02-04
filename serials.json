@@ -3106,5 +3106,18 @@
     "deviceId": "test-free-123-123456",
     "used": true,
     "usedDate": "2026-02-04T18:58:46.214Z"
+  },
+  {
+    "serial": "V06-6HP-H0O-0ON-C38-GI5-U1",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 7,
+    "durationCode": "01",
+    "price": 0,
+    "createdAt": "2026-02-04T19:05:28.433Z",
+    "expiresAt": "2026-02-11T19:05:28.433Z",
+    "deviceId": "test-free-123-123456",
+    "used": true,
+    "usedDate": "2026-02-04T19:05:28.433Z"
   }
 ]

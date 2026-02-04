@@ -2963,5 +2963,18 @@
     "used": true,
     "usedDate": "2026-02-03T20:30:55.589Z",
     "username": "Elmallah"
+  },
+  {
+    "serial": "6RG-S9X-VRH-P8P-652-4LW-O9W",
+    "programId": "11",
+    "programName": "Custom Workout",
+    "duration": 90,
+    "durationCode": "DA",
+    "price": 0,
+    "createdAt": "2026-02-04T15:01:45.207Z",
+    "expiresAt": "2026-05-05T14:01:45.207Z",
+    "deviceId": "test_direct",
+    "used": true,
+    "usedDate": "2026-02-04T15:01:45.207Z"
   }
 ]

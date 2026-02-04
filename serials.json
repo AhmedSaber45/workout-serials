@@ -3041,5 +3041,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "T4G-ONC-EXX-00O-GTR-KXW-H4",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 180,
+    "durationCode": "04",
+    "price": 0,
+    "createdAt": "2026-02-04T18:40:30.436Z",
+    "expiresAt": "2026-08-03T17:40:30.437Z",
+    "deviceId": "test-free-trial-123456",
+    "used": true,
+    "usedDate": "2026-02-04T18:40:30.436Z"
   }
 ]

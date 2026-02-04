@@ -3015,5 +3015,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "YVH-EZ5-AHV-9WI-GPP-1SL-X9",
+    "programId": "8",
+    "programName": "Arnold HVLI",
+    "duration": 36500,
+    "durationCode": "99",
+    "price": 0,
+    "createdAt": "2026-02-04T15:15:53.822Z",
+    "expiresAt": null,
+    "deviceId": "test_direct",
+    "used": true,
+    "usedDate": "2026-02-04T15:15:53.822Z"
   }
 ]

@@ -3093,5 +3093,18 @@
     "deviceId": "test-free-123-123456",
     "used": true,
     "usedDate": "2026-02-04T18:56:30.559Z"
+  },
+  {
+    "serial": "Y39-FV3-K4K-0JN-C1M-ONC-Q1",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 7,
+    "durationCode": "01",
+    "price": 0,
+    "createdAt": "2026-02-04T18:58:46.214Z",
+    "expiresAt": "2026-02-11T18:58:46.214Z",
+    "deviceId": "test-free-123-123456",
+    "used": true,
+    "usedDate": "2026-02-04T18:58:46.214Z"
   }
 ]

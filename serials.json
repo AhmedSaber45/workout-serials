@@ -2989,5 +2989,18 @@
     "deviceId": "test_direct",
     "used": true,
     "usedDate": "2026-02-04T15:05:32.812Z"
+  },
+  {
+    "serial": "8V8-AX6-RBO-9SK-WFH-IDJ-59",
+    "programId": "5",
+    "programName": "Full Body HILV",
+    "duration": 36500,
+    "durationCode": "99",
+    "price": 0,
+    "createdAt": "2026-02-04T15:14:11.613Z",
+    "expiresAt": null,
+    "deviceId": "test_direct",
+    "used": true,
+    "usedDate": "2026-02-04T15:14:11.613Z"
   }
 ]

@@ -3158,5 +3158,18 @@
     "deviceId": "test-free-trial-123456",
     "used": true,
     "usedDate": "2026-02-04T19:17:12.089Z"
+  },
+  {
+    "serial": "EA5-EH1-4E6-0MA-F4D-ONC-J4",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 180,
+    "durationCode": "04",
+    "price": 0,
+    "createdAt": "2026-02-04T19:21:21.209Z",
+    "expiresAt": "2026-08-03T18:21:21.209Z",
+    "deviceId": "test-free-trial-123456",
+    "used": true,
+    "usedDate": "2026-02-04T19:21:21.209Z"
   }
 ]

@@ -3145,5 +3145,18 @@
     "deviceId": "test-free-123-123456",
     "used": true,
     "usedDate": "2026-02-04T19:13:42.342Z"
+  },
+  {
+    "serial": "RSJ-SXN-2ON-0CA-49F-LMG-O4",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 180,
+    "durationCode": "04",
+    "price": 0,
+    "createdAt": "2026-02-04T19:17:12.089Z",
+    "expiresAt": "2026-08-03T18:17:12.089Z",
+    "deviceId": "test-free-trial-123456",
+    "used": true,
+    "usedDate": "2026-02-04T19:17:12.089Z"
   }
 ]

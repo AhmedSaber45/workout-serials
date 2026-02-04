@@ -1,12 +1,8 @@
 {
-  "name": "test free trial",
+  "name": "test-free-trial",
   "code": "123456",
-  "serial": "FREE-TRIAL-30-DAYS",
-  "expiryDate": "2026-03-06T18:32:13.688Z",
-  "status": "Trial Active",
-  "isTrial": true,
-  "progress": [],
-  "certifications": [],
-  "profileImage": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-free-trial-123456/media/profile-1770229951272.png",
-  "clientCount": 0
+  "serial": "T4G-ONC-EXX-00O-GTR-KXW-H4",
+  "expiryDate": "2026-08-03T17:40:29.210Z",
+  "status": "Active",
+  "isTrial": false
 }

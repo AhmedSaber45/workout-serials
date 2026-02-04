@@ -3054,5 +3054,18 @@
     "deviceId": "test-free-trial-123456",
     "used": true,
     "usedDate": "2026-02-04T18:40:30.436Z"
+  },
+  {
+    "serial": "Y91-PON-C6F-0AS-KQP-CFI-D4",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 180,
+    "durationCode": "04",
+    "price": 0,
+    "createdAt": "2026-02-04T18:51:57.118Z",
+    "expiresAt": "2026-08-03T17:51:57.118Z",
+    "deviceId": "test-free-trial-123456",
+    "used": true,
+    "usedDate": "2026-02-04T18:51:57.118Z"
   }
 ]

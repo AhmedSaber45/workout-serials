@@ -2938,19 +2938,6 @@
     "usedDate": "2026-02-02T08:26:42.457Z"
   },
   {
-    "serial": "AMH-94J-AWJ-9JB-XKP-HIE-P9",
-    "programId": "1",
-    "programName": "Push Pull Leg HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": 20,
-    "createdAt": "2026-02-03T09:55:01.172Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "RCU-SWN-YNZ-9YE-DGB-7GE-P9",
     "programId": "11",
     "programName": "Custom Workout - Permanent",
@@ -3004,19 +2991,6 @@
     "usedDate": "2026-02-04T15:14:11.613Z"
   },
   {
-    "serial": "LQP-WVZ-S8T-9R5-LDF-HI8-W9",
-    "programId": "5",
-    "programName": "Full Body HILV",
-    "duration": 0,
-    "durationCode": "99",
-    "price": "0.00",
-    "createdAt": "2026-02-04T15:15:08.090Z",
-    "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
-  },
-  {
     "serial": "YVH-EZ5-AHV-9WI-GPP-1SL-X9",
     "programId": "8",
     "programName": "Arnold HVLI",
@@ -3028,19 +3002,6 @@
     "deviceId": "test_direct",
     "used": true,
     "usedDate": "2026-02-04T15:15:53.822Z"
-  },
-  {
-    "serial": "T9U-YWX-JCY-03C-AON-C34-B3",
-    "programId": "12",
-    "programName": "Online Coaches - 3 Months",
-    "duration": 90,
-    "durationCode": "03",
-    "price": 25,
-    "createdAt": "2026-02-04T16:04:14.718Z",
-    "expiresAt": "2026-05-05T15:04:14.718Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
   },
   {
     "serial": "T4G-ONC-EXX-00O-GTR-KXW-H4",

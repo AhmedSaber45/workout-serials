@@ -3067,5 +3067,18 @@
     "deviceId": "test-free-trial-123456",
     "used": true,
     "usedDate": "2026-02-04T18:51:57.118Z"
+  },
+  {
+    "serial": "QSF-0C8-ERH-0NO-NC2-8VY-Q5",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 365,
+    "durationCode": "05",
+    "price": 0,
+    "createdAt": "2026-02-04T18:55:25.934Z",
+    "expiresAt": "2027-02-04T18:55:25.934Z",
+    "deviceId": "test-free-123-123456",
+    "used": true,
+    "usedDate": "2026-02-04T18:55:25.934Z"
   }
 ]

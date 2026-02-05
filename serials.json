@@ -3158,5 +3158,18 @@
     "deviceId": "test-free-trial-123456",
     "used": true,
     "usedDate": "2026-02-05T10:09:52.944Z"
+  },
+  {
+    "serial": "TSZ-KWT-CN1-04P-PT2-CUS-Y4",
+    "programId": "11",
+    "programName": "Custom Workout",
+    "duration": 180,
+    "durationCode": "04",
+    "price": 0,
+    "createdAt": "2026-02-05T10:11:19.990Z",
+    "expiresAt": "2026-08-04T09:11:19.990Z",
+    "deviceId": "test_direct",
+    "used": true,
+    "usedDate": "2026-02-05T10:11:19.990Z"
   }
 ]

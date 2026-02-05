@@ -3210,5 +3210,18 @@
     "deviceId": "ahmed-saber-123456",
     "used": true,
     "usedDate": "2026-02-05T10:22:08.443Z"
+  },
+  {
+    "serial": "M2K-RON-CUK-0WD-E3W-NTJ-U5",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 365,
+    "durationCode": "05",
+    "price": 0,
+    "createdAt": "2026-02-05T10:24:38.415Z",
+    "expiresAt": "2027-02-05T10:24:38.415Z",
+    "deviceId": "test-free-trial-123456",
+    "used": true,
+    "usedDate": "2026-02-05T10:24:38.415Z"
   }
 ]

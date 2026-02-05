@@ -79,7 +79,8 @@
     "discount": 20,
     "totalPoints": 0,
     "usablePoints": 0,
-    "usedBy": []
+    "usedBy": [],
+    "deleted": true
   },
   "AOS50": {
     "owner": "Ahmedosamaelbarbary2",

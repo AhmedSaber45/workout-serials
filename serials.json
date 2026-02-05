@@ -3132,5 +3132,18 @@
     "deviceId": "test-free-trial-123456",
     "used": true,
     "usedDate": "2026-02-04T19:21:21.209Z"
+  },
+  {
+    "serial": "UTM-T4F-0O8-0WP-4ON-COJ-O1",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 7,
+    "durationCode": "01",
+    "price": 0,
+    "createdAt": "2026-02-05T10:02:31.996Z",
+    "expiresAt": "2026-02-12T10:02:31.996Z",
+    "deviceId": "test-free-trial-123456",
+    "used": true,
+    "usedDate": "2026-02-05T10:02:31.996Z"
   }
 ]

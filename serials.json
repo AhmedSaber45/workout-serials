@@ -3223,5 +3223,18 @@
     "deviceId": "test-free-trial-123456",
     "used": true,
     "usedDate": "2026-02-05T10:24:38.415Z"
+  },
+  {
+    "serial": "7J7-AMP-AB5-065-ONC-TKK-D1",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 7,
+    "durationCode": "01",
+    "price": 0,
+    "createdAt": "2026-02-05T10:27:08.100Z",
+    "expiresAt": "2026-02-12T10:27:08.100Z",
+    "deviceId": "direct-activation-coach",
+    "used": true,
+    "usedDate": "2026-02-05T10:27:08.100Z"
   }
 ]

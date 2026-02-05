@@ -3171,5 +3171,18 @@
     "deviceId": "test_direct",
     "used": true,
     "usedDate": "2026-02-05T10:11:19.990Z"
+  },
+  {
+    "serial": "BO4-2FO-NCN-06O-YAN-0HX-F3",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 90,
+    "durationCode": "03",
+    "price": 0,
+    "createdAt": "2026-02-05T10:13:26.687Z",
+    "expiresAt": "2026-05-06T09:13:26.687Z",
+    "deviceId": "test-free-123-123456",
+    "used": true,
+    "usedDate": "2026-02-05T10:13:26.687Z"
   }
 ]

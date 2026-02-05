@@ -97,7 +97,8 @@
     "totalPoints": 0,
     "usablePoints": 0,
     "usedBy": [],
-    "expiration": 1770646163987
+    "expiration": 1770646163987,
+    "deleted": true
   },
   "TEST10": {
     "owner": "test10",

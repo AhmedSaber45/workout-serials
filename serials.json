@@ -3314,5 +3314,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "CUS-5JW-ZUN-0VE-JAY-4MD-P5",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Year",
+    "duration": 365,
+    "durationCode": "05",
+    "price": 20,
+    "createdAt": "2026-02-05T14:40:12.493Z",
+    "expiresAt": "2027-02-05T14:40:12.493Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

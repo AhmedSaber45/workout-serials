@@ -3275,5 +3275,18 @@
     "deviceId": "direct-activation-coach",
     "used": true,
     "usedDate": "2026-02-05T10:34:59.843Z"
+  },
+  {
+    "serial": "HON-CHK-VSN-0MQ-QEH-A60-F2",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 30,
+    "durationCode": "02",
+    "price": 0,
+    "createdAt": "2026-02-05T10:41:13.970Z",
+    "expiresAt": "2026-03-07T10:41:13.970Z",
+    "deviceId": "direct-activation-coach",
+    "used": true,
+    "usedDate": "2026-02-05T10:41:13.970Z"
   }
 ]

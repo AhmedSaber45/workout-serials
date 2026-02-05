@@ -20,7 +20,8 @@
     "discount": 20,
     "totalPoints": 0,
     "usablePoints": 0,
-    "usedBy": []
+    "usedBy": [],
+    "deleted": true
   },
   "MHMD50": {
     "owner": "Mhmd",

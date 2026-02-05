@@ -3145,5 +3145,18 @@
     "deviceId": "test-free-trial-123456",
     "used": true,
     "usedDate": "2026-02-05T10:02:31.996Z"
+  },
+  {
+    "serial": "16O-3SO-HYI-0WO-NCX-QSH-91",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 7,
+    "durationCode": "01",
+    "price": 0,
+    "createdAt": "2026-02-05T10:09:52.944Z",
+    "expiresAt": "2026-02-12T10:09:52.944Z",
+    "deviceId": "test-free-trial-123456",
+    "used": true,
+    "usedDate": "2026-02-05T10:09:52.944Z"
   }
 ]

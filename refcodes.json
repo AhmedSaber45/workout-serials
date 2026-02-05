@@ -39,7 +39,8 @@
     "totalPoints": 0,
     "usablePoints": 0,
     "usedBy": [],
-    "expiration": null
+    "expiration": null,
+    "deleted": true
   },
   "BIGMEN50": {
     "owner": "Bigmen",

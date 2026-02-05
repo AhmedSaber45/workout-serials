@@ -3288,5 +3288,18 @@
     "deviceId": "direct-activation-coach",
     "used": true,
     "usedDate": "2026-02-05T10:41:13.970Z"
+  },
+  {
+    "serial": "KSS-Z47-C2U-0SP-EON-CV5-Y4",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 180,
+    "durationCode": "04",
+    "price": 0,
+    "createdAt": "2026-02-05T10:49:39.995Z",
+    "expiresAt": "2026-08-04T09:49:39.995Z",
+    "deviceId": "direct-activation-coach",
+    "used": true,
+    "usedDate": "2026-02-05T10:49:39.995Z"
   }
 ]

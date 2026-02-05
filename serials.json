@@ -3236,5 +3236,18 @@
     "deviceId": "direct-activation-coach",
     "used": true,
     "usedDate": "2026-02-05T10:27:08.100Z"
+  },
+  {
+    "serial": "B4R-K05-7P3-0ET-KHO-NCE-D4",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 180,
+    "durationCode": "04",
+    "price": 0,
+    "createdAt": "2026-02-05T10:29:05.219Z",
+    "expiresAt": "2026-08-04T09:29:05.219Z",
+    "deviceId": "direct-activation-coach",
+    "used": true,
+    "usedDate": "2026-02-05T10:29:05.219Z"
   }
 ]

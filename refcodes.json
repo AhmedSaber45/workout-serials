@@ -12,7 +12,8 @@
       "test",
       "test10"
     ],
-    "expiration": 1761768173450
+    "expiration": 1761768173450,
+    "deleted": true
   },
   "EMAD20": {
     "owner": "Emad",

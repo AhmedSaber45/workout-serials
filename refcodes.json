@@ -62,7 +62,8 @@
     "totalPoints": 0,
     "usablePoints": 0,
     "usedBy": [],
-    "expiration": 1763878072399
+    "expiration": 1763878072399,
+    "deleted": true
   },
   "MEDO50": {
     "owner": "Medo",

@@ -3184,5 +3184,18 @@
     "deviceId": "test-free-123-123456",
     "used": true,
     "usedDate": "2026-02-05T10:13:26.687Z"
+  },
+  {
+    "serial": "DA1-Q0K-11H-05A-77Z-ONC-N1",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 7,
+    "durationCode": "01",
+    "price": 0,
+    "createdAt": "2026-02-05T10:16:56.480Z",
+    "expiresAt": "2026-02-12T10:16:56.480Z",
+    "deviceId": "test-free-123-123456",
+    "used": true,
+    "usedDate": "2026-02-05T10:16:56.480Z"
   }
 ]

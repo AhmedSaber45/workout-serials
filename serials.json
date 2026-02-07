@@ -3340,5 +3340,18 @@
     "deviceId": "direct-activation-coach",
     "used": true,
     "usedDate": "2026-02-07T23:35:15.700Z"
+  },
+  {
+    "serial": "TJ2-EAC-USS-9Z7-XXR-LDH-R9",
+    "programId": "11",
+    "programName": "Custom Workout",
+    "duration": 36500,
+    "durationCode": "99",
+    "price": 0,
+    "createdAt": "2026-02-07T23:58:22.913Z",
+    "expiresAt": null,
+    "deviceId": "ahmed_almaghraby",
+    "used": true,
+    "usedDate": "2026-02-07T23:58:22.913Z"
   }
 ]

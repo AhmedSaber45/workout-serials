@@ -1,0 +1,17 @@
+{
+  "name": "test ui",
+  "code": "008tes",
+  "gender": "male",
+  "age": 20,
+  "weight": 120,
+  "height": 185,
+  "status": "online",
+  "createdAt": "2026-02-07T16:14:08.474Z",
+  "subscriptionDuration": 1,
+  "expirationDate": "2026-03-07T16:14:08.474Z",
+  "isLocked": false,
+  "activityLevel": "1.2",
+  "trainingDays": "1",
+  "goal": "",
+  "conditions": ""
+}

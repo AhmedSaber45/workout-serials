@@ -1,0 +1,12 @@
+{
+  "name": "test ui",
+  "duration": 1,
+  "days": [
+    {
+      "name": "Day 1",
+      "exercises": []
+    }
+  ],
+  "createdAt": "2026-02-07T16:14:23.338Z",
+  "records": []
+}

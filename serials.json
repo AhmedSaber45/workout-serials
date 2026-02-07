@@ -3327,5 +3327,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "O89-SVB-FLO-0NC-A2X-ZD8-A2",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 30,
+    "durationCode": "02",
+    "price": 0,
+    "createdAt": "2026-02-07T23:35:15.700Z",
+    "expiresAt": "2026-03-09T23:35:15.700Z",
+    "deviceId": "direct-activation-coach",
+    "used": true,
+    "usedDate": "2026-02-07T23:35:15.700Z"
   }
 ]

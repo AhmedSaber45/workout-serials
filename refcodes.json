@@ -137,5 +137,14 @@
     "usedBy": [],
     "expiration": 1771068680880,
     "deleted": false
+  },
+  "MAGRABY50": {
+    "owner": "ahmed_almaghraby",
+    "discount": 50,
+    "totalPoints": 0,
+    "usablePoints": 0,
+    "usedBy": [],
+    "expiration": null,
+    "deleted": false
   }
 }

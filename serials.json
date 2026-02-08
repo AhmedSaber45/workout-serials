@@ -3353,5 +3353,18 @@
     "deviceId": "ahmed_almaghraby",
     "used": true,
     "usedDate": "2026-02-07T23:58:22.913Z"
+  },
+  {
+    "serial": "XQ8-3TA-CUS-0NF-NQA-U9S-U2",
+    "programId": "11",
+    "programName": "Custom Workout - 1 Month",
+    "duration": 30,
+    "durationCode": "02",
+    "price": 5,
+    "createdAt": "2026-02-08T19:41:03.030Z",
+    "expiresAt": "2026-03-10T19:41:03.030Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

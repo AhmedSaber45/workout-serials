@@ -146,5 +146,14 @@
     "usedBy": [],
     "expiration": null,
     "deleted": false
+  },
+  "TEST60": {
+    "owner": "Test",
+    "discount": 60,
+    "totalPoints": 0,
+    "usablePoints": 0,
+    "usedBy": [],
+    "expiration": 1771247609105,
+    "deleted": false
   }
 }

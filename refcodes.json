@@ -150,9 +150,11 @@
   "TEST60": {
     "owner": "Test",
     "discount": 60,
-    "totalPoints": 0,
-    "usablePoints": 0,
-    "usedBy": [],
+    "totalPoints": 60,
+    "usablePoints": 60,
+    "usedBy": [
+      "test_newcode"
+    ],
     "expiration": 1771247609105,
     "deleted": false
   }

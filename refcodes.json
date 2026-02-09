@@ -157,5 +157,14 @@
     ],
     "expiration": 1771247609105,
     "deleted": false
+  },
+  "ASABER50": {
+    "owner": "Ahmed_Saber",
+    "discount": 50,
+    "totalPoints": 0,
+    "usablePoints": 0,
+    "usedBy": [],
+    "expiration": null,
+    "deleted": false
   }
 }

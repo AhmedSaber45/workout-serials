@@ -11,20 +11,20 @@
     "sender": "coach",
     "message": "test notification 2",
     "timestamp": "2026-02-10T21:03:53.612Z",
-    "read": false
+    "read": true
   },
   {
     "id": "1770757452663",
     "sender": "coach",
     "message": "test notification 2355",
     "timestamp": "2026-02-10T21:04:12.663Z",
-    "read": false
+    "read": true
   },
   {
     "id": "1770757513420",
     "sender": "coach",
     "message": "test notification new",
     "timestamp": "2026-02-10T21:05:13.420Z",
-    "read": false
+    "read": true
   }
 ]

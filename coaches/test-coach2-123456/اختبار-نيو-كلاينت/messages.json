@@ -5,5 +5,12 @@
     "message": "test notification",
     "timestamp": "2026-02-10T20:58:10.431Z",
     "read": true
+  },
+  {
+    "id": "1770757433612",
+    "sender": "coach",
+    "message": "test notification 2",
+    "timestamp": "2026-02-10T21:03:53.612Z",
+    "read": false
   }
 ]

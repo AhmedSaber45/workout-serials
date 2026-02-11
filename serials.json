@@ -3379,5 +3379,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "2FC-ION-CDS-9H6-J3G-GKF-K9",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 36500,
+    "durationCode": "99",
+    "price": 0,
+    "createdAt": "2026-02-11T16:05:31.601Z",
+    "expiresAt": null,
+    "deviceId": "direct-activation-coach",
+    "used": true,
+    "usedDate": "2026-02-11T16:05:31.601Z"
   }
 ]

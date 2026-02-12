@@ -1,0 +1,12 @@
+{
+  "name": "test workout help page",
+  "duration": 1,
+  "days": [
+    {
+      "name": "Day 1",
+      "exercises": []
+    }
+  ],
+  "createdAt": "2026-02-12T14:56:47.248Z",
+  "records": []
+}

@@ -3392,5 +3392,18 @@
     "deviceId": "direct-activation-coach",
     "used": true,
     "usedDate": "2026-02-11T16:05:31.601Z"
+  },
+  {
+    "serial": "KZR-DDB-6GT-9ER-KAH-VLE-P9",
+    "programId": "8",
+    "programName": "Arnold HVLI",
+    "duration": 0,
+    "durationCode": "99",
+    "price": "0.00",
+    "createdAt": "2026-02-13T11:43:19.510Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

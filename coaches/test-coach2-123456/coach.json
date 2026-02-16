@@ -1,8 +1,8 @@
 {
   "name": "test coach2",
   "code": "123456",
-  "serial": "ONC-ZM1-KTY-090-OL6-EEP-G5",
-  "expiryDate": "2027-02-16T13:05:21.545Z",
+  "serial": "BLT-ONC-JFQ-0X6-2E9-PBT-Y2",
+  "expiryDate": "2026-03-18T12:49:37.674Z",
   "status": "Active",
   "isTrial": false,
   "progress": [
@@ -20,6 +20,5 @@
       "date": "2025-11-27T13:21:46.962Z"
     }
   ],
-  "profileImage": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/profile-1764243941908.png",
-  "clientCount": 8
+  "profileImage": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/profile-1764243941908.png"
 }

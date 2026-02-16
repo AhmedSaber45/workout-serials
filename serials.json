@@ -3457,5 +3457,18 @@
     "deviceId": "direct-activation-coach",
     "used": true,
     "usedDate": "2026-02-16T12:38:10.236Z"
+  },
+  {
+    "serial": "UX7-GGS-GNA-0ES-ONC-3YX-Z3",
+    "programId": "12",
+    "programName": "Online Coaches - 3 Months",
+    "duration": 90,
+    "durationCode": "03",
+    "price": 25,
+    "createdAt": "2026-02-16T12:42:19.655Z",
+    "expiresAt": "2026-05-17T11:42:19.655Z",
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

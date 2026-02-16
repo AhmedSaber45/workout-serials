@@ -3444,5 +3444,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "XAO-NC0-3FL-0N6-IM7-EFS-W3",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 90,
+    "durationCode": "03",
+    "price": 0,
+    "createdAt": "2026-02-16T12:38:10.236Z",
+    "expiresAt": "2026-05-17T11:38:10.236Z",
+    "deviceId": "direct-activation-coach",
+    "used": true,
+    "usedDate": "2026-02-16T12:38:10.236Z"
   }
 ]

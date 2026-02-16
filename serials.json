@@ -3860,5 +3860,18 @@
     "deviceId": "device-lyhmckp6tgj9qsx72kfr9",
     "used": true,
     "usedDate": "2026-02-16T17:34:12.742Z"
+  },
+  {
+    "serial": "ILF-3WD-8CU-0SA-2YL-WQ1-O3",
+    "programId": "11",
+    "programName": "Custom Workout",
+    "duration": 90,
+    "durationCode": "03",
+    "price": 0,
+    "createdAt": "2026-02-16T21:35:42.016Z",
+    "expiresAt": "2026-05-17T20:35:42.016Z",
+    "deviceId": "test10",
+    "used": true,
+    "usedDate": "2026-02-16T21:35:42.016Z"
   }
 ]

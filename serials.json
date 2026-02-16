@@ -3537,19 +3537,6 @@
     "usedDate": "2026-02-16T13:05:22.391Z"
   },
   {
-    "serial": "91D-3ZF-ONC-9EV-S14-WAG-Q9",
-    "programId": "12",
-    "programName": "Online Coaches",
-    "duration": 36500,
-    "durationCode": "99",
-    "price": 0,
-    "createdAt": "2026-02-16T13:12:05.728Z",
-    "expiresAt": null,
-    "deviceId": "direct-activation-coach",
-    "used": true,
-    "usedDate": "2026-02-16T13:12:05.728Z"
-  },
-  {
     "serial": "G6P-ONC-ZXE-0LV-8MF-TU9-Q2",
     "programId": "12",
     "programName": "Online Coaches - 1 Month",

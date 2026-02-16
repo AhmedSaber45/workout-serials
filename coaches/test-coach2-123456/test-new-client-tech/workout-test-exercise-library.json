@@ -1,10 +1,26 @@
 {
+  "clientCode": "006tes",
   "name": "test exercise library",
   "duration": 1,
   "days": [
     {
       "name": "Day 1",
-      "exercises": []
+      "exercises": [
+        {
+          "name": "Olympic triceps bar hammer curl",
+          "sets": 1,
+          "singleArm": false,
+          "image": "https://weighttraining.guide/wp-content/uploads/2023/02/Olympic-triceps-bar-hammer-curl.png",
+          "video": "https://youtu.be/tvVJjjMdOWg",
+          "notes": "",
+          "restTime": null,
+          "groupId": "",
+          "isDropset": false,
+          "warmUp": null,
+          "alternatives": [],
+          "selectedAlternative": 0
+        }
+      ]
     }
   ],
   "createdAt": "2026-02-16T12:45:13.008Z",

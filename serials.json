@@ -3522,5 +3522,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "ONC-ZM1-KTY-090-OL6-EEP-G5",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 365,
+    "durationCode": "05",
+    "price": 0,
+    "createdAt": "2026-02-16T13:05:22.391Z",
+    "expiresAt": "2027-02-16T13:05:22.391Z",
+    "deviceId": "direct-activation-coach",
+    "used": true,
+    "usedDate": "2026-02-16T13:05:22.391Z"
   }
 ]

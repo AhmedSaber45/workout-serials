@@ -3649,9 +3649,9 @@
     "price": 25,
     "createdAt": "2026-02-16T15:44:49.848Z",
     "expiresAt": "2026-03-18T15:44:49.848Z",
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-rt1gj96d3ar8g3zh09sm9a",
+    "used": true,
+    "usedDate": "2026-02-16T16:05:05.418Z"
   },
   {
     "serial": "FGW-6BA-YRO-0NC-43R-WYK-D2",

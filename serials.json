@@ -3899,5 +3899,18 @@
     "deviceId": "device-et6odamdl-mlso1t0q",
     "used": true,
     "usedDate": "2026-02-18T23:31:27.146Z"
+  },
+  {
+    "serial": "DTD-97O-O7S-97Y-S1A-PV4-S9",
+    "programId": "14",
+    "programName": "Anterior Posterior HVLI",
+    "duration": 36500,
+    "durationCode": "99",
+    "price": 0,
+    "createdAt": "2026-02-18T23:33:24.779Z",
+    "expiresAt": null,
+    "deviceId": "test10",
+    "used": true,
+    "usedDate": "2026-02-18T23:33:24.779Z"
   }
 ]

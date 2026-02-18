@@ -3873,5 +3873,18 @@
     "deviceId": "test10",
     "used": true,
     "usedDate": "2026-02-16T21:35:42.016Z"
+  },
+  {
+    "serial": "QAX-2P9-HUG-9XU-API-JT8-L9",
+    "programId": "13",
+    "programName": "Anterior Posterior HILV",
+    "duration": 0,
+    "durationCode": "99",
+    "price": 20,
+    "createdAt": "2026-02-18T19:23:07.040Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

@@ -20,7 +20,7 @@
     "discount_hvli_upper_lower": 200,
     "original_hvli_full_body": 150,
     "discount_hvli_full_body": 200,
-    "original_hilv_ant_post": 150,
+    "original_hilv_ant_post": 0,
     "discount_hilv_ant_post": 200,
     "original_hvli_ant_post": 150,
     "discount_hvli_ant_post": 200,

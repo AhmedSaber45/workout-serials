@@ -3883,8 +3883,8 @@
     "price": 20,
     "createdAt": "2026-02-18T19:23:07.040Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-0v1d8rbma-mls8hnxh",
+    "used": true,
+    "usedDate": "2026-02-18T20:04:15.006Z"
   }
 ]

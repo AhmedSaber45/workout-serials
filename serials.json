@@ -3886,5 +3886,18 @@
     "deviceId": "device-0v1d8rbma-mls8hnxh",
     "used": true,
     "usedDate": "2026-02-18T20:04:15.006Z"
+  },
+  {
+    "serial": "S69-WB5-ENF-9Q9-ZAP-VVP-D9",
+    "programId": "14",
+    "programName": "Anterior Posterior HVLI",
+    "duration": 0,
+    "durationCode": "99",
+    "price": 200,
+    "createdAt": "2026-02-18T23:23:11.588Z",
+    "expiresAt": null,
+    "deviceId": null,
+    "used": false,
+    "usedDate": null
   }
 ]

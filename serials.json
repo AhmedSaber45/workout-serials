@@ -3896,8 +3896,8 @@
     "price": 200,
     "createdAt": "2026-02-18T23:23:11.588Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-et6odamdl-mlso1t0q",
+    "used": true,
+    "usedDate": "2026-02-18T23:31:27.146Z"
   }
 ]

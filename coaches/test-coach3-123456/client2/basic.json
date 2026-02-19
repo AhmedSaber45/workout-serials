@@ -1,0 +1,17 @@
+{
+  "name": "client2",
+  "code": "001cli",
+  "gender": "male",
+  "age": 20,
+  "weight": 60,
+  "height": 180,
+  "status": "online",
+  "createdAt": "2026-02-19T14:50:50.728Z",
+  "subscriptionDuration": 1,
+  "expirationDate": "2026-03-19T14:50:50.728Z",
+  "isLocked": false,
+  "activityLevel": "1.375",
+  "trainingDays": "2",
+  "goal": "",
+  "conditions": ""
+}

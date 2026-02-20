@@ -258,6 +258,147 @@
       "weight": "20",
       "reps": null,
       "tank": null
+    },
+    {
+      "date": "2026-02-20T22:27:07.887Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "chest fly",
+      "set": 1,
+      "isWarmup": true,
+      "warmupSet": 1,
+      "weight": "5",
+      "reps": null,
+      "notes": null
+    },
+    {
+      "date": "2026-02-20T22:27:07.888Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "chest fly",
+      "set": 2,
+      "isWarmup": true,
+      "warmupSet": 2,
+      "weight": "7",
+      "reps": null,
+      "notes": null
+    },
+    {
+      "date": "2026-02-20T22:27:07.888Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "chest fly",
+      "set": 3,
+      "isWarmup": true,
+      "warmupSet": 3,
+      "weight": "8.5",
+      "reps": null,
+      "notes": null
+    },
+    {
+      "date": "2026-02-20T22:27:07.888Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "chest fly",
+      "set": 1,
+      "notes": null,
+      "weight": "10",
+      "reps": null,
+      "tank": null
+    },
+    {
+      "date": "2026-02-20T22:27:07.888Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "jykytk",
+      "set": 1,
+      "isWarmup": true,
+      "warmupSet": 1,
+      "weight": "15",
+      "reps": null,
+      "notes": null
+    },
+    {
+      "date": "2026-02-20T22:27:07.888Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "jykytk",
+      "set": 2,
+      "isWarmup": true,
+      "warmupSet": 2,
+      "weight": "15",
+      "reps": null,
+      "notes": null
+    },
+    {
+      "date": "2026-02-20T22:27:07.888Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "jykytk",
+      "set": 3,
+      "isWarmup": true,
+      "warmupSet": 3,
+      "weight": "15",
+      "reps": null,
+      "notes": null
+    },
+    {
+      "date": "2026-02-20T22:27:07.888Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "jykytk",
+      "set": 1,
+      "notes": null,
+      "weight": "30",
+      "reps": null,
+      "tank": null
+    },
+    {
+      "date": "2026-02-20T22:27:07.888Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "kuykuy",
+      "set": 1,
+      "isWarmup": true,
+      "warmupSet": 1,
+      "weight": "12",
+      "reps": null,
+      "notes": null
+    },
+    {
+      "date": "2026-02-20T22:27:07.888Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "kuykuy",
+      "set": 2,
+      "isWarmup": true,
+      "warmupSet": 2,
+      "weight": "15",
+      "reps": null,
+      "notes": null
+    },
+    {
+      "date": "2026-02-20T22:27:07.888Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "kuykuy",
+      "set": 3,
+      "isWarmup": true,
+      "warmupSet": 3,
+      "weight": "18",
+      "reps": null,
+      "notes": null
+    },
+    {
+      "date": "2026-02-20T22:27:07.888Z",
+      "workout": "ppl",
+      "day": 1,
+      "exerciseName": "kuykuy",
+      "set": 1,
+      "notes": null,
+      "weight": "20",
+      "reps": null,
+      "tank": null
     }
   ]
 }

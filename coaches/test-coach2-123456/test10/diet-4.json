@@ -18,5 +18,14 @@
     }
   ],
   "createdAt": "2026-01-26T07:43:48.618Z",
-  "records": []
+  "records": [
+    {
+      "date": "2026-02-21T01:57:15.846Z",
+      "mealIndex": 0,
+      "isEaten": false,
+      "notes": "",
+      "eatenCalories": 0,
+      "eatenProtein": 0
+    }
+  ]
 }

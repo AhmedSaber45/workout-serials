@@ -52,7 +52,7 @@
       "consumedGlasses": 3
     },
     {
-      "date": "2026-02-21T01:47:40.878Z",
+      "date": "2026-02-21T01:51:06.462Z",
       "mealIndex": 0,
       "isEaten": false,
       "notes": "",
@@ -60,7 +60,7 @@
       "eatenProtein": 0
     },
     {
-      "date": "2026-02-21T01:47:40.878Z",
+      "date": "2026-02-21T01:51:06.462Z",
       "type": "supplement",
       "suppIndex": 0,
       "isTaken": false,

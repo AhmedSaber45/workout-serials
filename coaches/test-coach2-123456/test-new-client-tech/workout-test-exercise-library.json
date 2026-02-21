@@ -24,5 +24,17 @@
     }
   ],
   "createdAt": "2026-02-16T12:45:13.008Z",
-  "records": []
+  "records": [
+    {
+      "date": "2026-02-21T01:15:45.841Z",
+      "workout": "test exercise library",
+      "day": 1,
+      "exerciseName": "Olympic triceps bar hammer curl",
+      "set": 1,
+      "notes": null,
+      "weight": "10",
+      "reps": "15",
+      "tank": "0"
+    }
+  ]
 }

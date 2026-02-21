@@ -26,20 +26,20 @@
     "sender": "coach",
     "message": "تيست مسدج عربى",
     "timestamp": "2025-12-23T15:09:26.342Z",
-    "read": false
+    "read": true
   },
   {
     "id": "17665026467120.33964873008105856",
     "sender": "coach",
     "message": "\n\n<audio controls src=\"https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/voice/broadcast-voice-1766502622466.mp4\"></audio>",
     "timestamp": "2025-12-23T15:10:22.466Z",
-    "read": false
+    "read": true
   },
   {
     "id": "17665026495130.2528347444310868",
     "sender": "coach",
     "message": "\n\n<audio controls src=\"https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/test-coach2-123456/media/voice/broadcast-voice-1766502622466.mp4\"></audio>",
     "timestamp": "2025-12-23T15:10:22.466Z",
-    "read": false
+    "read": true
   }
 ]

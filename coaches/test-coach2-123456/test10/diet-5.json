@@ -50,6 +50,21 @@
       "date": "2026-02-21T01:10:13.994Z",
       "type": "water",
       "consumedGlasses": 5
+    },
+    {
+      "date": "2026-02-21T01:19:13.857Z",
+      "mealIndex": 0,
+      "isEaten": false,
+      "notes": "",
+      "eatenCalories": 0,
+      "eatenProtein": 0
+    },
+    {
+      "date": "2026-02-21T01:19:13.857Z",
+      "type": "supplement",
+      "suppIndex": 0,
+      "isTaken": false,
+      "notes": ""
     }
   ]
 }

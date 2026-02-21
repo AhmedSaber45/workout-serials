@@ -67,6 +67,22 @@
       "notes": "",
       "eatenCalories": 0,
       "eatenProtein": 0
+    },
+    {
+      "date": "2026-02-21T01:08:09.690Z",
+      "mealIndex": 1,
+      "isEaten": false,
+      "notes": "",
+      "eatenCalories": 0,
+      "eatenProtein": 0
+    },
+    {
+      "date": "2026-02-21T01:08:09.690Z",
+      "mealIndex": 2,
+      "isEaten": false,
+      "notes": "",
+      "eatenCalories": 0,
+      "eatenProtein": 0
     }
   ]
 }

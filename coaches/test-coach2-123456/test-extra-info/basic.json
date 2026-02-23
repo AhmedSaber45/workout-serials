@@ -13,5 +13,6 @@
   "activityLevel": "1.55",
   "trainingDays": "4",
   "goal": "ضخامة",
-  "conditions": "no injuiry"
+  "conditions": "no injuiry",
+  "extraInfo": "test extra info عربى انجليزى"
 }

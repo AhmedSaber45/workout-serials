@@ -1,0 +1,17 @@
+{
+  "name": "test extra info",
+  "code": "009tes",
+  "gender": "male",
+  "age": 21,
+  "weight": 74,
+  "height": 185,
+  "status": "online",
+  "createdAt": "2026-02-23T16:57:25.997Z",
+  "subscriptionDuration": 1,
+  "expirationDate": "2026-03-23T16:57:25.997Z",
+  "isLocked": false,
+  "activityLevel": "1.55",
+  "trainingDays": "4",
+  "goal": "ضخامة",
+  "conditions": "no injuiry"
+}

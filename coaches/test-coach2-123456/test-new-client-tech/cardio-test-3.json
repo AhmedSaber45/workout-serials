@@ -361,6 +361,42 @@
       "tank": "0",
       "rest": "",
       "note": ""
+    },
+    {
+      "date": "2026-02-28T20:43:13.992Z",
+      "day": 1,
+      "exerciseIndex": 1,
+      "exerciseName": "reps",
+      "set": 1,
+      "weight": "10",
+      "reps": "10",
+      "tank": "0",
+      "rest": "",
+      "note": ""
+    },
+    {
+      "date": "2026-02-28T20:43:13.992Z",
+      "day": 1,
+      "exerciseIndex": 1,
+      "exerciseName": "reps",
+      "set": 2,
+      "weight": "10",
+      "reps": "10",
+      "tank": "0",
+      "rest": "",
+      "note": ""
+    },
+    {
+      "date": "2026-02-28T20:43:13.992Z",
+      "day": 1,
+      "exerciseIndex": 1,
+      "exerciseName": "reps",
+      "set": 3,
+      "weight": "10",
+      "reps": "10",
+      "tank": "0",
+      "rest": "",
+      "note": ""
     }
   ]
 }

@@ -3938,5 +3938,18 @@
     "deviceId": "direct-activation-coach",
     "used": true,
     "usedDate": "2026-03-03T06:22:10.974Z"
+  },
+  {
+    "serial": "VZQ-JON-CTN-0VL-9BZ-1ZQ-D2",
+    "programId": "12",
+    "programName": "Online Coaches",
+    "duration": 30,
+    "durationCode": "02",
+    "price": 0,
+    "createdAt": "2026-03-03T06:22:18.166Z",
+    "expiresAt": "2026-04-02T06:22:18.166Z",
+    "deviceId": "direct-activation-coach",
+    "used": true,
+    "usedDate": "2026-03-03T06:22:18.166Z"
   }
 ]

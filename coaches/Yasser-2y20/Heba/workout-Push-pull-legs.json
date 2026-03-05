@@ -76,7 +76,22 @@
     },
     {
       "name": "اليوم 3",
-      "exercises": []
+      "exercises": [
+        {
+          "name": "Incline leg press",
+          "sets": 1,
+          "singleArm": false,
+          "image": "https://weighttraining.guide/wp-content/uploads/2016/05/Sled-45-degree-Leg-Press-resized.png",
+          "video": "",
+          "notes": "",
+          "restTime": null,
+          "groupId": "",
+          "isDropset": false,
+          "warmUp": null,
+          "alternatives": [],
+          "selectedAlternative": 0
+        }
+      ]
     },
     {
       "name": "اليوم 4",

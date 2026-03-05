@@ -1,0 +1,37 @@
+{
+  "id": "1772728753297",
+  "name": "Fitness",
+  "weeks": 4,
+  "daysPerWeek": 3,
+  "days": [
+    {
+      "dayNumber": 1,
+      "name": "اليوم 1",
+      "exercises": [
+        {
+          "type": "time",
+          "name": "Treadmill",
+          "target": {
+            "duration": "30",
+            "intensity": "moderate"
+          },
+          "notes": "",
+          "image": "https://raw.githubusercontent.com/AhmedSaber45/workout-serials/main/coaches/Yasser-2y20/media/cardio-Treadmill-1772728736746-1772728736816.jpg",
+          "video": ""
+        }
+      ]
+    },
+    {
+      "dayNumber": 2,
+      "name": "اليوم 2",
+      "exercises": []
+    },
+    {
+      "dayNumber": 3,
+      "name": "اليوم 3",
+      "exercises": []
+    }
+  ],
+  "createdAt": "2026-03-05T16:39:13.297Z",
+  "logs": []
+}

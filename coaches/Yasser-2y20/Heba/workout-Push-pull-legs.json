@@ -114,7 +114,22 @@
     },
     {
       "name": "اليوم 5",
-      "exercises": []
+      "exercises": [
+        {
+          "name": "Cardio",
+          "sets": 3,
+          "singleArm": false,
+          "image": "",
+          "video": "",
+          "notes": "",
+          "restTime": null,
+          "groupId": "",
+          "isDropset": false,
+          "warmUp": null,
+          "alternatives": [],
+          "selectedAlternative": 0
+        }
+      ]
     }
   ],
   "createdAt": "2026-03-05T16:21:56.375Z",

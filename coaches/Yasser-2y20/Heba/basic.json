@@ -1,0 +1,18 @@
+{
+  "name": "Heba",
+  "code": "HbHb",
+  "gender": "female",
+  "age": 35,
+  "weight": 77.2,
+  "height": 170,
+  "status": "متصل",
+  "createdAt": "2026-03-05T15:59:01.074Z",
+  "subscriptionDuration": 1,
+  "expirationDate": "2026-04-05T15:59:01.071Z",
+  "isLocked": false,
+  "activityLevel": "1.55",
+  "trainingDays": "5",
+  "goal": "fat loss",
+  "conditions": "No",
+  "extraInfo": ""
+}

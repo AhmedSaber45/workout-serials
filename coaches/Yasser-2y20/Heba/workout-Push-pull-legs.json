@@ -14,7 +14,7 @@
           "video": "",
           "notes": "",
           "restTime": 90,
-          "groupId": "",
+          "groupId": "giant-1",
           "isDropset": false,
           "warmUp": null,
           "alternatives": [],
@@ -33,7 +33,7 @@
           "warmUp": {
             "enabled": true,
             "sets": 2,
-            "protocol": "fixed",
+            "protocol": "ramp",
             "customPercentages": []
           },
           "alternatives": [],

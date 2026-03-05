@@ -43,7 +43,36 @@
     },
     {
       "name": "اليوم 2",
-      "exercises": []
+      "exercises": [
+        {
+          "name": "lats pull down سحب عالى واسع",
+          "sets": 3,
+          "singleArm": false,
+          "image": "https://raw.githubusercontent.com/RepzApp/exercise-library/main/images/1764254330422_lats_pull_down_سحب_عالى_واسع.PNG",
+          "video": "",
+          "notes": "",
+          "restTime": 90,
+          "groupId": "",
+          "isDropset": false,
+          "warmUp": null,
+          "alternatives": [],
+          "selectedAlternative": 0
+        },
+        {
+          "name": "Dumbbell RDL (Romanian deadlift)  دامبل رومانيان ديد ليفت",
+          "sets": 1,
+          "singleArm": false,
+          "image": "https://raw.githubusercontent.com/RepzApp/exercise-library/main/images/1766677393791_Dumbbell_RDL_(Romanian_deadlift)_دامبل_رومانيان_ديد_ليفت.PNG",
+          "video": "",
+          "notes": "",
+          "restTime": null,
+          "groupId": "",
+          "isDropset": false,
+          "warmUp": null,
+          "alternatives": [],
+          "selectedAlternative": 0
+        }
+      ]
     },
     {
       "name": "اليوم 3",

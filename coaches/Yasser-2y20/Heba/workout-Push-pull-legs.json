@@ -1,10 +1,45 @@
 {
+  "clientCode": "HbHb",
   "name": "Push pull legs",
   "duration": 5,
   "days": [
     {
       "name": "اليوم 1",
-      "exercises": []
+      "exercises": [
+        {
+          "name": "Smith machine incline bench press",
+          "sets": 3,
+          "singleArm": false,
+          "image": "https://weighttraining.guide/wp-content/uploads/2019/03/Smith-machine-incline-bench-press-resized.png",
+          "video": "",
+          "notes": "",
+          "restTime": 90,
+          "groupId": "",
+          "isDropset": false,
+          "warmUp": null,
+          "alternatives": [],
+          "selectedAlternative": 0
+        },
+        {
+          "name": "Decline Cable Fly (Lower Chest) صدر سفلى بالكابل",
+          "sets": 2,
+          "singleArm": false,
+          "image": "https://raw.githubusercontent.com/RepzApp/exercise-library/main/images/1766678504671_Decline_Cable_Fly_(Lower_Chest)_صدر_سفلى_بالكابل.png",
+          "video": "",
+          "notes": "",
+          "restTime": 90,
+          "groupId": "",
+          "isDropset": false,
+          "warmUp": {
+            "enabled": true,
+            "sets": 2,
+            "protocol": "fixed",
+            "customPercentages": []
+          },
+          "alternatives": [],
+          "selectedAlternative": 0
+        }
+      ]
     },
     {
       "name": "اليوم 2",

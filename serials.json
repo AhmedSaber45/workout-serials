@@ -4195,8 +4195,8 @@
     "price": "0.00",
     "createdAt": "2026-03-13T16:56:32.404Z",
     "expiresAt": null,
-    "deviceId": null,
-    "used": false,
-    "usedDate": null
+    "deviceId": "device-hf4iaxzvx-mmp503jp",
+    "used": true,
+    "usedDate": "2026-03-13T16:59:39.115Z"
   }
 ]

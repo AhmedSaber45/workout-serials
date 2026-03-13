@@ -4146,5 +4146,18 @@
     "deviceId": "testlogin",
     "used": true,
     "usedDate": "2026-03-13T16:48:12.632Z"
+  },
+  {
+    "serial": "7H7-R5G-K45-9A5-APV-GR6-G9",
+    "programId": "14",
+    "programName": "Anterior Posterior HVLI",
+    "duration": 36500,
+    "durationCode": "99",
+    "price": 0,
+    "createdAt": "2026-03-13T16:50:29.428Z",
+    "expiresAt": null,
+    "deviceId": "testlogin",
+    "used": true,
+    "usedDate": "2026-03-13T16:50:29.428Z"
   }
 ]

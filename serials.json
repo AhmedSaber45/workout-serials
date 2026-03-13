@@ -4250,5 +4250,18 @@
     "deviceId": "test",
     "used": true,
     "usedDate": "2026-03-13T17:06:21.206Z"
+  },
+  {
+    "serial": "JAP-I90-O5X-9B3-YWX-FV9-B9",
+    "programId": "13",
+    "programName": "Anterior Posterior HILV",
+    "duration": 36500,
+    "durationCode": "99",
+    "price": 0,
+    "createdAt": "2026-03-13T17:11:46.014Z",
+    "expiresAt": null,
+    "deviceId": "test",
+    "used": true,
+    "usedDate": "2026-03-13T17:11:46.014Z"
   }
 ]

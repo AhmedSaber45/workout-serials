@@ -3964,5 +3964,18 @@
     "deviceId": "direct-activation-coach",
     "used": true,
     "usedDate": "2026-03-05T15:08:38.385Z"
+  },
+  {
+    "serial": "T4D-BBM-1LO-9V0-CUS-469-S9",
+    "programId": "11",
+    "programName": "Custom Workout",
+    "duration": 36500,
+    "durationCode": "99",
+    "price": 0,
+    "createdAt": "2026-03-13T16:40:01.398Z",
+    "expiresAt": null,
+    "deviceId": "MHMD0",
+    "used": true,
+    "usedDate": "2026-03-13T16:40:01.398Z"
   }
 ]

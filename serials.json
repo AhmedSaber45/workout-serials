@@ -4016,5 +4016,18 @@
     "deviceId": "MHMD0",
     "used": true,
     "usedDate": "2026-03-13T16:42:08.309Z"
+  },
+  {
+    "serial": "6UU-HI3-0D2-9OY-JR0-A7U-29",
+    "programId": "4",
+    "programName": "Upper Lower HILV",
+    "duration": 36500,
+    "durationCode": "99",
+    "price": 0,
+    "createdAt": "2026-03-13T16:42:18.003Z",
+    "expiresAt": null,
+    "deviceId": "MHMD0",
+    "used": true,
+    "usedDate": "2026-03-13T16:42:18.003Z"
   }
 ]

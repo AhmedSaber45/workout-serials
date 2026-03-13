@@ -4237,5 +4237,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "3XO-EAP-VH3-9ER-NFK-YEK-29",
+    "programId": "14",
+    "programName": "Anterior Posterior HVLI",
+    "duration": 36500,
+    "durationCode": "99",
+    "price": 0,
+    "createdAt": "2026-03-13T17:06:21.206Z",
+    "expiresAt": null,
+    "deviceId": "test",
+    "used": true,
+    "usedDate": "2026-03-13T17:06:21.206Z"
   }
 ]

@@ -4276,5 +4276,18 @@
     "deviceId": "Ahmed_Saber",
     "used": true,
     "usedDate": "2026-03-13T17:18:19.807Z"
+  },
+  {
+    "serial": "CBA-PVG-K2U-9TB-RQ4-O1G-W9",
+    "programId": "14",
+    "programName": "Anterior Posterior HVLI",
+    "duration": 36500,
+    "durationCode": "99",
+    "price": 0,
+    "createdAt": "2026-03-13T17:18:32.600Z",
+    "expiresAt": null,
+    "deviceId": "Ahmed_Saber",
+    "used": true,
+    "usedDate": "2026-03-13T17:18:32.600Z"
   }
 ]

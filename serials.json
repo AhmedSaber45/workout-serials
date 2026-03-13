@@ -4172,5 +4172,18 @@
     "deviceId": null,
     "used": false,
     "usedDate": null
+  },
+  {
+    "serial": "XU6-M20-AAY-9PE-7B1-BHV-A9",
+    "programId": "7",
+    "programName": "Bro Split HVLI",
+    "duration": 36500,
+    "durationCode": "99",
+    "price": 0,
+    "createdAt": "2026-03-13T16:55:34.058Z",
+    "expiresAt": null,
+    "deviceId": "testlogin",
+    "used": true,
+    "usedDate": "2026-03-13T16:55:34.058Z"
   }
 ]

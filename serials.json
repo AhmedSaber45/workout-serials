@@ -4380,5 +4380,18 @@
     "deviceId": "device-mf5co3i8e-mmrhhhjs",
     "used": true,
     "usedDate": "2026-03-15T08:38:18.431Z"
+  },
+  {
+    "serial": "MTN-5MH-540-9LA-PIX-GX6-J9",
+    "programId": "13",
+    "programName": "Anterior Posterior HILV",
+    "duration": 36500,
+    "durationCode": "99",
+    "price": 0,
+    "createdAt": "2026-03-15T08:51:20.093Z",
+    "expiresAt": null,
+    "deviceId": "tsestapi",
+    "used": true,
+    "usedDate": "2026-03-15T08:51:20.093Z"
   }
 ]

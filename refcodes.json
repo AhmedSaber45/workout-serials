@@ -166,5 +166,14 @@
     "usedBy": [],
     "expiration": null,
     "deleted": false
+  },
+  "MH20": {
+    "owner": "MHMD0",
+    "discount": 20,
+    "totalPoints": 0,
+    "usablePoints": 0,
+    "usedBy": [],
+    "expiration": null,
+    "deleted": false
   }
 }

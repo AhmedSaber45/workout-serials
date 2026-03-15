@@ -4432,5 +4432,18 @@
     "deviceId": "MHMD0",
     "used": true,
     "usedDate": "2026-03-15T13:56:39.713Z"
+  },
+  {
+    "serial": "1F1-API-MH9-9UK-MT7-02A-69",
+    "programId": "13",
+    "programName": "Anterior Posterior HILV",
+    "duration": 36500,
+    "durationCode": "99",
+    "price": 0,
+    "createdAt": "2026-03-15T14:10:49.202Z",
+    "expiresAt": null,
+    "deviceId": "MHMD0",
+    "used": true,
+    "usedDate": "2026-03-15T14:10:49.202Z"
   }
 ]

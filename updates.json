@@ -178,5 +178,14 @@
     "date": "3/15/2026",
     "time": "11:29:51 AM",
     "timestamp": "2026-03-15T09:29:51.096Z"
+  },
+  {
+    "version": "1.0.2.8",
+    "link": "https://www.mediafire.com/file/ry37sflepqpxmpx/Repz_1.0.2.8.apk/file",
+    "message": "هذا التحديث لحل بعض المشاكل وتحسين اداء التطبيق \nThis update fixes some issues and improves the app’s performance.",
+    "required": "yes",
+    "date": "3/15/2026",
+    "time": "5:47:23 PM",
+    "timestamp": "2026-03-15T15:47:23.730Z"
   }
 ]

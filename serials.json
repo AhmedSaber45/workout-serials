@@ -4406,5 +4406,18 @@
     "deviceId": "tsestapi",
     "used": true,
     "usedDate": "2026-03-15T08:51:53.946Z"
+  },
+  {
+    "serial": "API-LNJ-JHW-9A0-JFT-HNI-E9",
+    "programId": "13",
+    "programName": "Anterior Posterior HILV",
+    "duration": 36500,
+    "durationCode": "99",
+    "price": 0,
+    "createdAt": "2026-03-15T13:56:25.912Z",
+    "expiresAt": null,
+    "deviceId": "MHMD0",
+    "used": true,
+    "usedDate": "2026-03-15T13:56:25.912Z"
   }
 ]

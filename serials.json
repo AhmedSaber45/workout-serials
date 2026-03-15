@@ -4393,5 +4393,18 @@
     "deviceId": "tsestapi",
     "used": true,
     "usedDate": "2026-03-15T08:51:20.093Z"
+  },
+  {
+    "serial": "0Y9-G4U-N7M-94O-5IB-AHI-W9",
+    "programId": "3",
+    "programName": "Arnold HILV",
+    "duration": 36500,
+    "durationCode": "99",
+    "price": 0,
+    "createdAt": "2026-03-15T08:51:53.946Z",
+    "expiresAt": null,
+    "deviceId": "tsestapi",
+    "used": true,
+    "usedDate": "2026-03-15T08:51:53.946Z"
   }
 ]

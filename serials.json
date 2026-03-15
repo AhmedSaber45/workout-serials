@@ -4354,5 +4354,18 @@
     "deviceId": "testlogin",
     "used": true,
     "usedDate": "2026-03-15T08:28:47.363Z"
+  },
+  {
+    "serial": "J4N-UHI-3LB-9KY-O6P-UH9-39",
+    "programId": "4",
+    "programName": "Upper Lower HILV",
+    "duration": 36500,
+    "durationCode": "99",
+    "price": 0,
+    "createdAt": "2026-03-15T08:29:14.673Z",
+    "expiresAt": null,
+    "deviceId": "testlogin",
+    "used": true,
+    "usedDate": "2026-03-15T08:29:14.673Z"
   }
 ]

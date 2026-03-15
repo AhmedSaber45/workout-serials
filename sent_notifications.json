@@ -61,5 +61,12 @@
     "repeat": false,
     "repeatEndDate": null,
     "displayTime": null
+  },
+  {
+    "message": "New update is available 1.0.2.7",
+    "timestamp": "2026-03-15T09:30:50.648Z",
+    "repeat": false,
+    "repeatEndDate": null,
+    "displayTime": null
   }
 ]

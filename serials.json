@@ -4302,5 +4302,18 @@
     "deviceId": "MHMD0",
     "used": true,
     "usedDate": "2026-03-13T17:22:35.218Z"
+  },
+  {
+    "serial": "70D-EJ5-TOA-9ER-FUH-VH4-J9",
+    "programId": "9",
+    "programName": "Upper Lower HVLI",
+    "duration": 36500,
+    "durationCode": "99",
+    "price": 0,
+    "createdAt": "2026-03-15T08:20:07.635Z",
+    "expiresAt": null,
+    "deviceId": "testlogin",
+    "used": true,
+    "usedDate": "2026-03-15T08:20:07.635Z"
   }
 ]
